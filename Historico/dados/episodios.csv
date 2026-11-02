@@ -1,0 +1,2921 @@
+marco,script,seed,dataset,rotulo,avaliacao,episodio,retorno
+2_reexecucao,iql,0,expert,IQL (τ=0.7),padrao,0,500.0
+2_reexecucao,iql,0,expert,IQL (τ=0.7),padrao,1,500.0
+2_reexecucao,iql,0,expert,IQL (τ=0.7),padrao,2,500.0
+2_reexecucao,iql,0,expert,IQL (τ=0.7),padrao,3,500.0
+2_reexecucao,iql,0,expert,IQL (τ=0.7),padrao,4,500.0
+2_reexecucao,iql,0,expert,IQL (τ=0.7),padrao,5,500.0
+2_reexecucao,iql,0,expert,IQL (τ=0.7),padrao,6,500.0
+2_reexecucao,iql,0,expert,IQL (τ=0.7),padrao,7,500.0
+2_reexecucao,iql,0,expert,IQL (τ=0.7),padrao,8,500.0
+2_reexecucao,iql,0,expert,IQL (τ=0.7),padrao,9,500.0
+2_reexecucao,iql,0,expert,IQL (τ=0.7),padrao,10,500.0
+2_reexecucao,iql,0,expert,IQL (τ=0.7),padrao,11,500.0
+2_reexecucao,iql,0,expert,IQL (τ=0.7),padrao,12,500.0
+2_reexecucao,iql,0,expert,IQL (τ=0.7),padrao,13,500.0
+2_reexecucao,iql,0,expert,IQL (τ=0.7),padrao,14,500.0
+2_reexecucao,iql,0,expert,IQL (τ=0.7),padrao,15,500.0
+2_reexecucao,iql,0,expert,IQL (τ=0.7),padrao,16,500.0
+2_reexecucao,iql,0,expert,IQL (τ=0.7),padrao,17,500.0
+2_reexecucao,iql,0,expert,IQL (τ=0.7),padrao,18,500.0
+2_reexecucao,iql,0,expert,IQL (τ=0.7),padrao,19,500.0
+2_reexecucao,iql,0,expert,IQL (τ=0.7),padrao,20,500.0
+2_reexecucao,iql,0,expert,IQL (τ=0.7),padrao,21,500.0
+2_reexecucao,iql,0,expert,IQL (τ=0.7),padrao,22,500.0
+2_reexecucao,iql,0,expert,IQL (τ=0.7),padrao,23,500.0
+2_reexecucao,iql,0,expert,IQL (τ=0.7),padrao,24,500.0
+2_reexecucao,iql,0,expert,IQL (τ=0.7),padrao,25,500.0
+2_reexecucao,iql,0,expert,IQL (τ=0.7),padrao,26,500.0
+2_reexecucao,iql,0,expert,IQL (τ=0.7),padrao,27,500.0
+2_reexecucao,iql,0,expert,IQL (τ=0.7),padrao,28,500.0
+2_reexecucao,iql,0,expert,IQL (τ=0.7),padrao,29,500.0
+2_reexecucao,iql,0,expert,CQL (α=0.5),padrao,0,500.0
+2_reexecucao,iql,0,expert,CQL (α=0.5),padrao,1,500.0
+2_reexecucao,iql,0,expert,CQL (α=0.5),padrao,2,500.0
+2_reexecucao,iql,0,expert,CQL (α=0.5),padrao,3,500.0
+2_reexecucao,iql,0,expert,CQL (α=0.5),padrao,4,500.0
+2_reexecucao,iql,0,expert,CQL (α=0.5),padrao,5,500.0
+2_reexecucao,iql,0,expert,CQL (α=0.5),padrao,6,500.0
+2_reexecucao,iql,0,expert,CQL (α=0.5),padrao,7,500.0
+2_reexecucao,iql,0,expert,CQL (α=0.5),padrao,8,500.0
+2_reexecucao,iql,0,expert,CQL (α=0.5),padrao,9,500.0
+2_reexecucao,iql,0,expert,CQL (α=0.5),padrao,10,500.0
+2_reexecucao,iql,0,expert,CQL (α=0.5),padrao,11,500.0
+2_reexecucao,iql,0,expert,CQL (α=0.5),padrao,12,500.0
+2_reexecucao,iql,0,expert,CQL (α=0.5),padrao,13,500.0
+2_reexecucao,iql,0,expert,CQL (α=0.5),padrao,14,500.0
+2_reexecucao,iql,0,expert,CQL (α=0.5),padrao,15,500.0
+2_reexecucao,iql,0,expert,CQL (α=0.5),padrao,16,500.0
+2_reexecucao,iql,0,expert,CQL (α=0.5),padrao,17,500.0
+2_reexecucao,iql,0,expert,CQL (α=0.5),padrao,18,500.0
+2_reexecucao,iql,0,expert,CQL (α=0.5),padrao,19,500.0
+2_reexecucao,iql,0,expert,CQL (α=0.5),padrao,20,500.0
+2_reexecucao,iql,0,expert,CQL (α=0.5),padrao,21,500.0
+2_reexecucao,iql,0,expert,CQL (α=0.5),padrao,22,500.0
+2_reexecucao,iql,0,expert,CQL (α=0.5),padrao,23,500.0
+2_reexecucao,iql,0,expert,CQL (α=0.5),padrao,24,500.0
+2_reexecucao,iql,0,expert,CQL (α=0.5),padrao,25,500.0
+2_reexecucao,iql,0,expert,CQL (α=0.5),padrao,26,500.0
+2_reexecucao,iql,0,expert,CQL (α=0.5),padrao,27,500.0
+2_reexecucao,iql,0,expert,CQL (α=0.5),padrao,28,500.0
+2_reexecucao,iql,0,expert,CQL (α=0.5),padrao,29,500.0
+2_reexecucao,iql,0,expert,BC,padrao,0,500.0
+2_reexecucao,iql,0,expert,BC,padrao,1,500.0
+2_reexecucao,iql,0,expert,BC,padrao,2,500.0
+2_reexecucao,iql,0,expert,BC,padrao,3,500.0
+2_reexecucao,iql,0,expert,BC,padrao,4,500.0
+2_reexecucao,iql,0,expert,BC,padrao,5,500.0
+2_reexecucao,iql,0,expert,BC,padrao,6,500.0
+2_reexecucao,iql,0,expert,BC,padrao,7,500.0
+2_reexecucao,iql,0,expert,BC,padrao,8,500.0
+2_reexecucao,iql,0,expert,BC,padrao,9,500.0
+2_reexecucao,iql,0,expert,BC,padrao,10,500.0
+2_reexecucao,iql,0,expert,BC,padrao,11,500.0
+2_reexecucao,iql,0,expert,BC,padrao,12,500.0
+2_reexecucao,iql,0,expert,BC,padrao,13,500.0
+2_reexecucao,iql,0,expert,BC,padrao,14,500.0
+2_reexecucao,iql,0,expert,BC,padrao,15,500.0
+2_reexecucao,iql,0,expert,BC,padrao,16,500.0
+2_reexecucao,iql,0,expert,BC,padrao,17,500.0
+2_reexecucao,iql,0,expert,BC,padrao,18,500.0
+2_reexecucao,iql,0,expert,BC,padrao,19,500.0
+2_reexecucao,iql,0,expert,BC,padrao,20,500.0
+2_reexecucao,iql,0,expert,BC,padrao,21,500.0
+2_reexecucao,iql,0,expert,BC,padrao,22,500.0
+2_reexecucao,iql,0,expert,BC,padrao,23,500.0
+2_reexecucao,iql,0,expert,BC,padrao,24,500.0
+2_reexecucao,iql,0,expert,BC,padrao,25,500.0
+2_reexecucao,iql,0,expert,BC,padrao,26,500.0
+2_reexecucao,iql,0,expert,BC,padrao,27,500.0
+2_reexecucao,iql,0,expert,BC,padrao,28,500.0
+2_reexecucao,iql,0,expert,BC,padrao,29,500.0
+2_reexecucao,iql,0,medio,IQL (τ=0.7),padrao,0,500.0
+2_reexecucao,iql,0,medio,IQL (τ=0.7),padrao,1,500.0
+2_reexecucao,iql,0,medio,IQL (τ=0.7),padrao,2,500.0
+2_reexecucao,iql,0,medio,IQL (τ=0.7),padrao,3,500.0
+2_reexecucao,iql,0,medio,IQL (τ=0.7),padrao,4,500.0
+2_reexecucao,iql,0,medio,IQL (τ=0.7),padrao,5,500.0
+2_reexecucao,iql,0,medio,IQL (τ=0.7),padrao,6,500.0
+2_reexecucao,iql,0,medio,IQL (τ=0.7),padrao,7,500.0
+2_reexecucao,iql,0,medio,IQL (τ=0.7),padrao,8,500.0
+2_reexecucao,iql,0,medio,IQL (τ=0.7),padrao,9,500.0
+2_reexecucao,iql,0,medio,IQL (τ=0.7),padrao,10,500.0
+2_reexecucao,iql,0,medio,IQL (τ=0.7),padrao,11,500.0
+2_reexecucao,iql,0,medio,IQL (τ=0.7),padrao,12,500.0
+2_reexecucao,iql,0,medio,IQL (τ=0.7),padrao,13,500.0
+2_reexecucao,iql,0,medio,IQL (τ=0.7),padrao,14,500.0
+2_reexecucao,iql,0,medio,IQL (τ=0.7),padrao,15,500.0
+2_reexecucao,iql,0,medio,IQL (τ=0.7),padrao,16,500.0
+2_reexecucao,iql,0,medio,IQL (τ=0.7),padrao,17,500.0
+2_reexecucao,iql,0,medio,IQL (τ=0.7),padrao,18,500.0
+2_reexecucao,iql,0,medio,IQL (τ=0.7),padrao,19,500.0
+2_reexecucao,iql,0,medio,IQL (τ=0.7),padrao,20,500.0
+2_reexecucao,iql,0,medio,IQL (τ=0.7),padrao,21,500.0
+2_reexecucao,iql,0,medio,IQL (τ=0.7),padrao,22,500.0
+2_reexecucao,iql,0,medio,IQL (τ=0.7),padrao,23,500.0
+2_reexecucao,iql,0,medio,IQL (τ=0.7),padrao,24,500.0
+2_reexecucao,iql,0,medio,IQL (τ=0.7),padrao,25,500.0
+2_reexecucao,iql,0,medio,IQL (τ=0.7),padrao,26,500.0
+2_reexecucao,iql,0,medio,IQL (τ=0.7),padrao,27,500.0
+2_reexecucao,iql,0,medio,IQL (τ=0.7),padrao,28,500.0
+2_reexecucao,iql,0,medio,IQL (τ=0.7),padrao,29,500.0
+2_reexecucao,iql,0,medio,CQL (α=0.5),padrao,0,500.0
+2_reexecucao,iql,0,medio,CQL (α=0.5),padrao,1,364.0
+2_reexecucao,iql,0,medio,CQL (α=0.5),padrao,2,439.0
+2_reexecucao,iql,0,medio,CQL (α=0.5),padrao,3,328.0
+2_reexecucao,iql,0,medio,CQL (α=0.5),padrao,4,410.0
+2_reexecucao,iql,0,medio,CQL (α=0.5),padrao,5,500.0
+2_reexecucao,iql,0,medio,CQL (α=0.5),padrao,6,349.0
+2_reexecucao,iql,0,medio,CQL (α=0.5),padrao,7,329.0
+2_reexecucao,iql,0,medio,CQL (α=0.5),padrao,8,500.0
+2_reexecucao,iql,0,medio,CQL (α=0.5),padrao,9,325.0
+2_reexecucao,iql,0,medio,CQL (α=0.5),padrao,10,365.0
+2_reexecucao,iql,0,medio,CQL (α=0.5),padrao,11,304.0
+2_reexecucao,iql,0,medio,CQL (α=0.5),padrao,12,477.0
+2_reexecucao,iql,0,medio,CQL (α=0.5),padrao,13,500.0
+2_reexecucao,iql,0,medio,CQL (α=0.5),padrao,14,339.0
+2_reexecucao,iql,0,medio,CQL (α=0.5),padrao,15,357.0
+2_reexecucao,iql,0,medio,CQL (α=0.5),padrao,16,385.0
+2_reexecucao,iql,0,medio,CQL (α=0.5),padrao,17,355.0
+2_reexecucao,iql,0,medio,CQL (α=0.5),padrao,18,326.0
+2_reexecucao,iql,0,medio,CQL (α=0.5),padrao,19,353.0
+2_reexecucao,iql,0,medio,CQL (α=0.5),padrao,20,333.0
+2_reexecucao,iql,0,medio,CQL (α=0.5),padrao,21,350.0
+2_reexecucao,iql,0,medio,CQL (α=0.5),padrao,22,373.0
+2_reexecucao,iql,0,medio,CQL (α=0.5),padrao,23,370.0
+2_reexecucao,iql,0,medio,CQL (α=0.5),padrao,24,410.0
+2_reexecucao,iql,0,medio,CQL (α=0.5),padrao,25,332.0
+2_reexecucao,iql,0,medio,CQL (α=0.5),padrao,26,404.0
+2_reexecucao,iql,0,medio,CQL (α=0.5),padrao,27,500.0
+2_reexecucao,iql,0,medio,CQL (α=0.5),padrao,28,323.0
+2_reexecucao,iql,0,medio,CQL (α=0.5),padrao,29,335.0
+2_reexecucao,iql,0,medio,BC,padrao,0,500.0
+2_reexecucao,iql,0,medio,BC,padrao,1,500.0
+2_reexecucao,iql,0,medio,BC,padrao,2,500.0
+2_reexecucao,iql,0,medio,BC,padrao,3,500.0
+2_reexecucao,iql,0,medio,BC,padrao,4,500.0
+2_reexecucao,iql,0,medio,BC,padrao,5,500.0
+2_reexecucao,iql,0,medio,BC,padrao,6,500.0
+2_reexecucao,iql,0,medio,BC,padrao,7,500.0
+2_reexecucao,iql,0,medio,BC,padrao,8,500.0
+2_reexecucao,iql,0,medio,BC,padrao,9,500.0
+2_reexecucao,iql,0,medio,BC,padrao,10,500.0
+2_reexecucao,iql,0,medio,BC,padrao,11,500.0
+2_reexecucao,iql,0,medio,BC,padrao,12,500.0
+2_reexecucao,iql,0,medio,BC,padrao,13,500.0
+2_reexecucao,iql,0,medio,BC,padrao,14,500.0
+2_reexecucao,iql,0,medio,BC,padrao,15,500.0
+2_reexecucao,iql,0,medio,BC,padrao,16,500.0
+2_reexecucao,iql,0,medio,BC,padrao,17,500.0
+2_reexecucao,iql,0,medio,BC,padrao,18,500.0
+2_reexecucao,iql,0,medio,BC,padrao,19,500.0
+2_reexecucao,iql,0,medio,BC,padrao,20,500.0
+2_reexecucao,iql,0,medio,BC,padrao,21,500.0
+2_reexecucao,iql,0,medio,BC,padrao,22,500.0
+2_reexecucao,iql,0,medio,BC,padrao,23,500.0
+2_reexecucao,iql,0,medio,BC,padrao,24,500.0
+2_reexecucao,iql,0,medio,BC,padrao,25,500.0
+2_reexecucao,iql,0,medio,BC,padrao,26,500.0
+2_reexecucao,iql,0,medio,BC,padrao,27,500.0
+2_reexecucao,iql,0,medio,BC,padrao,28,500.0
+2_reexecucao,iql,0,medio,BC,padrao,29,500.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.7),padrao,0,205.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.7),padrao,1,200.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.7),padrao,2,224.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.7),padrao,3,145.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.7),padrao,4,187.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.7),padrao,5,165.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.7),padrao,6,258.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.7),padrao,7,197.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.7),padrao,8,176.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.7),padrao,9,187.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.7),padrao,10,238.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.7),padrao,11,244.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.7),padrao,12,217.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.7),padrao,13,191.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.7),padrao,14,400.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.7),padrao,15,174.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.7),padrao,16,155.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.7),padrao,17,198.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.7),padrao,18,281.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.7),padrao,19,263.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.7),padrao,20,402.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.7),padrao,21,220.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.7),padrao,22,160.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.7),padrao,23,158.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.7),padrao,24,201.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.7),padrao,25,158.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.7),padrao,26,152.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.7),padrao,27,204.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.7),padrao,28,148.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.7),padrao,29,282.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.5),padrao,0,341.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.5),padrao,1,268.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.5),padrao,2,206.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.5),padrao,3,176.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.5),padrao,4,258.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.5),padrao,5,208.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.5),padrao,6,155.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.5),padrao,7,280.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.5),padrao,8,238.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.5),padrao,9,250.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.5),padrao,10,348.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.5),padrao,11,235.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.5),padrao,12,157.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.5),padrao,13,250.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.5),padrao,14,173.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.5),padrao,15,130.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.5),padrao,16,111.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.5),padrao,17,277.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.5),padrao,18,156.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.5),padrao,19,151.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.5),padrao,20,154.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.5),padrao,21,296.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.5),padrao,22,204.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.5),padrao,23,198.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.5),padrao,24,145.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.5),padrao,25,193.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.5),padrao,26,201.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.5),padrao,27,238.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.5),padrao,28,127.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.5),padrao,29,131.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.9),padrao,0,204.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.9),padrao,1,183.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.9),padrao,2,198.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.9),padrao,3,162.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.9),padrao,4,182.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.9),padrao,5,182.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.9),padrao,6,257.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.9),padrao,7,192.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.9),padrao,8,176.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.9),padrao,9,187.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.9),padrao,10,210.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.9),padrao,11,259.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.9),padrao,12,205.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.9),padrao,13,183.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.9),padrao,14,457.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.9),padrao,15,213.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.9),padrao,16,174.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.9),padrao,17,184.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.9),padrao,18,224.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.9),padrao,19,266.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.9),padrao,20,259.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.9),padrao,21,198.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.9),padrao,22,170.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.9),padrao,23,160.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.9),padrao,24,214.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.9),padrao,25,166.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.9),padrao,26,168.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.9),padrao,27,197.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.9),padrao,28,249.0
+2_reexecucao,iql,0,ruim,IQL (τ=0.9),padrao,29,343.0
+2_reexecucao,iql,0,ruim,CQL (α=0.5),padrao,0,116.0
+2_reexecucao,iql,0,ruim,CQL (α=0.5),padrao,1,116.0
+2_reexecucao,iql,0,ruim,CQL (α=0.5),padrao,2,117.0
+2_reexecucao,iql,0,ruim,CQL (α=0.5),padrao,3,111.0
+2_reexecucao,iql,0,ruim,CQL (α=0.5),padrao,4,117.0
+2_reexecucao,iql,0,ruim,CQL (α=0.5),padrao,5,113.0
+2_reexecucao,iql,0,ruim,CQL (α=0.5),padrao,6,117.0
+2_reexecucao,iql,0,ruim,CQL (α=0.5),padrao,7,117.0
+2_reexecucao,iql,0,ruim,CQL (α=0.5),padrao,8,113.0
+2_reexecucao,iql,0,ruim,CQL (α=0.5),padrao,9,115.0
+2_reexecucao,iql,0,ruim,CQL (α=0.5),padrao,10,116.0
+2_reexecucao,iql,0,ruim,CQL (α=0.5),padrao,11,118.0
+2_reexecucao,iql,0,ruim,CQL (α=0.5),padrao,12,116.0
+2_reexecucao,iql,0,ruim,CQL (α=0.5),padrao,13,113.0
+2_reexecucao,iql,0,ruim,CQL (α=0.5),padrao,14,117.0
+2_reexecucao,iql,0,ruim,CQL (α=0.5),padrao,15,120.0
+2_reexecucao,iql,0,ruim,CQL (α=0.5),padrao,16,122.0
+2_reexecucao,iql,0,ruim,CQL (α=0.5),padrao,17,115.0
+2_reexecucao,iql,0,ruim,CQL (α=0.5),padrao,18,117.0
+2_reexecucao,iql,0,ruim,CQL (α=0.5),padrao,19,118.0
+2_reexecucao,iql,0,ruim,CQL (α=0.5),padrao,20,119.0
+2_reexecucao,iql,0,ruim,CQL (α=0.5),padrao,21,116.0
+2_reexecucao,iql,0,ruim,CQL (α=0.5),padrao,22,110.0
+2_reexecucao,iql,0,ruim,CQL (α=0.5),padrao,23,110.0
+2_reexecucao,iql,0,ruim,CQL (α=0.5),padrao,24,117.0
+2_reexecucao,iql,0,ruim,CQL (α=0.5),padrao,25,111.0
+2_reexecucao,iql,0,ruim,CQL (α=0.5),padrao,26,111.0
+2_reexecucao,iql,0,ruim,CQL (α=0.5),padrao,27,116.0
+2_reexecucao,iql,0,ruim,CQL (α=0.5),padrao,28,122.0
+2_reexecucao,iql,0,ruim,CQL (α=0.5),padrao,29,121.0
+2_reexecucao,iql,0,ruim,BC,padrao,0,9.0
+2_reexecucao,iql,0,ruim,BC,padrao,1,9.0
+2_reexecucao,iql,0,ruim,BC,padrao,2,9.0
+2_reexecucao,iql,0,ruim,BC,padrao,3,8.0
+2_reexecucao,iql,0,ruim,BC,padrao,4,9.0
+2_reexecucao,iql,0,ruim,BC,padrao,5,8.0
+2_reexecucao,iql,0,ruim,BC,padrao,6,9.0
+2_reexecucao,iql,0,ruim,BC,padrao,7,9.0
+2_reexecucao,iql,0,ruim,BC,padrao,8,9.0
+2_reexecucao,iql,0,ruim,BC,padrao,9,9.0
+2_reexecucao,iql,0,ruim,BC,padrao,10,9.0
+2_reexecucao,iql,0,ruim,BC,padrao,11,9.0
+2_reexecucao,iql,0,ruim,BC,padrao,12,9.0
+2_reexecucao,iql,0,ruim,BC,padrao,13,9.0
+2_reexecucao,iql,0,ruim,BC,padrao,14,9.0
+2_reexecucao,iql,0,ruim,BC,padrao,15,9.0
+2_reexecucao,iql,0,ruim,BC,padrao,16,9.0
+2_reexecucao,iql,0,ruim,BC,padrao,17,10.0
+2_reexecucao,iql,0,ruim,BC,padrao,18,9.0
+2_reexecucao,iql,0,ruim,BC,padrao,19,9.0
+2_reexecucao,iql,0,ruim,BC,padrao,20,9.0
+2_reexecucao,iql,0,ruim,BC,padrao,21,9.0
+2_reexecucao,iql,0,ruim,BC,padrao,22,9.0
+2_reexecucao,iql,0,ruim,BC,padrao,23,9.0
+2_reexecucao,iql,0,ruim,BC,padrao,24,10.0
+2_reexecucao,iql,0,ruim,BC,padrao,25,9.0
+2_reexecucao,iql,0,ruim,BC,padrao,26,9.0
+2_reexecucao,iql,0,ruim,BC,padrao,27,9.0
+2_reexecucao,iql,0,ruim,BC,padrao,28,9.0
+2_reexecucao,iql,0,ruim,BC,padrao,29,9.0
+2_reexecucao,iql,0,misto,IQL (τ=0.7),padrao,0,500.0
+2_reexecucao,iql,0,misto,IQL (τ=0.7),padrao,1,500.0
+2_reexecucao,iql,0,misto,IQL (τ=0.7),padrao,2,500.0
+2_reexecucao,iql,0,misto,IQL (τ=0.7),padrao,3,500.0
+2_reexecucao,iql,0,misto,IQL (τ=0.7),padrao,4,500.0
+2_reexecucao,iql,0,misto,IQL (τ=0.7),padrao,5,500.0
+2_reexecucao,iql,0,misto,IQL (τ=0.7),padrao,6,500.0
+2_reexecucao,iql,0,misto,IQL (τ=0.7),padrao,7,500.0
+2_reexecucao,iql,0,misto,IQL (τ=0.7),padrao,8,500.0
+2_reexecucao,iql,0,misto,IQL (τ=0.7),padrao,9,500.0
+2_reexecucao,iql,0,misto,IQL (τ=0.7),padrao,10,500.0
+2_reexecucao,iql,0,misto,IQL (τ=0.7),padrao,11,500.0
+2_reexecucao,iql,0,misto,IQL (τ=0.7),padrao,12,500.0
+2_reexecucao,iql,0,misto,IQL (τ=0.7),padrao,13,500.0
+2_reexecucao,iql,0,misto,IQL (τ=0.7),padrao,14,500.0
+2_reexecucao,iql,0,misto,IQL (τ=0.7),padrao,15,500.0
+2_reexecucao,iql,0,misto,IQL (τ=0.7),padrao,16,500.0
+2_reexecucao,iql,0,misto,IQL (τ=0.7),padrao,17,500.0
+2_reexecucao,iql,0,misto,IQL (τ=0.7),padrao,18,500.0
+2_reexecucao,iql,0,misto,IQL (τ=0.7),padrao,19,500.0
+2_reexecucao,iql,0,misto,IQL (τ=0.7),padrao,20,500.0
+2_reexecucao,iql,0,misto,IQL (τ=0.7),padrao,21,500.0
+2_reexecucao,iql,0,misto,IQL (τ=0.7),padrao,22,500.0
+2_reexecucao,iql,0,misto,IQL (τ=0.7),padrao,23,500.0
+2_reexecucao,iql,0,misto,IQL (τ=0.7),padrao,24,500.0
+2_reexecucao,iql,0,misto,IQL (τ=0.7),padrao,25,500.0
+2_reexecucao,iql,0,misto,IQL (τ=0.7),padrao,26,500.0
+2_reexecucao,iql,0,misto,IQL (τ=0.7),padrao,27,500.0
+2_reexecucao,iql,0,misto,IQL (τ=0.7),padrao,28,500.0
+2_reexecucao,iql,0,misto,IQL (τ=0.7),padrao,29,500.0
+2_reexecucao,iql,0,misto,CQL (α=0.5),padrao,0,196.0
+2_reexecucao,iql,0,misto,CQL (α=0.5),padrao,1,203.0
+2_reexecucao,iql,0,misto,CQL (α=0.5),padrao,2,207.0
+2_reexecucao,iql,0,misto,CQL (α=0.5),padrao,3,175.0
+2_reexecucao,iql,0,misto,CQL (α=0.5),padrao,4,210.0
+2_reexecucao,iql,0,misto,CQL (α=0.5),padrao,5,181.0
+2_reexecucao,iql,0,misto,CQL (α=0.5),padrao,6,180.0
+2_reexecucao,iql,0,misto,CQL (α=0.5),padrao,7,218.0
+2_reexecucao,iql,0,misto,CQL (α=0.5),padrao,8,181.0
+2_reexecucao,iql,0,misto,CQL (α=0.5),padrao,9,208.0
+2_reexecucao,iql,0,misto,CQL (α=0.5),padrao,10,203.0
+2_reexecucao,iql,0,misto,CQL (α=0.5),padrao,11,184.0
+2_reexecucao,iql,0,misto,CQL (α=0.5),padrao,12,193.0
+2_reexecucao,iql,0,misto,CQL (α=0.5),padrao,13,206.0
+2_reexecucao,iql,0,misto,CQL (α=0.5),padrao,14,179.0
+2_reexecucao,iql,0,misto,CQL (α=0.5),padrao,15,194.0
+2_reexecucao,iql,0,misto,CQL (α=0.5),padrao,16,181.0
+2_reexecucao,iql,0,misto,CQL (α=0.5),padrao,17,177.0
+2_reexecucao,iql,0,misto,CQL (α=0.5),padrao,18,181.0
+2_reexecucao,iql,0,misto,CQL (α=0.5),padrao,19,185.0
+2_reexecucao,iql,0,misto,CQL (α=0.5),padrao,20,187.0
+2_reexecucao,iql,0,misto,CQL (α=0.5),padrao,21,195.0
+2_reexecucao,iql,0,misto,CQL (α=0.5),padrao,22,173.0
+2_reexecucao,iql,0,misto,CQL (α=0.5),padrao,23,169.0
+2_reexecucao,iql,0,misto,CQL (α=0.5),padrao,24,196.0
+2_reexecucao,iql,0,misto,CQL (α=0.5),padrao,25,164.0
+2_reexecucao,iql,0,misto,CQL (α=0.5),padrao,26,180.0
+2_reexecucao,iql,0,misto,CQL (α=0.5),padrao,27,188.0
+2_reexecucao,iql,0,misto,CQL (α=0.5),padrao,28,186.0
+2_reexecucao,iql,0,misto,CQL (α=0.5),padrao,29,177.0
+2_reexecucao,iql,0,misto,BC,padrao,0,500.0
+2_reexecucao,iql,0,misto,BC,padrao,1,9.0
+2_reexecucao,iql,0,misto,BC,padrao,2,11.0
+2_reexecucao,iql,0,misto,BC,padrao,3,8.0
+2_reexecucao,iql,0,misto,BC,padrao,4,500.0
+2_reexecucao,iql,0,misto,BC,padrao,5,8.0
+2_reexecucao,iql,0,misto,BC,padrao,6,500.0
+2_reexecucao,iql,0,misto,BC,padrao,7,500.0
+2_reexecucao,iql,0,misto,BC,padrao,8,9.0
+2_reexecucao,iql,0,misto,BC,padrao,9,500.0
+2_reexecucao,iql,0,misto,BC,padrao,10,9.0
+2_reexecucao,iql,0,misto,BC,padrao,11,9.0
+2_reexecucao,iql,0,misto,BC,padrao,12,9.0
+2_reexecucao,iql,0,misto,BC,padrao,13,9.0
+2_reexecucao,iql,0,misto,BC,padrao,14,9.0
+2_reexecucao,iql,0,misto,BC,padrao,15,9.0
+2_reexecucao,iql,0,misto,BC,padrao,16,10.0
+2_reexecucao,iql,0,misto,BC,padrao,17,500.0
+2_reexecucao,iql,0,misto,BC,padrao,18,500.0
+2_reexecucao,iql,0,misto,BC,padrao,19,9.0
+2_reexecucao,iql,0,misto,BC,padrao,20,9.0
+2_reexecucao,iql,0,misto,BC,padrao,21,9.0
+2_reexecucao,iql,0,misto,BC,padrao,22,9.0
+2_reexecucao,iql,0,misto,BC,padrao,23,9.0
+2_reexecucao,iql,0,misto,BC,padrao,24,9.0
+2_reexecucao,iql,0,misto,BC,padrao,25,9.0
+2_reexecucao,iql,0,misto,BC,padrao,26,9.0
+2_reexecucao,iql,0,misto,BC,padrao,27,9.0
+2_reexecucao,iql,0,misto,BC,padrao,28,9.0
+2_reexecucao,iql,0,misto,BC,padrao,29,9.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,0,500.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,1,437.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,2,259.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,3,500.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,4,422.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,5,388.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,6,319.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,7,481.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,8,247.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,9,500.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,10,409.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,11,259.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,12,246.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,13,288.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,14,303.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,15,281.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,16,303.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,17,231.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,18,259.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,19,273.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,20,335.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,21,282.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,22,346.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,23,382.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,24,500.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,25,500.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,26,321.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,27,166.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,28,315.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,29,500.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,30,441.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,31,500.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,32,116.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,33,308.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,34,500.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,35,261.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,36,358.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,37,310.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,38,315.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,39,95.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,40,100.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,41,174.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,42,342.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,43,493.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,44,500.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,45,469.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,46,18.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,47,225.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,48,254.0
+2_reexecucao,bc,0,medio 10%,BC base,padrao,49,180.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,0,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,1,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,2,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,3,49.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,4,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,5,91.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,6,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,7,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,8,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,9,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,10,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,11,224.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,12,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,13,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,14,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,15,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,16,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,17,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,18,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,19,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,20,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,21,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,22,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,23,460.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,24,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,25,50.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,26,358.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,27,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,28,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,29,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,30,94.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,31,93.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,32,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,33,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,34,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,35,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,36,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,37,324.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,38,482.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,39,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,40,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,41,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,42,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,43,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,44,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,45,190.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,46,402.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,47,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,48,500.0
+2_reexecucao,bc,1,medio 10%,BC base,padrao,49,500.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,0,500.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,1,500.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,2,385.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,3,500.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,4,500.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,5,500.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,6,500.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,7,331.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,8,500.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,9,500.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,10,376.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,11,500.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,12,324.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,13,500.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,14,500.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,15,374.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,16,365.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,17,486.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,18,484.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,19,500.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,20,500.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,21,500.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,22,500.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,23,500.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,24,500.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,25,88.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,26,387.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,27,307.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,28,500.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,29,500.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,30,324.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,31,367.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,32,356.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,33,500.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,34,500.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,35,500.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,36,500.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,37,245.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,38,500.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,39,231.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,40,500.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,41,308.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,42,500.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,43,500.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,44,500.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,45,500.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,46,327.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,47,123.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,48,292.0
+2_reexecucao,bc,2,medio 10%,BC base,padrao,49,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,0,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,1,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,2,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,3,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,4,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,5,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,6,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,7,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,8,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,9,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,10,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,11,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,12,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,13,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,14,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,15,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,16,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,17,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,18,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,19,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,20,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,21,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,22,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,23,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,24,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,25,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,26,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,27,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,28,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,29,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,30,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,31,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,32,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,33,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,34,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,35,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,36,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,37,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,38,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,39,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,40,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,41,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,42,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,43,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,44,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,45,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,46,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,47,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,48,500.0
+2_reexecucao,bc,0,medio 10%,BC + parada,padrao,49,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,0,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,1,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,2,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,3,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,4,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,5,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,6,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,7,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,8,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,9,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,10,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,11,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,12,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,13,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,14,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,15,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,16,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,17,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,18,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,19,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,20,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,21,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,22,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,23,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,24,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,25,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,26,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,27,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,28,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,29,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,30,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,31,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,32,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,33,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,34,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,35,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,36,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,37,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,38,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,39,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,40,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,41,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,42,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,43,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,44,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,45,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,46,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,47,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,48,500.0
+2_reexecucao,bc,1,medio 10%,BC + parada,padrao,49,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,0,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,1,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,2,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,3,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,4,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,5,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,6,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,7,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,8,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,9,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,10,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,11,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,12,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,13,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,14,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,15,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,16,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,17,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,18,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,19,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,20,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,21,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,22,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,23,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,24,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,25,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,26,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,27,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,28,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,29,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,30,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,31,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,32,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,33,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,34,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,35,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,36,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,37,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,38,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,39,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,40,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,41,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,42,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,43,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,44,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,45,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,46,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,47,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,48,500.0
+2_reexecucao,bc,2,medio 10%,BC + parada,padrao,49,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,0,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,1,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,2,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,3,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,4,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,5,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,6,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,7,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,8,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,9,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,10,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,11,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,12,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,13,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,14,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,15,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,16,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,17,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,18,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,19,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,20,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,21,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,22,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,23,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,24,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,25,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,26,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,27,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,28,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,29,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,30,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,31,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,32,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,33,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,34,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,35,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,36,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,37,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,38,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,39,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,40,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,41,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,42,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,43,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,44,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,45,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,46,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,47,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,48,500.0
+2_reexecucao,bc,0,medio 10%,BC + regularização,padrao,49,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,0,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,1,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,2,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,3,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,4,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,5,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,6,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,7,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,8,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,9,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,10,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,11,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,12,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,13,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,14,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,15,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,16,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,17,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,18,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,19,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,20,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,21,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,22,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,23,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,24,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,25,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,26,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,27,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,28,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,29,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,30,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,31,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,32,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,33,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,34,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,35,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,36,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,37,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,38,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,39,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,40,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,41,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,42,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,43,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,44,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,45,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,46,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,47,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,48,500.0
+2_reexecucao,bc,1,medio 10%,BC + regularização,padrao,49,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,0,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,1,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,2,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,3,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,4,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,5,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,6,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,7,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,8,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,9,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,10,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,11,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,12,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,13,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,14,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,15,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,16,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,17,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,18,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,19,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,20,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,21,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,22,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,23,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,24,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,25,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,26,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,27,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,28,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,29,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,30,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,31,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,32,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,33,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,34,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,35,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,36,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,37,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,38,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,39,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,40,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,41,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,42,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,43,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,44,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,45,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,46,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,47,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,48,500.0
+2_reexecucao,bc,2,medio 10%,BC + regularização,padrao,49,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,0,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,1,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,2,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,3,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,4,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,5,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,6,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,7,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,8,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,9,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,10,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,11,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,12,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,13,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,14,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,15,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,16,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,17,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,18,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,19,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,20,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,21,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,22,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,23,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,24,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,25,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,26,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,27,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,28,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,29,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,30,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,31,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,32,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,33,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,34,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,35,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,36,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,37,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,38,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,39,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,40,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,41,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,42,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,43,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,44,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,45,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,46,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,47,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,48,500.0
+2_reexecucao,bc,0,medio 10%,BC + memória,padrao,49,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,0,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,1,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,2,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,3,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,4,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,5,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,6,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,7,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,8,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,9,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,10,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,11,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,12,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,13,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,14,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,15,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,16,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,17,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,18,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,19,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,20,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,21,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,22,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,23,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,24,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,25,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,26,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,27,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,28,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,29,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,30,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,31,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,32,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,33,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,34,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,35,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,36,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,37,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,38,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,39,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,40,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,41,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,42,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,43,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,44,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,45,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,46,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,47,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,48,500.0
+2_reexecucao,bc,1,medio 10%,BC + memória,padrao,49,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,0,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,1,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,2,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,3,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,4,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,5,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,6,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,7,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,8,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,9,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,10,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,11,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,12,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,13,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,14,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,15,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,16,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,17,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,18,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,19,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,20,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,21,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,22,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,23,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,24,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,25,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,26,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,27,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,28,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,29,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,30,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,31,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,32,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,33,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,34,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,35,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,36,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,37,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,38,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,39,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,40,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,41,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,42,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,43,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,44,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,45,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,46,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,47,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,48,500.0
+2_reexecucao,bc,2,medio 10%,BC + memória,padrao,49,500.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,0,9.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,1,9.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,2,9.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,3,10.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,4,9.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,5,11.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,6,9.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,7,9.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,8,10.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,9,10.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,10,10.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,11,9.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,12,10.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,13,10.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,14,9.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,15,9.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,16,9.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,17,10.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,18,9.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,19,9.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,20,9.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,21,10.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,22,10.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,23,10.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,24,10.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,25,10.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,26,10.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,27,10.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,28,9.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,29,9.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,30,10.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,31,10.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,32,9.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,33,10.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,34,10.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,35,9.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,36,9.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,37,10.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,38,10.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,39,9.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,40,8.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,41,9.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,42,10.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,43,9.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,44,9.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,45,10.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,46,10.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,47,9.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,48,9.0
+2_reexecucao,cql,0,expert,DQN (α=0),padrao,49,10.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,0,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,1,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,2,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,3,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,4,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,5,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,6,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,7,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,8,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,9,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,10,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,11,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,12,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,13,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,14,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,15,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,16,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,17,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,18,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,19,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,20,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,21,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,22,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,23,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,24,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,25,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,26,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,27,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,28,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,29,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,30,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,31,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,32,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,33,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,34,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,35,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,36,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,37,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,38,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,39,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,40,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,41,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,42,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,43,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,44,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,45,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,46,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,47,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,48,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.1),padrao,49,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,0,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,1,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,2,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,3,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,4,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,5,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,6,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,7,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,8,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,9,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,10,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,11,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,12,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,13,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,14,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,15,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,16,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,17,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,18,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,19,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,20,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,21,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,22,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,23,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,24,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,25,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,26,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,27,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,28,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,29,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,30,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,31,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,32,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,33,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,34,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,35,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,36,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,37,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,38,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,39,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,40,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,41,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,42,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,43,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,44,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,45,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,46,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,47,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,48,500.0
+2_reexecucao,cql,0,expert,CQL (α=0.5),padrao,49,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,0,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,1,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,2,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,3,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,4,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,5,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,6,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,7,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,8,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,9,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,10,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,11,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,12,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,13,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,14,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,15,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,16,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,17,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,18,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,19,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,20,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,21,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,22,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,23,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,24,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,25,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,26,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,27,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,28,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,29,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,30,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,31,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,32,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,33,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,34,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,35,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,36,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,37,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,38,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,39,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,40,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,41,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,42,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,43,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,44,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,45,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,46,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,47,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,48,500.0
+2_reexecucao,cql,0,expert,CQL (α=2),padrao,49,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,0,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,1,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,2,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,3,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,4,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,5,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,6,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,7,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,8,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,9,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,10,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,11,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,12,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,13,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,14,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,15,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,16,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,17,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,18,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,19,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,20,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,21,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,22,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,23,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,24,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,25,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,26,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,27,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,28,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,29,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,30,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,31,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,32,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,33,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,34,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,35,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,36,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,37,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,38,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,39,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,40,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,41,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,42,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,43,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,44,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,45,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,46,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,47,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,48,500.0
+2_reexecucao,cql,0,expert,CQL (α=5),padrao,49,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,0,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,1,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,2,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,3,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,4,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,5,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,6,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,7,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,8,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,9,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,10,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,11,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,12,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,13,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,14,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,15,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,16,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,17,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,18,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,19,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,20,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,21,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,22,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,23,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,24,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,25,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,26,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,27,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,28,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,29,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,30,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,31,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,32,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,33,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,34,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,35,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,36,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,37,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,38,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,39,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,40,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,41,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,42,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,43,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,44,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,45,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,46,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,47,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,48,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),padrao,49,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,0,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,1,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,2,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,3,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,4,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,5,10.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,6,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,7,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,8,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,9,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,10,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,11,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,12,470.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,13,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,14,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,15,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,16,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,17,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,18,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,19,422.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,20,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,21,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,22,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,23,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,24,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,25,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,26,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,27,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,28,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,29,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,30,441.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,31,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,32,381.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,33,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,34,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,35,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,36,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,37,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,38,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,39,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,40,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,41,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,42,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,43,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,44,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,45,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,46,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,47,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,48,500.0
+3_melhorias,iql,0,expert,IQL (τ=0.7),perturbada,49,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,0,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,1,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,2,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,3,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,4,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,5,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,6,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,7,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,8,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,9,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,10,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,11,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,12,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,13,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,14,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,15,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,16,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,17,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,18,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,19,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,20,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,21,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,22,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,23,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,24,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,25,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,26,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,27,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,28,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,29,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,30,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,31,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,32,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,33,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,34,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,35,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,36,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,37,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,38,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,39,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,40,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,41,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,42,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,43,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,44,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,45,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,46,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,47,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,48,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),padrao,49,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,0,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,1,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,2,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,3,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,4,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,5,10.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,6,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,7,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,8,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,9,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,10,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,11,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,12,470.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,13,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,14,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,15,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,16,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,17,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,18,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,19,422.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,20,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,21,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,22,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,23,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,24,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,25,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,26,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,27,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,28,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,29,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,30,440.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,31,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,32,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,33,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,34,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,35,429.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,36,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,37,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,38,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,39,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,40,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,41,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,42,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,43,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,44,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,45,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,46,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,47,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,48,500.0
+3_melhorias,iql,0,expert,CQL (α=0.5),perturbada,49,500.0
+3_melhorias,iql,0,expert,BC,padrao,0,500.0
+3_melhorias,iql,0,expert,BC,padrao,1,500.0
+3_melhorias,iql,0,expert,BC,padrao,2,500.0
+3_melhorias,iql,0,expert,BC,padrao,3,500.0
+3_melhorias,iql,0,expert,BC,padrao,4,500.0
+3_melhorias,iql,0,expert,BC,padrao,5,500.0
+3_melhorias,iql,0,expert,BC,padrao,6,500.0
+3_melhorias,iql,0,expert,BC,padrao,7,500.0
+3_melhorias,iql,0,expert,BC,padrao,8,500.0
+3_melhorias,iql,0,expert,BC,padrao,9,500.0
+3_melhorias,iql,0,expert,BC,padrao,10,500.0
+3_melhorias,iql,0,expert,BC,padrao,11,500.0
+3_melhorias,iql,0,expert,BC,padrao,12,500.0
+3_melhorias,iql,0,expert,BC,padrao,13,500.0
+3_melhorias,iql,0,expert,BC,padrao,14,500.0
+3_melhorias,iql,0,expert,BC,padrao,15,500.0
+3_melhorias,iql,0,expert,BC,padrao,16,500.0
+3_melhorias,iql,0,expert,BC,padrao,17,500.0
+3_melhorias,iql,0,expert,BC,padrao,18,500.0
+3_melhorias,iql,0,expert,BC,padrao,19,500.0
+3_melhorias,iql,0,expert,BC,padrao,20,500.0
+3_melhorias,iql,0,expert,BC,padrao,21,500.0
+3_melhorias,iql,0,expert,BC,padrao,22,500.0
+3_melhorias,iql,0,expert,BC,padrao,23,500.0
+3_melhorias,iql,0,expert,BC,padrao,24,500.0
+3_melhorias,iql,0,expert,BC,padrao,25,500.0
+3_melhorias,iql,0,expert,BC,padrao,26,500.0
+3_melhorias,iql,0,expert,BC,padrao,27,500.0
+3_melhorias,iql,0,expert,BC,padrao,28,500.0
+3_melhorias,iql,0,expert,BC,padrao,29,500.0
+3_melhorias,iql,0,expert,BC,padrao,30,500.0
+3_melhorias,iql,0,expert,BC,padrao,31,500.0
+3_melhorias,iql,0,expert,BC,padrao,32,500.0
+3_melhorias,iql,0,expert,BC,padrao,33,500.0
+3_melhorias,iql,0,expert,BC,padrao,34,500.0
+3_melhorias,iql,0,expert,BC,padrao,35,500.0
+3_melhorias,iql,0,expert,BC,padrao,36,500.0
+3_melhorias,iql,0,expert,BC,padrao,37,500.0
+3_melhorias,iql,0,expert,BC,padrao,38,500.0
+3_melhorias,iql,0,expert,BC,padrao,39,500.0
+3_melhorias,iql,0,expert,BC,padrao,40,500.0
+3_melhorias,iql,0,expert,BC,padrao,41,500.0
+3_melhorias,iql,0,expert,BC,padrao,42,500.0
+3_melhorias,iql,0,expert,BC,padrao,43,500.0
+3_melhorias,iql,0,expert,BC,padrao,44,500.0
+3_melhorias,iql,0,expert,BC,padrao,45,500.0
+3_melhorias,iql,0,expert,BC,padrao,46,500.0
+3_melhorias,iql,0,expert,BC,padrao,47,500.0
+3_melhorias,iql,0,expert,BC,padrao,48,500.0
+3_melhorias,iql,0,expert,BC,padrao,49,500.0
+3_melhorias,iql,0,expert,BC,perturbada,0,500.0
+3_melhorias,iql,0,expert,BC,perturbada,1,500.0
+3_melhorias,iql,0,expert,BC,perturbada,2,500.0
+3_melhorias,iql,0,expert,BC,perturbada,3,500.0
+3_melhorias,iql,0,expert,BC,perturbada,4,500.0
+3_melhorias,iql,0,expert,BC,perturbada,5,10.0
+3_melhorias,iql,0,expert,BC,perturbada,6,500.0
+3_melhorias,iql,0,expert,BC,perturbada,7,500.0
+3_melhorias,iql,0,expert,BC,perturbada,8,500.0
+3_melhorias,iql,0,expert,BC,perturbada,9,500.0
+3_melhorias,iql,0,expert,BC,perturbada,10,500.0
+3_melhorias,iql,0,expert,BC,perturbada,11,500.0
+3_melhorias,iql,0,expert,BC,perturbada,12,470.0
+3_melhorias,iql,0,expert,BC,perturbada,13,500.0
+3_melhorias,iql,0,expert,BC,perturbada,14,500.0
+3_melhorias,iql,0,expert,BC,perturbada,15,500.0
+3_melhorias,iql,0,expert,BC,perturbada,16,500.0
+3_melhorias,iql,0,expert,BC,perturbada,17,500.0
+3_melhorias,iql,0,expert,BC,perturbada,18,500.0
+3_melhorias,iql,0,expert,BC,perturbada,19,422.0
+3_melhorias,iql,0,expert,BC,perturbada,20,500.0
+3_melhorias,iql,0,expert,BC,perturbada,21,500.0
+3_melhorias,iql,0,expert,BC,perturbada,22,500.0
+3_melhorias,iql,0,expert,BC,perturbada,23,500.0
+3_melhorias,iql,0,expert,BC,perturbada,24,500.0
+3_melhorias,iql,0,expert,BC,perturbada,25,500.0
+3_melhorias,iql,0,expert,BC,perturbada,26,500.0
+3_melhorias,iql,0,expert,BC,perturbada,27,500.0
+3_melhorias,iql,0,expert,BC,perturbada,28,500.0
+3_melhorias,iql,0,expert,BC,perturbada,29,500.0
+3_melhorias,iql,0,expert,BC,perturbada,30,440.0
+3_melhorias,iql,0,expert,BC,perturbada,31,500.0
+3_melhorias,iql,0,expert,BC,perturbada,32,397.0
+3_melhorias,iql,0,expert,BC,perturbada,33,500.0
+3_melhorias,iql,0,expert,BC,perturbada,34,500.0
+3_melhorias,iql,0,expert,BC,perturbada,35,431.0
+3_melhorias,iql,0,expert,BC,perturbada,36,500.0
+3_melhorias,iql,0,expert,BC,perturbada,37,500.0
+3_melhorias,iql,0,expert,BC,perturbada,38,500.0
+3_melhorias,iql,0,expert,BC,perturbada,39,500.0
+3_melhorias,iql,0,expert,BC,perturbada,40,500.0
+3_melhorias,iql,0,expert,BC,perturbada,41,500.0
+3_melhorias,iql,0,expert,BC,perturbada,42,500.0
+3_melhorias,iql,0,expert,BC,perturbada,43,500.0
+3_melhorias,iql,0,expert,BC,perturbada,44,500.0
+3_melhorias,iql,0,expert,BC,perturbada,45,500.0
+3_melhorias,iql,0,expert,BC,perturbada,46,500.0
+3_melhorias,iql,0,expert,BC,perturbada,47,500.0
+3_melhorias,iql,0,expert,BC,perturbada,48,500.0
+3_melhorias,iql,0,expert,BC,perturbada,49,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,0,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,1,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,2,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,3,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,4,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,5,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,6,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,7,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,8,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,9,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,10,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,11,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,12,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,13,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,14,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,15,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,16,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,17,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,18,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,19,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,20,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,21,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,22,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,23,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,24,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,25,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,26,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,27,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,28,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,29,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,30,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,31,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,32,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,33,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,34,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,35,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,36,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,37,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,38,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,39,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,40,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,41,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,42,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,43,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,44,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,45,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,46,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,47,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,48,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),padrao,49,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,0,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,1,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,2,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,3,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,4,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,5,10.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,6,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,7,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,8,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,9,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,10,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,11,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,12,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,13,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,14,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,15,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,16,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,17,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,18,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,19,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,20,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,21,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,22,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,23,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,24,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,25,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,26,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,27,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,28,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,29,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,30,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,31,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,32,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,33,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,34,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,35,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,36,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,37,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,38,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,39,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,40,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,41,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,42,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,43,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,44,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,45,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,46,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,47,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,48,500.0
+3_melhorias,iql,0,medio,IQL (τ=0.7),perturbada,49,500.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,0,500.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,1,364.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,2,439.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,3,328.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,4,410.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,5,500.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,6,349.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,7,329.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,8,500.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,9,325.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,10,365.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,11,304.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,12,477.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,13,500.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,14,339.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,15,357.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,16,385.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,17,355.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,18,326.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,19,353.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,20,333.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,21,350.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,22,373.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,23,370.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,24,410.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,25,332.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,26,404.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,27,500.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,28,323.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,29,335.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,30,500.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,31,405.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,32,420.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,33,299.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,34,321.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,35,345.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,36,355.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,37,436.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,38,324.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,39,500.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,40,378.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,41,453.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,42,459.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,43,335.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,44,500.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,45,457.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,46,414.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,47,398.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,48,350.0
+3_melhorias,iql,0,medio,CQL (α=0.5),padrao,49,350.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,0,365.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,1,347.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,2,376.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,3,500.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,4,500.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,5,10.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,6,337.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,7,500.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,8,500.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,9,500.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,10,319.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,11,426.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,12,500.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,13,416.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,14,354.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,15,470.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,16,500.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,17,431.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,18,363.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,19,406.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,20,335.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,21,335.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,22,454.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,23,500.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,24,500.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,25,500.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,26,500.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,27,342.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,28,338.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,29,360.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,30,314.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,31,332.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,32,377.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,33,323.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,34,500.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,35,329.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,36,500.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,37,500.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,38,500.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,39,351.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,40,339.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,41,327.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,42,395.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,43,500.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,44,366.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,45,325.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,46,500.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,47,391.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,48,427.0
+3_melhorias,iql,0,medio,CQL (α=0.5),perturbada,49,500.0
+3_melhorias,iql,0,medio,BC,padrao,0,500.0
+3_melhorias,iql,0,medio,BC,padrao,1,500.0
+3_melhorias,iql,0,medio,BC,padrao,2,500.0
+3_melhorias,iql,0,medio,BC,padrao,3,500.0
+3_melhorias,iql,0,medio,BC,padrao,4,500.0
+3_melhorias,iql,0,medio,BC,padrao,5,500.0
+3_melhorias,iql,0,medio,BC,padrao,6,500.0
+3_melhorias,iql,0,medio,BC,padrao,7,500.0
+3_melhorias,iql,0,medio,BC,padrao,8,500.0
+3_melhorias,iql,0,medio,BC,padrao,9,500.0
+3_melhorias,iql,0,medio,BC,padrao,10,500.0
+3_melhorias,iql,0,medio,BC,padrao,11,500.0
+3_melhorias,iql,0,medio,BC,padrao,12,500.0
+3_melhorias,iql,0,medio,BC,padrao,13,500.0
+3_melhorias,iql,0,medio,BC,padrao,14,500.0
+3_melhorias,iql,0,medio,BC,padrao,15,500.0
+3_melhorias,iql,0,medio,BC,padrao,16,500.0
+3_melhorias,iql,0,medio,BC,padrao,17,500.0
+3_melhorias,iql,0,medio,BC,padrao,18,500.0
+3_melhorias,iql,0,medio,BC,padrao,19,500.0
+3_melhorias,iql,0,medio,BC,padrao,20,500.0
+3_melhorias,iql,0,medio,BC,padrao,21,500.0
+3_melhorias,iql,0,medio,BC,padrao,22,500.0
+3_melhorias,iql,0,medio,BC,padrao,23,500.0
+3_melhorias,iql,0,medio,BC,padrao,24,500.0
+3_melhorias,iql,0,medio,BC,padrao,25,500.0
+3_melhorias,iql,0,medio,BC,padrao,26,500.0
+3_melhorias,iql,0,medio,BC,padrao,27,500.0
+3_melhorias,iql,0,medio,BC,padrao,28,500.0
+3_melhorias,iql,0,medio,BC,padrao,29,500.0
+3_melhorias,iql,0,medio,BC,padrao,30,500.0
+3_melhorias,iql,0,medio,BC,padrao,31,500.0
+3_melhorias,iql,0,medio,BC,padrao,32,500.0
+3_melhorias,iql,0,medio,BC,padrao,33,500.0
+3_melhorias,iql,0,medio,BC,padrao,34,500.0
+3_melhorias,iql,0,medio,BC,padrao,35,500.0
+3_melhorias,iql,0,medio,BC,padrao,36,500.0
+3_melhorias,iql,0,medio,BC,padrao,37,500.0
+3_melhorias,iql,0,medio,BC,padrao,38,500.0
+3_melhorias,iql,0,medio,BC,padrao,39,500.0
+3_melhorias,iql,0,medio,BC,padrao,40,500.0
+3_melhorias,iql,0,medio,BC,padrao,41,500.0
+3_melhorias,iql,0,medio,BC,padrao,42,500.0
+3_melhorias,iql,0,medio,BC,padrao,43,500.0
+3_melhorias,iql,0,medio,BC,padrao,44,500.0
+3_melhorias,iql,0,medio,BC,padrao,45,500.0
+3_melhorias,iql,0,medio,BC,padrao,46,500.0
+3_melhorias,iql,0,medio,BC,padrao,47,500.0
+3_melhorias,iql,0,medio,BC,padrao,48,500.0
+3_melhorias,iql,0,medio,BC,padrao,49,500.0
+3_melhorias,iql,0,medio,BC,perturbada,0,500.0
+3_melhorias,iql,0,medio,BC,perturbada,1,500.0
+3_melhorias,iql,0,medio,BC,perturbada,2,500.0
+3_melhorias,iql,0,medio,BC,perturbada,3,500.0
+3_melhorias,iql,0,medio,BC,perturbada,4,500.0
+3_melhorias,iql,0,medio,BC,perturbada,5,10.0
+3_melhorias,iql,0,medio,BC,perturbada,6,500.0
+3_melhorias,iql,0,medio,BC,perturbada,7,500.0
+3_melhorias,iql,0,medio,BC,perturbada,8,500.0
+3_melhorias,iql,0,medio,BC,perturbada,9,500.0
+3_melhorias,iql,0,medio,BC,perturbada,10,500.0
+3_melhorias,iql,0,medio,BC,perturbada,11,500.0
+3_melhorias,iql,0,medio,BC,perturbada,12,500.0
+3_melhorias,iql,0,medio,BC,perturbada,13,500.0
+3_melhorias,iql,0,medio,BC,perturbada,14,500.0
+3_melhorias,iql,0,medio,BC,perturbada,15,500.0
+3_melhorias,iql,0,medio,BC,perturbada,16,500.0
+3_melhorias,iql,0,medio,BC,perturbada,17,500.0
+3_melhorias,iql,0,medio,BC,perturbada,18,500.0
+3_melhorias,iql,0,medio,BC,perturbada,19,426.0
+3_melhorias,iql,0,medio,BC,perturbada,20,500.0
+3_melhorias,iql,0,medio,BC,perturbada,21,500.0
+3_melhorias,iql,0,medio,BC,perturbada,22,500.0
+3_melhorias,iql,0,medio,BC,perturbada,23,500.0
+3_melhorias,iql,0,medio,BC,perturbada,24,500.0
+3_melhorias,iql,0,medio,BC,perturbada,25,500.0
+3_melhorias,iql,0,medio,BC,perturbada,26,500.0
+3_melhorias,iql,0,medio,BC,perturbada,27,500.0
+3_melhorias,iql,0,medio,BC,perturbada,28,500.0
+3_melhorias,iql,0,medio,BC,perturbada,29,500.0
+3_melhorias,iql,0,medio,BC,perturbada,30,500.0
+3_melhorias,iql,0,medio,BC,perturbada,31,500.0
+3_melhorias,iql,0,medio,BC,perturbada,32,500.0
+3_melhorias,iql,0,medio,BC,perturbada,33,500.0
+3_melhorias,iql,0,medio,BC,perturbada,34,500.0
+3_melhorias,iql,0,medio,BC,perturbada,35,500.0
+3_melhorias,iql,0,medio,BC,perturbada,36,500.0
+3_melhorias,iql,0,medio,BC,perturbada,37,500.0
+3_melhorias,iql,0,medio,BC,perturbada,38,500.0
+3_melhorias,iql,0,medio,BC,perturbada,39,500.0
+3_melhorias,iql,0,medio,BC,perturbada,40,500.0
+3_melhorias,iql,0,medio,BC,perturbada,41,500.0
+3_melhorias,iql,0,medio,BC,perturbada,42,500.0
+3_melhorias,iql,0,medio,BC,perturbada,43,500.0
+3_melhorias,iql,0,medio,BC,perturbada,44,500.0
+3_melhorias,iql,0,medio,BC,perturbada,45,500.0
+3_melhorias,iql,0,medio,BC,perturbada,46,500.0
+3_melhorias,iql,0,medio,BC,perturbada,47,500.0
+3_melhorias,iql,0,medio,BC,perturbada,48,500.0
+3_melhorias,iql,0,medio,BC,perturbada,49,500.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,0,205.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,1,200.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,2,224.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,3,145.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,4,187.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,5,165.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,6,258.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,7,197.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,8,176.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,9,187.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,10,238.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,11,244.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,12,217.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,13,191.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,14,400.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,15,174.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,16,155.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,17,198.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,18,281.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,19,263.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,20,402.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,21,220.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,22,160.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,23,158.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,24,201.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,25,158.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,26,152.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,27,204.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,28,148.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,29,282.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,30,164.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,31,173.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,32,173.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,33,238.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,34,181.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,35,179.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,36,180.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,37,163.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,38,150.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,39,143.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,40,149.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,41,224.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,42,162.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,43,328.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,44,255.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,45,157.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,46,177.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,47,175.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,48,248.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),padrao,49,168.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,0,201.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,1,215.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,2,210.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,3,140.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,4,166.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,5,10.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,6,214.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,7,220.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,8,157.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,9,230.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,10,182.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,11,154.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,12,168.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,13,162.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,14,220.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,15,165.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,16,151.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,17,167.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,18,174.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,19,127.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,20,211.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,21,141.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,22,194.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,23,159.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,24,184.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,25,170.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,26,163.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,27,105.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,28,265.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,29,351.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,30,141.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,31,124.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,32,142.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,33,216.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,34,225.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,35,149.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,36,196.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,37,158.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,38,168.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,39,162.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,40,174.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,41,125.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,42,197.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,43,235.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,44,255.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,45,141.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,46,185.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,47,175.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,48,183.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),perturbada,49,153.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,0,341.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,1,268.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,2,206.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,3,176.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,4,258.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,5,208.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,6,155.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,7,280.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,8,238.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,9,250.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,10,348.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,11,235.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,12,157.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,13,250.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,14,173.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,15,130.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,16,111.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,17,277.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,18,156.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,19,151.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,20,154.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,21,296.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,22,204.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,23,198.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,24,145.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,25,193.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,26,201.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,27,238.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,28,127.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,29,131.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,30,205.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,31,266.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,32,227.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,33,205.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,34,240.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,35,128.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,36,127.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,37,202.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,38,193.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,39,104.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,40,117.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,41,158.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,42,200.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,43,195.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,44,175.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,45,193.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,46,213.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,47,117.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,48,167.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),padrao,49,214.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,0,247.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,1,302.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,2,156.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,3,168.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,4,200.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,5,10.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,6,266.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,7,269.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,8,192.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,9,191.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,10,230.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,11,123.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,12,195.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,13,199.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,14,319.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,15,102.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,16,114.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,17,113.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,18,137.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,19,105.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,20,280.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,21,161.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,22,267.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,23,198.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,24,314.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,25,221.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,26,194.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,27,112.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,28,157.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,29,151.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,30,162.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,31,146.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,32,122.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,33,279.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,34,316.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,35,196.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,36,181.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,37,196.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,38,206.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,39,122.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,40,158.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,41,103.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,42,244.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,43,127.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,44,175.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,45,171.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,46,216.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,47,131.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,48,145.0
+3_melhorias,iql,0,ruim,IQL (τ=0.5),perturbada,49,184.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,0,204.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,1,183.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,2,198.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,3,162.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,4,182.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,5,182.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,6,257.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,7,192.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,8,176.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,9,187.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,10,210.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,11,259.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,12,205.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,13,183.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,14,457.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,15,213.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,16,174.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,17,184.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,18,224.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,19,266.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,20,259.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,21,198.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,22,170.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,23,160.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,24,214.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,25,166.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,26,168.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,27,197.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,28,249.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,29,343.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,30,189.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,31,192.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,32,177.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,33,194.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,34,175.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,35,193.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,36,195.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,37,176.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,38,162.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,39,157.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,40,305.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,41,212.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,42,168.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,43,186.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,44,347.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,45,162.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,46,191.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,47,189.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,48,210.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),padrao,49,168.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,0,196.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,1,194.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,2,225.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,3,158.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,4,185.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,5,10.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,6,194.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,7,202.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,8,170.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,9,236.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,10,206.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,11,233.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,12,186.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,13,184.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,14,190.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,15,186.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,16,174.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,17,193.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,18,220.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,19,173.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,20,286.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,21,160.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,22,191.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,23,170.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,24,213.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,25,174.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,26,168.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,27,118.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,28,223.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,29,252.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,30,162.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,31,145.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,32,205.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,33,196.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,34,194.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,35,176.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,36,227.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,37,175.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,38,170.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,39,174.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,40,244.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,41,171.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,42,182.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,43,253.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,44,286.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,45,161.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,46,188.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,47,183.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,48,232.0
+3_melhorias,iql,0,ruim,IQL (τ=0.9),perturbada,49,168.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,0,116.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,1,116.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,2,117.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,3,111.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,4,117.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,5,113.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,6,117.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,7,117.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,8,113.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,9,115.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,10,116.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,11,118.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,12,116.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,13,113.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,14,117.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,15,120.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,16,122.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,17,115.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,18,117.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,19,118.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,20,119.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,21,116.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,22,110.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,23,110.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,24,117.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,25,111.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,26,111.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,27,116.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,28,122.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,29,121.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,30,115.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,31,114.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,32,115.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,33,116.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,34,114.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,35,119.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,36,120.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,37,112.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,38,110.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,39,123.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,40,120.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,41,119.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,42,111.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,43,118.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,44,118.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,45,111.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,46,115.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,47,123.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,48,119.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),padrao,49,112.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,0,118.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,1,122.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,2,125.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,3,112.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,4,117.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,5,10.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,6,120.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,7,125.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,8,116.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,9,124.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,10,118.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,11,128.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,12,118.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,13,118.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,14,120.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,15,129.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,16,128.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,17,133.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,18,126.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,19,135.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,20,122.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,21,115.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,22,126.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,23,119.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,24,121.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,25,122.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,26,117.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,27,110.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,28,123.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,29,124.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,30,115.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,31,114.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,32,134.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,33,122.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,34,122.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,35,119.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,36,122.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,37,114.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,38,118.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,39,124.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,40,126.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,41,133.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,42,125.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,43,128.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,44,123.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,45,115.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,46,118.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,47,122.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,48,123.0
+3_melhorias,iql,0,ruim,CQL (α=0.5),perturbada,49,114.0
+3_melhorias,iql,0,ruim,BC,padrao,0,9.0
+3_melhorias,iql,0,ruim,BC,padrao,1,9.0
+3_melhorias,iql,0,ruim,BC,padrao,2,9.0
+3_melhorias,iql,0,ruim,BC,padrao,3,8.0
+3_melhorias,iql,0,ruim,BC,padrao,4,9.0
+3_melhorias,iql,0,ruim,BC,padrao,5,8.0
+3_melhorias,iql,0,ruim,BC,padrao,6,9.0
+3_melhorias,iql,0,ruim,BC,padrao,7,9.0
+3_melhorias,iql,0,ruim,BC,padrao,8,9.0
+3_melhorias,iql,0,ruim,BC,padrao,9,9.0
+3_melhorias,iql,0,ruim,BC,padrao,10,9.0
+3_melhorias,iql,0,ruim,BC,padrao,11,9.0
+3_melhorias,iql,0,ruim,BC,padrao,12,9.0
+3_melhorias,iql,0,ruim,BC,padrao,13,9.0
+3_melhorias,iql,0,ruim,BC,padrao,14,9.0
+3_melhorias,iql,0,ruim,BC,padrao,15,9.0
+3_melhorias,iql,0,ruim,BC,padrao,16,9.0
+3_melhorias,iql,0,ruim,BC,padrao,17,10.0
+3_melhorias,iql,0,ruim,BC,padrao,18,9.0
+3_melhorias,iql,0,ruim,BC,padrao,19,9.0
+3_melhorias,iql,0,ruim,BC,padrao,20,9.0
+3_melhorias,iql,0,ruim,BC,padrao,21,9.0
+3_melhorias,iql,0,ruim,BC,padrao,22,9.0
+3_melhorias,iql,0,ruim,BC,padrao,23,9.0
+3_melhorias,iql,0,ruim,BC,padrao,24,10.0
+3_melhorias,iql,0,ruim,BC,padrao,25,9.0
+3_melhorias,iql,0,ruim,BC,padrao,26,9.0
+3_melhorias,iql,0,ruim,BC,padrao,27,9.0
+3_melhorias,iql,0,ruim,BC,padrao,28,9.0
+3_melhorias,iql,0,ruim,BC,padrao,29,9.0
+3_melhorias,iql,0,ruim,BC,padrao,30,8.0
+3_melhorias,iql,0,ruim,BC,padrao,31,8.0
+3_melhorias,iql,0,ruim,BC,padrao,32,9.0
+3_melhorias,iql,0,ruim,BC,padrao,33,9.0
+3_melhorias,iql,0,ruim,BC,padrao,34,9.0
+3_melhorias,iql,0,ruim,BC,padrao,35,9.0
+3_melhorias,iql,0,ruim,BC,padrao,36,9.0
+3_melhorias,iql,0,ruim,BC,padrao,37,8.0
+3_melhorias,iql,0,ruim,BC,padrao,38,9.0
+3_melhorias,iql,0,ruim,BC,padrao,39,9.0
+3_melhorias,iql,0,ruim,BC,padrao,40,8.0
+3_melhorias,iql,0,ruim,BC,padrao,41,9.0
+3_melhorias,iql,0,ruim,BC,padrao,42,8.0
+3_melhorias,iql,0,ruim,BC,padrao,43,9.0
+3_melhorias,iql,0,ruim,BC,padrao,44,9.0
+3_melhorias,iql,0,ruim,BC,padrao,45,9.0
+3_melhorias,iql,0,ruim,BC,padrao,46,8.0
+3_melhorias,iql,0,ruim,BC,padrao,47,9.0
+3_melhorias,iql,0,ruim,BC,padrao,48,9.0
+3_melhorias,iql,0,ruim,BC,padrao,49,9.0
+3_melhorias,iql,0,ruim,BC,perturbada,0,13.0
+3_melhorias,iql,0,ruim,BC,perturbada,1,13.0
+3_melhorias,iql,0,ruim,BC,perturbada,2,14.0
+3_melhorias,iql,0,ruim,BC,perturbada,3,12.0
+3_melhorias,iql,0,ruim,BC,perturbada,4,11.0
+3_melhorias,iql,0,ruim,BC,perturbada,5,8.0
+3_melhorias,iql,0,ruim,BC,perturbada,6,13.0
+3_melhorias,iql,0,ruim,BC,perturbada,7,13.0
+3_melhorias,iql,0,ruim,BC,perturbada,8,12.0
+3_melhorias,iql,0,ruim,BC,perturbada,9,13.0
+3_melhorias,iql,0,ruim,BC,perturbada,10,12.0
+3_melhorias,iql,0,ruim,BC,perturbada,11,12.0
+3_melhorias,iql,0,ruim,BC,perturbada,12,11.0
+3_melhorias,iql,0,ruim,BC,perturbada,13,14.0
+3_melhorias,iql,0,ruim,BC,perturbada,14,14.0
+3_melhorias,iql,0,ruim,BC,perturbada,15,15.0
+3_melhorias,iql,0,ruim,BC,perturbada,16,14.0
+3_melhorias,iql,0,ruim,BC,perturbada,17,11.0
+3_melhorias,iql,0,ruim,BC,perturbada,18,13.0
+3_melhorias,iql,0,ruim,BC,perturbada,19,12.0
+3_melhorias,iql,0,ruim,BC,perturbada,20,13.0
+3_melhorias,iql,0,ruim,BC,perturbada,21,10.0
+3_melhorias,iql,0,ruim,BC,perturbada,22,12.0
+3_melhorias,iql,0,ruim,BC,perturbada,23,12.0
+3_melhorias,iql,0,ruim,BC,perturbada,24,13.0
+3_melhorias,iql,0,ruim,BC,perturbada,25,12.0
+3_melhorias,iql,0,ruim,BC,perturbada,26,14.0
+3_melhorias,iql,0,ruim,BC,perturbada,27,9.0
+3_melhorias,iql,0,ruim,BC,perturbada,28,13.0
+3_melhorias,iql,0,ruim,BC,perturbada,29,14.0
+3_melhorias,iql,0,ruim,BC,perturbada,30,11.0
+3_melhorias,iql,0,ruim,BC,perturbada,31,9.0
+3_melhorias,iql,0,ruim,BC,perturbada,32,11.0
+3_melhorias,iql,0,ruim,BC,perturbada,33,14.0
+3_melhorias,iql,0,ruim,BC,perturbada,34,13.0
+3_melhorias,iql,0,ruim,BC,perturbada,35,10.0
+3_melhorias,iql,0,ruim,BC,perturbada,36,12.0
+3_melhorias,iql,0,ruim,BC,perturbada,37,12.0
+3_melhorias,iql,0,ruim,BC,perturbada,38,13.0
+3_melhorias,iql,0,ruim,BC,perturbada,39,13.0
+3_melhorias,iql,0,ruim,BC,perturbada,40,14.0
+3_melhorias,iql,0,ruim,BC,perturbada,41,12.0
+3_melhorias,iql,0,ruim,BC,perturbada,42,12.0
+3_melhorias,iql,0,ruim,BC,perturbada,43,12.0
+3_melhorias,iql,0,ruim,BC,perturbada,44,14.0
+3_melhorias,iql,0,ruim,BC,perturbada,45,12.0
+3_melhorias,iql,0,ruim,BC,perturbada,46,13.0
+3_melhorias,iql,0,ruim,BC,perturbada,47,12.0
+3_melhorias,iql,0,ruim,BC,perturbada,48,14.0
+3_melhorias,iql,0,ruim,BC,perturbada,49,12.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,0,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,1,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,2,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,3,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,4,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,5,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,6,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,7,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,8,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,9,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,10,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,11,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,12,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,13,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,14,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,15,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,16,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,17,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,18,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,19,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,20,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,21,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,22,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,23,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,24,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,25,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,26,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,27,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,28,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,29,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,30,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,31,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,32,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,33,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,34,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,35,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,36,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,37,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,38,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,39,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,40,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,41,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,42,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,43,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,44,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,45,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,46,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,47,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,48,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),padrao,49,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,0,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,1,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,2,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,3,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,4,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,5,10.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,6,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,7,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,8,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,9,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,10,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,11,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,12,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,13,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,14,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,15,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,16,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,17,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,18,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,19,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,20,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,21,432.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,22,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,23,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,24,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,25,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,26,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,27,206.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,28,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,29,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,30,429.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,31,305.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,32,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,33,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,34,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,35,420.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,36,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,37,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,38,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,39,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,40,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,41,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,42,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,43,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,44,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,45,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,46,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,47,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,48,500.0
+3_melhorias,iql,0,misto,IQL (τ=0.7),perturbada,49,500.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,0,196.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,1,203.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,2,207.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,3,175.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,4,210.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,5,181.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,6,180.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,7,218.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,8,181.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,9,208.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,10,203.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,11,184.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,12,193.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,13,206.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,14,179.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,15,194.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,16,181.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,17,177.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,18,181.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,19,185.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,20,187.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,21,195.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,22,173.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,23,169.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,24,196.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,25,164.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,26,180.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,27,188.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,28,186.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,29,177.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,30,185.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,31,178.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,32,218.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,33,167.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,34,182.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,35,180.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,36,195.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,37,180.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,38,179.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,39,221.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,40,184.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,41,182.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,42,165.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,43,171.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,44,185.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,45,188.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,46,181.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,47,191.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,48,189.0
+3_melhorias,iql,0,misto,CQL (α=0.5),padrao,49,171.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,0,177.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,1,187.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,2,189.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,3,162.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,4,182.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,5,10.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,6,177.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,7,233.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,8,175.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,9,211.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,10,193.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,11,193.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,12,185.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,13,181.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,14,193.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,15,191.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,16,253.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,17,213.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,18,191.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,19,210.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,20,195.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,21,183.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,22,199.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,23,217.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,24,201.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,25,187.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,26,209.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,27,154.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,28,198.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,29,192.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,30,211.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,31,170.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,32,212.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,33,195.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,34,186.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,35,180.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,36,222.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,37,179.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,38,180.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,39,218.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,40,200.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,41,204.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,42,220.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,43,193.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,44,174.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,45,168.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,46,186.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,47,176.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,48,192.0
+3_melhorias,iql,0,misto,CQL (α=0.5),perturbada,49,173.0
+3_melhorias,iql,0,misto,BC,padrao,0,500.0
+3_melhorias,iql,0,misto,BC,padrao,1,9.0
+3_melhorias,iql,0,misto,BC,padrao,2,9.0
+3_melhorias,iql,0,misto,BC,padrao,3,8.0
+3_melhorias,iql,0,misto,BC,padrao,4,500.0
+3_melhorias,iql,0,misto,BC,padrao,5,8.0
+3_melhorias,iql,0,misto,BC,padrao,6,11.0
+3_melhorias,iql,0,misto,BC,padrao,7,500.0
+3_melhorias,iql,0,misto,BC,padrao,8,9.0
+3_melhorias,iql,0,misto,BC,padrao,9,500.0
+3_melhorias,iql,0,misto,BC,padrao,10,9.0
+3_melhorias,iql,0,misto,BC,padrao,11,9.0
+3_melhorias,iql,0,misto,BC,padrao,12,9.0
+3_melhorias,iql,0,misto,BC,padrao,13,9.0
+3_melhorias,iql,0,misto,BC,padrao,14,10.0
+3_melhorias,iql,0,misto,BC,padrao,15,9.0
+3_melhorias,iql,0,misto,BC,padrao,16,9.0
+3_melhorias,iql,0,misto,BC,padrao,17,500.0
+3_melhorias,iql,0,misto,BC,padrao,18,500.0
+3_melhorias,iql,0,misto,BC,padrao,19,9.0
+3_melhorias,iql,0,misto,BC,padrao,20,9.0
+3_melhorias,iql,0,misto,BC,padrao,21,9.0
+3_melhorias,iql,0,misto,BC,padrao,22,9.0
+3_melhorias,iql,0,misto,BC,padrao,23,9.0
+3_melhorias,iql,0,misto,BC,padrao,24,9.0
+3_melhorias,iql,0,misto,BC,padrao,25,9.0
+3_melhorias,iql,0,misto,BC,padrao,26,9.0
+3_melhorias,iql,0,misto,BC,padrao,27,9.0
+3_melhorias,iql,0,misto,BC,padrao,28,9.0
+3_melhorias,iql,0,misto,BC,padrao,29,9.0
+3_melhorias,iql,0,misto,BC,padrao,30,8.0
+3_melhorias,iql,0,misto,BC,padrao,31,8.0
+3_melhorias,iql,0,misto,BC,padrao,32,500.0
+3_melhorias,iql,0,misto,BC,padrao,33,9.0
+3_melhorias,iql,0,misto,BC,padrao,34,9.0
+3_melhorias,iql,0,misto,BC,padrao,35,500.0
+3_melhorias,iql,0,misto,BC,padrao,36,11.0
+3_melhorias,iql,0,misto,BC,padrao,37,8.0
+3_melhorias,iql,0,misto,BC,padrao,38,9.0
+3_melhorias,iql,0,misto,BC,padrao,39,10.0
+3_melhorias,iql,0,misto,BC,padrao,40,8.0
+3_melhorias,iql,0,misto,BC,padrao,41,9.0
+3_melhorias,iql,0,misto,BC,padrao,42,8.0
+3_melhorias,iql,0,misto,BC,padrao,43,9.0
+3_melhorias,iql,0,misto,BC,padrao,44,9.0
+3_melhorias,iql,0,misto,BC,padrao,45,9.0
+3_melhorias,iql,0,misto,BC,padrao,46,8.0
+3_melhorias,iql,0,misto,BC,padrao,47,9.0
+3_melhorias,iql,0,misto,BC,padrao,48,500.0
+3_melhorias,iql,0,misto,BC,padrao,49,9.0
+3_melhorias,iql,0,misto,BC,perturbada,0,13.0
+3_melhorias,iql,0,misto,BC,perturbada,1,13.0
+3_melhorias,iql,0,misto,BC,perturbada,2,14.0
+3_melhorias,iql,0,misto,BC,perturbada,3,12.0
+3_melhorias,iql,0,misto,BC,perturbada,4,11.0
+3_melhorias,iql,0,misto,BC,perturbada,5,8.0
+3_melhorias,iql,0,misto,BC,perturbada,6,13.0
+3_melhorias,iql,0,misto,BC,perturbada,7,500.0
+3_melhorias,iql,0,misto,BC,perturbada,8,12.0
+3_melhorias,iql,0,misto,BC,perturbada,9,13.0
+3_melhorias,iql,0,misto,BC,perturbada,10,12.0
+3_melhorias,iql,0,misto,BC,perturbada,11,12.0
+3_melhorias,iql,0,misto,BC,perturbada,12,11.0
+3_melhorias,iql,0,misto,BC,perturbada,13,14.0
+3_melhorias,iql,0,misto,BC,perturbada,14,21.0
+3_melhorias,iql,0,misto,BC,perturbada,15,15.0
+3_melhorias,iql,0,misto,BC,perturbada,16,43.0
+3_melhorias,iql,0,misto,BC,perturbada,17,11.0
+3_melhorias,iql,0,misto,BC,perturbada,18,13.0
+3_melhorias,iql,0,misto,BC,perturbada,19,12.0
+3_melhorias,iql,0,misto,BC,perturbada,20,13.0
+3_melhorias,iql,0,misto,BC,perturbada,21,10.0
+3_melhorias,iql,0,misto,BC,perturbada,22,12.0
+3_melhorias,iql,0,misto,BC,perturbada,23,12.0
+3_melhorias,iql,0,misto,BC,perturbada,24,13.0
+3_melhorias,iql,0,misto,BC,perturbada,25,12.0
+3_melhorias,iql,0,misto,BC,perturbada,26,15.0
+3_melhorias,iql,0,misto,BC,perturbada,27,9.0
+3_melhorias,iql,0,misto,BC,perturbada,28,15.0
+3_melhorias,iql,0,misto,BC,perturbada,29,500.0
+3_melhorias,iql,0,misto,BC,perturbada,30,11.0
+3_melhorias,iql,0,misto,BC,perturbada,31,9.0
+3_melhorias,iql,0,misto,BC,perturbada,32,11.0
+3_melhorias,iql,0,misto,BC,perturbada,33,19.0
+3_melhorias,iql,0,misto,BC,perturbada,34,13.0
+3_melhorias,iql,0,misto,BC,perturbada,35,10.0
+3_melhorias,iql,0,misto,BC,perturbada,36,12.0
+3_melhorias,iql,0,misto,BC,perturbada,37,12.0
+3_melhorias,iql,0,misto,BC,perturbada,38,13.0
+3_melhorias,iql,0,misto,BC,perturbada,39,13.0
+3_melhorias,iql,0,misto,BC,perturbada,40,14.0
+3_melhorias,iql,0,misto,BC,perturbada,41,12.0
+3_melhorias,iql,0,misto,BC,perturbada,42,12.0
+3_melhorias,iql,0,misto,BC,perturbada,43,12.0
+3_melhorias,iql,0,misto,BC,perturbada,44,14.0
+3_melhorias,iql,0,misto,BC,perturbada,45,12.0
+3_melhorias,iql,0,misto,BC,perturbada,46,13.0
+3_melhorias,iql,0,misto,BC,perturbada,47,12.0
+3_melhorias,iql,0,misto,BC,perturbada,48,14.0
+3_melhorias,iql,0,misto,BC,perturbada,49,12.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,0,9.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,1,9.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,2,9.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,3,10.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,4,9.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,5,11.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,6,9.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,7,9.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,8,10.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,9,10.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,10,10.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,11,9.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,12,10.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,13,10.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,14,9.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,15,9.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,16,9.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,17,10.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,18,9.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,19,9.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,20,9.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,21,10.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,22,10.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,23,10.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,24,10.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,25,10.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,26,10.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,27,10.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,28,9.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,29,9.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,30,10.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,31,10.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,32,9.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,33,10.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,34,10.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,35,9.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,36,9.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,37,10.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,38,10.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,39,9.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,40,8.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,41,9.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,42,10.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,43,9.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,44,9.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,45,10.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,46,10.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,47,9.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,48,9.0
+3_melhorias,cql,0,expert,DQN (α=0),padrao,49,10.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,0,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,1,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,2,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,3,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,4,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,5,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,6,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,7,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,8,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,9,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,10,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,11,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,12,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,13,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,14,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,15,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,16,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,17,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,18,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,19,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,20,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,21,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,22,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,23,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,24,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,25,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,26,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,27,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,28,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,29,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,30,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,31,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,32,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,33,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,34,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,35,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,36,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,37,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,38,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,39,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,40,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,41,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,42,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,43,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,44,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,45,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,46,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,47,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,48,500.0
+3_melhorias,cql,0,expert,CQL (α=0.1),padrao,49,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,0,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,1,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,2,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,3,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,4,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,5,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,6,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,7,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,8,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,9,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,10,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,11,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,12,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,13,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,14,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,15,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,16,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,17,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,18,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,19,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,20,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,21,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,22,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,23,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,24,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,25,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,26,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,27,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,28,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,29,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,30,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,31,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,32,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,33,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,34,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,35,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,36,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,37,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,38,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,39,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,40,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,41,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,42,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,43,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,44,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,45,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,46,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,47,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,48,500.0
+3_melhorias,cql,0,expert,CQL (α=0.5),padrao,49,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,0,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,1,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,2,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,3,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,4,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,5,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,6,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,7,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,8,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,9,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,10,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,11,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,12,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,13,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,14,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,15,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,16,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,17,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,18,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,19,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,20,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,21,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,22,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,23,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,24,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,25,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,26,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,27,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,28,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,29,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,30,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,31,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,32,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,33,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,34,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,35,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,36,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,37,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,38,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,39,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,40,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,41,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,42,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,43,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,44,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,45,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,46,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,47,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,48,500.0
+3_melhorias,cql,0,expert,CQL (α=2),padrao,49,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,0,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,1,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,2,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,3,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,4,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,5,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,6,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,7,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,8,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,9,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,10,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,11,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,12,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,13,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,14,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,15,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,16,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,17,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,18,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,19,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,20,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,21,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,22,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,23,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,24,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,25,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,26,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,27,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,28,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,29,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,30,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,31,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,32,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,33,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,34,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,35,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,36,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,37,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,38,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,39,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,40,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,41,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,42,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,43,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,44,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,45,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,46,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,47,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,48,500.0
+3_melhorias,cql,0,expert,CQL (α=5),padrao,49,500.0

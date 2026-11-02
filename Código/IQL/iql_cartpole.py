@@ -2,7 +2,8 @@
 IQL (Implicit Q-Learning) offline no CartPole, comparado com o CQL e o BC.
 
 Treina, com as mesmas redes, sementes e número de passos:
-  - BC   (referência: só imita o dataset)
+  - BC   (referência: só imita o dataset; regularizado como no bc_cartpole.py, sem a parada antecipada:
+          dropout 0,2, AdamW com weight decay 1e-3 e label smoothing 0,1)
   - CQL  (perda TD + alpha * [logsumexp_a Q(s,a) - Q(s, a_dados)])
   - IQL  (V por expectil, Q por TD com V(s'), política por regressão ponderada pela vantagem)
   - varredura de tau do IQL (no dataset de análise)
@@ -13,12 +14,16 @@ Com 30% de troca a ação certa ainda é a mais frequente em cada estado, então
 o especialista. Com 60% a ação ERRADA é a mais frequente: o BC copia o erro, e só um método que olha
 a recompensa (CQL, IQL) consegue sair disso. Por isso o dataset de análise padrão é o "ruim".
 
+Avaliação final: 50 episódios (seeds 10000 a 10049), os mesmos do bc_cartpole.py e do cql_cartpole.py,
+e de novo com as 5 primeiras ações sorteadas (perturbação do estado inicial). Esses estados só saem da
+distribuição do dataset no expert: o ruim e o medio já visitam quase todos eles.
+
 Figuras em ./figuras_iql_cartpole/:
   1_acoes_sem_dados.png  Q da outra ação e calibração (Q × retorno real)
   2_mecanismo_iql.png    V como expectil, vantagem e pesos da AWR
   3_politicas.png        concordância com o dataset e mapas de política (θ × ω)
   4_tau.png              varredura de tau, comparada com CQL e BC
-  5_resultado.png        retorno por dataset e ângulo do poste num episódio
+  5_resultado.png        retorno por dataset (com e sem perturbação) e ângulo do poste num episódio
 
 Uso:
   pip install "minari[create]" gymnasium torch matplotlib
@@ -28,6 +33,7 @@ Uso:
 """
 import argparse, json, os, time
 from concurrent.futures import ProcessPoolExecutor
+from itertools import repeat
 
 import numpy as np
 import torch, torch.nn.functional as F
@@ -36,6 +42,8 @@ import cartpole_comum as C
 
 torch.set_num_threads(1)
 COR = {"BC": "#8A93A3", "CQL": "#1F7A6D", "IQL": "#B07A00", "dados": "#C9CED6"}
+BC_HP = dict(dropout=0.2, wd=1e-3, ls=0.1)   # o "+ regularização" do bc_cartpole.py, sem a parada antecipada
+PASSOS_ALEATORIOS = 5                        # ações sorteadas no início da avaliação perturbada
 
 
 class Agente:
@@ -71,10 +79,19 @@ class Agente:
 
     @staticmethod
     def montar(algo, pesos):
-        redes = {k: C.mlp(saida=1 if k == "v" else C.N_ACOES) for k in pesos}
+        # com dropout as camadas lineares ficam em 0, 3, 6; sem dropout (.pt antigos), em 0, 2, 4
+        redes = {k: C.mlp(saida=1 if k == "v" else C.N_ACOES, dropout=BC_HP["dropout"] if "3.weight" in pesos[k] else 0.0)
+                 for k in pesos}
         for k, r in redes.items():
             r.load_state_dict(pesos[k]); r.eval()
         return Agente(algo, redes)
+
+
+def retorno_perturbado(r):
+    """Retorno com as primeiras ações sorteadas. Os .pt antigos não têm a chave: avalia a rede salva."""
+    if "retorno_perturbado" in r:
+        return r["retorno_perturbado"]
+    return C.avaliar(Agente.montar(r["algo"], r["pesos"]), n=len(r["retornos"]), passos_aleatorios=PASSOS_ALEATORIOS)[0]
 
 
 def suavizar(rede, alvo, tau=0.005):
@@ -92,18 +109,18 @@ def rotulo(algo, hp):
 
 
 # =============================================================================== treino
-def treinar(args):
+def treinar(args, dispositivo="cpu"):
     nome_ds, algo, hp, passos, seed, n_aval = args
     D = C.carregar(nome_ds)
     rng = np.random.default_rng(seed); torch.manual_seed(seed)
-    T = {k: torch.as_tensor(D[k]) for k in ("s", "a", "r", "s2", "d")}
+    T = {k: torch.as_tensor(D[k]).to(dispositivo) for k in ("s", "a", "r", "s2", "d")}
     mon = np.random.default_rng(123).choice(len(D["a"]), 2000, replace=False)
     s_mon, a_mon = T["s"][mon], T["a"][mon]
-    mlp = C.mlp
+    mlp = lambda **k: C.mlp(**k).to(dispositivo)
 
     if algo == "BC":
-        redes = {"pi": mlp()}
-        opt = {"pi": torch.optim.Adam(redes["pi"].parameters(), 1e-3)}
+        redes = {"pi": mlp(dropout=hp["dropout"])}
+        opt = {"pi": torch.optim.AdamW(redes["pi"].parameters(), 1e-3, weight_decay=hp["wd"])}
     elif algo == "CQL":
         redes = {"q": mlp()}; alvo = {"q": mlp()}; alvo["q"].load_state_dict(redes["q"].state_dict())
         opt = {"q": torch.optim.Adam(redes["q"].parameters(), 3e-4)}
@@ -121,12 +138,14 @@ def treinar(args):
     log_cada, aval_cada = max(1, passos // 40), max(1, passos // 10)
     t0 = time.time()
     for t in range(1, passos + 1):
-        i = torch.as_tensor(rng.integers(len(D["a"]), size=256))
+        i = torch.as_tensor(rng.integers(len(D["a"]), size=256)).to(dispositivo)
         s, a, r, s2, d = (T[k][i] for k in ("s", "a", "r", "s2", "d"))
         m = {}
         if algo == "BC":
-            perda = F.cross_entropy(redes["pi"](s), a)
+            redes["pi"].train()                                                      # dropout só na atualização
+            perda = F.cross_entropy(redes["pi"](s), a, label_smoothing=hp["ls"])
             opt["pi"].zero_grad(); perda.backward(); opt["pi"].step()
+            redes["pi"].eval()                                                       # monitor e avaliação sem dropout
             m["perda_bc"] = perda.item()
 
         elif algo == "CQL":
@@ -178,14 +197,17 @@ def treinar(args):
                 if algo == "IQL":
                     linha["v"] = agente.v(s_mon).mean().item()
             if t % aval_cada == 0:
-                linha["retorno"] = C.avaliar(agente, n=10, seed=50_000)[0]
+                linha["retorno"] = C.avaliar(C.Agente(C.rede_na_cpu(agente.net)), n=10, seed=50_000)[0]
             log.append(linha)
 
-    ret, rets, acoes = C.avaliar(agente, n=n_aval)
+    avaliado = C.Agente(C.rede_na_cpu(agente.net))
+    ret, rets, acoes = C.avaliar(avaliado, n=n_aval)
+    ret_p, rets_p, _ = C.avaliar(avaliado, n=n_aval, passos_aleatorios=PASSOS_ALEATORIOS)
     rot = rotulo(algo, hp)
-    print(f"  {nome_ds:7s} {rot:14s} retorno={ret:6.1f}  ({time.time() - t0:.0f}s)", flush=True)
+    print(f"  {nome_ds:7s} {rot:14s} retorno={ret:6.1f}  perturbado={ret_p:6.1f}  ({time.time() - t0:.0f}s)", flush=True)
     return dict(dataset=nome_ds, algo=algo, hp=hp, rotulo=rot, log=log, retorno=ret, retornos=rets.tolist(),
-                acoes=acoes.tolist(), pesos=agente.pesos())
+                acoes=acoes.tolist(), retorno_perturbado=ret_p, retornos_perturbados=rets_p.tolist(),
+                passos_aleatorios=PASSOS_ALEATORIOS, pesos=agente.pesos(), dispositivo=str(dispositivo))
 
 
 # =============================================================================== gráficos
@@ -197,7 +219,9 @@ def gerar_figuras(res, dados, cfg, pasta, mostrar=False):
     rot_cql, rot_iql = rotulo("CQL", {"alpha": cfg["alpha"]}), rotulo("IQL", {"tau": cfg["tau"]})
     bc, cql, iql = pega(ds0, "BC"), pega(ds0, rot_cql), pega(ds0, rot_iql)
     A_bc, A_cql, A_iql = (Agente.montar(r["algo"], r["pesos"]) for r in (bc, cql, iql))
-    numeros = {"dataset_analise": ds0, "beta": cfg["beta"]}
+    n_ep = len(bc["retornos"])   # do próprio .pt: os modelos antigos foram avaliados em 30 episódios
+    numeros = {"dataset_analise": ds0, "beta": cfg["beta"], "hp_BC": bc["hp"], "episodios": n_ep,
+               "passos_aleatorios": PASSOS_ALEATORIOS}
 
     idx = np.random.default_rng(7).choice(len(D["a"]), 5000, replace=False)
     S, A, G = torch.as_tensor(D["s"][idx]), torch.as_tensor(D["a"][idx]), D["G"][idx]
@@ -229,7 +253,7 @@ def gerar_figuras(res, dados, cfg, pasta, mostrar=False):
         ax[1].scatter(G[sel], qd[sel], s=7, alpha=0.35, color=c, label=f"{nome}: viés médio {vies:+.1f}")
     lim = [0, max(1, G.max())]
     ax[1].plot(lim, lim, "k--", lw=1, label="Q = retorno real")
-    ax[1].set(title="Q(s, a_dados) previsto × retorno real G", xlabel="retorno descontado observado G",
+    ax[1].set(title="Q(s, a_dados) previsto × retorno real G", xlabel="retorno descontado G",
               ylabel="Q(s, a do dataset)")
     ax[1].legend(fontsize=9, markerscale=3)
     salvar(fig, "1_acoes_sem_dados.png", f"1. Valores (dataset {ds0}): o CQL rebaixa a outra ação; "
@@ -321,14 +345,20 @@ def gerar_figuras(res, dados, cfg, pasta, mostrar=False):
     ret_dados = {ds: float(dados[ds]["ret_ep"][dados[ds]["ini"] == np.arange(len(dados[ds]["a"]))].mean()) for ds in dss}
     for j, (rot, c) in enumerate([("BC", COR["BC"]), (rot_cql, COR["CQL"]), (rot_iql, COR["IQL"])]):
         vals = [pega(ds, rot)["retorno"] for ds in dss]
-        b = ax[0].bar(xs + (j - 1) * w_, vals, w_, color=c, label=rot)
-        ax[0].bar_label(b, labels=[f"{v:.0f}" for v in vals], padding=2, fontsize=9)
+        perts = [retorno_perturbado(pega(ds, rot)) for ds in dss]
+        ax[0].bar(xs + (j - 1) * w_, vals, w_, color=c, label=rot)
+        for x_, v, p in zip(xs + (j - 1) * w_, vals, perts):   # acima do mais alto: o losango pode passar da barra
+            ax[0].annotate(f"{v:.0f}\n({p:.0f})", (x_, max(v, p)), xytext=(0, 7), textcoords="offset points",
+                           ha="center", va="bottom", fontsize=9)
+        ax[0].scatter(xs + (j - 1) * w_, perts, marker="D", s=26, facecolor="white", edgecolor="#14213D", zorder=6,
+                      label=f"(entre parênteses) {PASSOS_ALEATORIOS} primeiras ações sorteadas" if j == 0 else None)
         numeros[f"retorno_{rot}"] = dict(zip(dss, vals))
+        numeros[f"retorno_perturbado_{rot}"] = dict(zip(dss, perts))
     ax[0].scatter(xs, [ret_dados[ds] for ds in dss], marker="_", s=900, color="k", lw=2, zorder=5,
                   label="retorno médio do dataset")
     numeros["retorno_dataset"] = ret_dados
     ax[0].set_xticks(xs, dss); ax[0].set_ylim(0, 660)
-    ax[0].set(title=f"Retorno final por dataset ({cfg['episodios']} episódios, máximo 500)", ylabel="retorno médio")
+    ax[0].set(title=f"Retorno final por dataset ({n_ep} episódios, máximo 500)", ylabel="retorno médio")
     ax[0].legend(fontsize=9, loc="upper center", ncol=4)
     for nome, ag, c in [("BC", A_bc, COR["BC"]), (rot_cql, A_cql, COR["CQL"]), (rot_iql, A_iql, COR["IQL"])]:
         S_ep = C.rodar_episodio(ag, 10_000)
@@ -361,8 +391,9 @@ def main():
                    help="temperatura da AWR (no CartPole Q ~ 100, as vantagens são grandes: β menor que no MiniGrid)")
     p.add_argument("--taus-varredura", type=float, nargs="+", default=[0.5, 0.9])
     p.add_argument("--seed", type=int, default=0)
-    p.add_argument("--episodios", type=int, default=30, help="episódios na avaliação final")
+    p.add_argument("--episodios", type=int, default=50, help="episódios na avaliação final")
     p.add_argument("--workers", type=int, default=min(4, os.cpu_count() or 1))
+    p.add_argument("--device", default="cpu", help="onde treinar: cpu (padrão) ou cuda; a avaliação fica sempre na CPU")
     p.add_argument("--pasta", default="figuras_iql_cartpole")
     p.add_argument("--mostrar", action="store_true")
     p.add_argument("--so-graficos", action="store_true")
@@ -370,13 +401,14 @@ def main():
     if a.analise not in a.datasets:
         a.datasets = [a.analise] + a.datasets
 
+    C.conferir_dispositivo(a.device)
     C.garantir_datasets()
     dados = {ds: C.carregar(ds) for ds in a.datasets}
     for ds, D in dados.items():
         print(C.resumo_dataset(ds, D))
     os.makedirs(a.pasta, exist_ok=True)
     arq = os.path.join(a.pasta, "modelos.pt")
-    cfg = dict(datasets=a.datasets, analise=a.analise, alpha=a.alpha, tau=a.tau, beta=a.beta, episodios=a.episodios)
+    cfg = dict(datasets=a.datasets, analise=a.analise, alpha=a.alpha, tau=a.tau, beta=a.beta)
     if a.so_graficos:
         res = torch.load(arq, weights_only=False)
     else:
@@ -385,10 +417,10 @@ def main():
             taus = [a.tau] + ([t for t in a.taus_varredura if t != a.tau] if ds == a.analise else [])
             jobs += [(ds, "IQL", {"tau": t, "beta": a.beta}, a.passos, a.seed, a.episodios) for t in taus]
             jobs += [(ds, "CQL", {"alpha": a.alpha}, a.passos, a.seed, a.episodios),
-                     (ds, "BC", {}, a.passos, a.seed, a.episodios)]
-        print(f"treinando {len(jobs)} modelos ({a.passos} passos cada, {a.workers} processos)...")
-        with ProcessPoolExecutor(a.workers) as ex:
-            res = list(ex.map(treinar, jobs))
+                     (ds, "BC", BC_HP, a.passos, a.seed, a.episodios)]
+        print(f"treinando {len(jobs)} modelos ({a.passos} passos cada, {a.workers} processos, {a.device})...")
+        with ProcessPoolExecutor(a.workers, mp_context=C.contexto_pool(a.device)) as ex:
+            res = list(ex.map(treinar, jobs, repeat(a.device)))
         torch.save(res, arq)
     print("gerando gráficos...")
     numeros = gerar_figuras(res, dados, cfg, a.pasta, a.mostrar)

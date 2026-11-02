@@ -10,7 +10,7 @@ Datasets (gerados uma vez com o DataCollector do Minari e guardados no cache loc
 O CartPole é totalmente observável (posição, velocidade, ângulo, velocidade angular), tem 2 ações
 (0 = empurrar para a esquerda, 1 = para a direita) e recompensa +1 por passo, até 500 passos.
 """
-import os
+import copy, os
 import numpy as np
 import torch, torch.nn as nn
 import gymnasium as gym
@@ -34,6 +34,18 @@ def utf8_no_console():
             fluxo.reconfigure(encoding="utf-8", errors="replace")
         except (AttributeError, ValueError):
             pass
+
+
+def conferir_dispositivo(d):
+    """--device: falha logo, antes de treinar, se pedirem GPU numa máquina sem CUDA."""
+    if d.startswith("cuda") and not torch.cuda.is_available():
+        raise SystemExit(f"--device {d}: este torch não enxerga CUDA (torch {torch.__version__}). Instale um build com CUDA ou use --device cpu.")
+
+
+def contexto_pool(d):
+    """CUDA não funciona depois de fork: fora da CPU, os processos nascem com spawn."""
+    import multiprocessing
+    return None if d == "cpu" else multiprocessing.get_context("spawn")
 
 
 def acao_especialista(obs):
@@ -69,8 +81,9 @@ def garantir_datasets(nomes=("expert", "medio", "ruim")):
 
 
 def carregar(nome):
-    """Arrays por transição: s, a, r, s2, d, o retorno descontado observado G, o episódio, o início
-    do episódio, o retorno do episódio e se ele chegou aos 500 passos."""
+    """Arrays por transição: s, a, r, s2, d, o retorno descontado G, o episódio, o início do episódio,
+    o retorno do episódio e se ele chegou aos 500 passos. Episódio truncado não acabou: G parte de
+    1/(1-γ) = 100, o mesmo valor a que convergem os alvos de TD (d = 0)."""
     import minari
     if nome == "misto":
         a, b = carregar("expert"), carregar("ruim")
@@ -84,7 +97,8 @@ def carregar(nome):
         cols["s"].append(o[:-1]); cols["s2"].append(o[1:])
         cols["a"].append(ep.actions.astype(np.int64)); cols["r"].append(ep.rewards.astype(np.float32))
         cols["d"].append(ep.terminations.astype(np.float32))          # truncamento (500 passos) não é terminal
-        G, g = np.zeros(T, np.float32), 0.0
+        G = np.zeros(T, np.float32)
+        g = 1.0 / (1.0 - GAMMA) if ep.truncations[-1] and not ep.terminations[-1] else 0.0
         for t in range(T - 1, -1, -1):
             g = ep.rewards[t] + GAMMA * g; G[t] = g
         cols["G"].append(G); cols["ep"].append(np.full(T, i))
@@ -111,6 +125,11 @@ def mlp(entrada=DIM_OBS, saida=N_ACOES, h=256, dropout=0.0):
 
 
 # =============================================================================== avaliação
+def rede_na_cpu(net):
+    """A avaliação fica sempre na CPU (simulador, um estado por vez). Treinando na GPU, avalia uma cópia."""
+    return net if next(net.parameters()).device.type == "cpu" else copy.deepcopy(net).cpu()
+
+
 class Agente:
     """Política gulosa: argmax da rede (logits de π ou valores de Q) na observação atual."""
 
@@ -125,11 +144,19 @@ class Agente:
             return int(self.net(torch.as_tensor(obs, dtype=torch.float32)[None]).argmax())
 
 
-def avaliar(agente, n=30, seed=10_000):
-    """Avaliação online no simulador. Retorna retorno médio, os retornos e a contagem de ações."""
+def avaliar(agente, n=30, seed=10_000, passos_aleatorios=0):
+    """Avaliação online no simulador. Retorna retorno médio, os retornos e a contagem de ações.
+    Com passos_aleatorios > 0, as primeiras ações de cada episódio são sorteadas e só depois o agente
+    assume. O sorteio depende só da seed do episódio: todo agente recebe os mesmos estados. Esses passos
+    contam no retorno (máximo 500), mas não na contagem de ações."""
     env = gym.make(ENV_ID); rets, acoes = [], np.zeros(N_ACOES)
     for k in range(n):
-        obs, _ = env.reset(seed=seed + k); agente.reset(obs); fim, R, prim = False, 0.0, True
+        obs, _ = env.reset(seed=seed + k); fim, R, prim = False, 0.0, True
+        sorteio = np.random.default_rng(seed + k)
+        for _ in range(passos_aleatorios):
+            if fim: break
+            obs, r, term, trunc, _ = env.step(int(sorteio.integers(N_ACOES))); R += r; fim = term or trunc
+        agente.reset(obs)
         while not fim:
             a = agente.agir(obs, primeiro=prim); prim = False
             acoes[a] += 1

@@ -1,0 +1,37 @@
+== Q on expert vs closed form Q(t) = 1 + 0.99*100*(1-exp(-t/20000)) (no penalty term in the formula)
+formula            17.9   32.0   43.6   53.2
+CQL α=0.1          17.4   31.4   43.2   52.9   other action final     7.0
+CQL α=0.5          17.5   31.7   43.4   53.0   other action final   -28.2
+CQL α=2            17.7   31.8   43.4   53.2   other action final   -63.6
+CQL α=5            17.8   31.8   43.5   53.2   other action final   -72.3
+IQL τ=0.7          17.2   31.3   43.2   53.0
+steps for Q to reach 95 / 99 per the formula: 59713 91902
+
+== CQL on misto and ruim around the drop
+misto
+ passo retorno q_dados q_outra conc penal perda_td
+  1500    216     7.0     7.0  0.60  0.67   0.110
+  3000    500    12.7    12.6  0.61  0.79   0.154
+  4500    500    18.3    18.2  0.59  1.02   0.279
+  6000    500    23.8    23.7  0.59  1.26   0.437
+  7500    500    29.0    29.0  0.59  1.52   0.582
+  9000    500    34.0    34.0  0.57  1.71   0.712
+ 10500    500    38.6    38.7  0.57  1.90   0.846
+ 12000    246    42.6    42.7  0.58  2.08   0.775
+ 13500    144    46.6    46.7  0.57  2.23   1.045
+ 15000    186    50.4    50.5  0.59  2.39   0.905
+ruim
+ passo retorno q_dados q_outra conc penal perda_td
+  1500    186     6.5     6.5  0.45  0.73   0.122
+  3000    219    11.6    11.8  0.45  1.03   0.217
+  4500    221    16.8    17.0  0.46  1.46   0.379
+  6000    230    21.6    21.9  0.47  1.85   0.491
+  7500    171    26.1    26.4  0.46  2.22   0.562
+  9000    236    30.3    30.7  0.46  2.58   0.734
+ 10500    194    34.3    34.8  0.45  2.88   0.699
+ 12000    130    37.7    38.2  0.47  3.13   0.923
+ 13500    118    41.0    41.5  0.47  3.49   1.027
+ 15000    117    44.6    45.1  0.48  3.78   1.314
+
+== redraw fig 5 from the real .pt into scratch (perturbed values come from the saved keys)
+redrawn; episodes 50 hp_BC {'dropout': 0.2, 'wd': 0.001, 'ls': 0.1}

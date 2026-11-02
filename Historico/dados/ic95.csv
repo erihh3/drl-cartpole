@@ -1,0 +1,51 @@
+marco,script,seed,dataset,rotulo,dispositivo,n_episodios,retorno,ic95_inf,ic95_sup,frac_abaixo_de_100,perturbado,perturbado_ic95_inf,perturbado_ic95_sup,diferenca,diferenca_ic95_inf,diferenca_ic95_sup
+2_reexecucao,iql,0,expert,IQL (τ=0.7),cpu,30,500.0,500.0,500.0,0.0,,,,,,
+2_reexecucao,iql,0,expert,CQL (α=0.5),cpu,30,500.0,500.0,500.0,0.0,,,,,,
+2_reexecucao,iql,0,expert,BC,cpu,30,500.0,500.0,500.0,0.0,,,,,,
+2_reexecucao,iql,0,medio,IQL (τ=0.7),cpu,30,500.0,500.0,500.0,0.0,,,,,,
+2_reexecucao,iql,0,medio,CQL (α=0.5),cpu,30,384.5,362.8666666666667,407.73333333333335,0.0,,,,,,
+2_reexecucao,iql,0,medio,BC,cpu,30,500.0,500.0,500.0,0.0,,,,,,
+2_reexecucao,iql,0,ruim,IQL (τ=0.7),cpu,30,213.0,192.46666666666667,237.10083333333338,0.0,,,,,,
+2_reexecucao,iql,0,ruim,IQL (τ=0.5),cpu,30,208.5,186.73333333333332,231.23333333333332,0.0,,,,,,
+2_reexecucao,iql,0,ruim,IQL (τ=0.9),cpu,30,214.06666666666666,195.36666666666667,237.86666666666667,0.0,,,,,,
+2_reexecucao,iql,0,ruim,CQL (α=0.5),cpu,30,115.9,114.73333333333333,117.03333333333333,0.0,,,,,,
+2_reexecucao,iql,0,ruim,BC,cpu,30,9.0,8.866666666666667,9.133333333333333,1.0,,,,,,
+2_reexecucao,iql,0,misto,IQL (τ=0.7),cpu,30,500.0,500.0,500.0,0.0,,,,,,
+2_reexecucao,iql,0,misto,CQL (α=0.5),cpu,30,188.56666666666666,183.96666666666667,193.3,0.0,,,,,,
+2_reexecucao,iql,0,misto,BC,cpu,30,123.6,58.03333333333333,205.4,0.7666666666666667,,,,,,
+2_reexecucao,bc,0,medio 10%,BC base,cpu,50,330.22,295.3795,364.2805,0.04,,,,,,
+2_reexecucao,bc,1,medio 10%,BC base,cpu,50,436.34,396.15950000000004,471.76050000000004,0.1,,,,,,
+2_reexecucao,bc,2,medio 10%,BC base,cpu,50,429.6,398.96,457.10050000000007,0.02,,,,,,
+2_reexecucao,bc,0,medio 10%,BC + parada,cpu,50,500.0,500.0,500.0,0.0,,,,,,
+2_reexecucao,bc,1,medio 10%,BC + parada,cpu,50,500.0,500.0,500.0,0.0,,,,,,
+2_reexecucao,bc,2,medio 10%,BC + parada,cpu,50,500.0,500.0,500.0,0.0,,,,,,
+2_reexecucao,bc,0,medio 10%,BC + regularização,cpu,50,500.0,500.0,500.0,0.0,,,,,,
+2_reexecucao,bc,1,medio 10%,BC + regularização,cpu,50,500.0,500.0,500.0,0.0,,,,,,
+2_reexecucao,bc,2,medio 10%,BC + regularização,cpu,50,500.0,500.0,500.0,0.0,,,,,,
+2_reexecucao,bc,0,medio 10%,BC + memória,cpu,50,500.0,500.0,500.0,0.0,,,,,,
+2_reexecucao,bc,1,medio 10%,BC + memória,cpu,50,500.0,500.0,500.0,0.0,,,,,,
+2_reexecucao,bc,2,medio 10%,BC + memória,cpu,50,500.0,500.0,500.0,0.0,,,,,,
+2_reexecucao,cql,0,expert,DQN (α=0),cpu,50,9.5,9.34,9.66,1.0,,,,,,
+2_reexecucao,cql,0,expert,CQL (α=0.1),cpu,50,500.0,500.0,500.0,0.0,,,,,,
+2_reexecucao,cql,0,expert,CQL (α=0.5),cpu,50,500.0,500.0,500.0,0.0,,,,,,
+2_reexecucao,cql,0,expert,CQL (α=2),cpu,50,500.0,500.0,500.0,0.0,,,,,,
+2_reexecucao,cql,0,expert,CQL (α=5),cpu,50,500.0,500.0,500.0,0.0,,,,,,
+3_melhorias,iql,0,expert,IQL (τ=0.7),cpu,50,500.0,500.0,500.0,0.0,484.48,461.54,498.44,-15.52,-38.7,-1.78
+3_melhorias,iql,0,expert,CQL (α=0.5),cpu,50,500.0,500.0,500.0,0.0,485.42,463.36,498.44,-14.58,-36.94,-1.42
+3_melhorias,iql,0,expert,BC,cpu,50,500.0,500.0,500.0,0.0,483.4,460.54,497.34,-16.6,-39.72,-2.66
+3_melhorias,iql,0,medio,IQL (τ=0.7),cpu,50,500.0,500.0,500.0,0.0,490.2,470.6,500.0,-9.8,-29.4,0.0
+3_melhorias,iql,0,medio,CQL (α=0.5),cpu,50,390.68,373.54,408.66,0.0,407.6,381.32,431.86,16.92,-19.1,49.86
+3_melhorias,iql,0,medio,BC,cpu,50,500.0,500.0,500.0,0.0,488.72,467.64,500.0,-11.28,-32.36,0.0
+3_melhorias,iql,0,ruim,IQL (τ=0.7),cpu,50,203.54,188.58,220.46,0.0,177.6,164.28,191.28,-25.94,-42.9,-9.6
+3_melhorias,iql,0,ruim,IQL (τ=0.5),cpu,50,198.02,182.72,214.1,0.0,185.46,167.7795,203.64,-12.56,-33.64,8.620500000000028
+3_melhorias,iql,0,ruim,IQL (τ=0.9),cpu,50,207.4,193.48,224.06,0.0,191.24,179.1995,202.5,-16.16,-32.14,-2.64
+3_melhorias,iql,0,ruim,CQL (α=0.5),cpu,50,116.02,115.06,116.98,0.0,119.44,114.14,122.9,3.42,-1.74,6.74
+3_melhorias,iql,0,ruim,BC,cpu,50,8.88,8.76,9.0,1.0,12.34,11.94,12.72,3.46,3.06,3.84
+3_melhorias,iql,0,misto,IQL (τ=0.7),cpu,50,500.0,500.0,500.0,0.0,476.04,449.94,495.56,-23.96,-50.44,-4.38
+3_melhorias,iql,0,misto,CQL (α=0.5),cpu,50,186.98,183.32,190.84,0.0,189.6,179.92,197.24,2.62,-7.26,10.84
+3_melhorias,iql,0,misto,BC,cpu,50,97.34,48.2,156.14,0.82,32.68,12.6,62.16,-64.66,-123.24,-14.78
+3_melhorias,cql,0,expert,DQN (α=0),cpu,50,9.5,9.34,9.66,1.0,,,,,,
+3_melhorias,cql,0,expert,CQL (α=0.1),cpu,50,500.0,500.0,500.0,0.0,,,,,,
+3_melhorias,cql,0,expert,CQL (α=0.5),cpu,50,500.0,500.0,500.0,0.0,,,,,,
+3_melhorias,cql,0,expert,CQL (α=2),cpu,50,500.0,500.0,500.0,0.0,,,,,,
+3_melhorias,cql,0,expert,CQL (α=5),cpu,50,500.0,500.0,500.0,0.0,,,,,,

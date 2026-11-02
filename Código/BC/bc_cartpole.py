@@ -39,6 +39,7 @@ Uso:
 import argparse, copy, json, os, time
 from collections import deque
 from concurrent.futures import ProcessPoolExecutor
+from itertools import repeat
 
 import numpy as np
 import torch, torch.nn.functional as F
@@ -134,17 +135,17 @@ def montar(r):
 
 
 # =============================================================================== treino
-def treinar(job):
+def treinar(job, dispositivo="cpu"):
     nome, ds, filtro, fracao, cfg, passos, seed, paciencia, n_aval, n_curva = job
     D = C.carregar(ds)
     idx_tr, idx_val, n_eps = selecionar(D, filtro, fracao, seed)
     rng = np.random.default_rng(seed); torch.manual_seed(seed)
     mon = rng.choice(idx_val, min(3000, len(idx_val)), replace=False)
-    x_val, a_val = codificar_hist(D, mon, cfg["k"]), torch.as_tensor(D["a"][mon])
-    a_esp = torch.as_tensor([C.acao_especialista(o) for o in D["s"][mon]])
-    X_tr = codificar_hist(D, idx_tr, cfg["k"]); A_tr = torch.as_tensor(D["a"][idx_tr])
+    x_val, a_val = codificar_hist(D, mon, cfg["k"]).to(dispositivo), torch.as_tensor(D["a"][mon]).to(dispositivo)
+    a_esp = torch.as_tensor([C.acao_especialista(o) for o in D["s"][mon]]).to(dispositivo)
+    X_tr = codificar_hist(D, idx_tr, cfg["k"]).to(dispositivo); A_tr = torch.as_tensor(D["a"][idx_tr]).to(dispositivo)
 
-    net = rede(cfg)
+    net = rede(cfg).to(dispositivo)
     opt = (torch.optim.AdamW(net.parameters(), 1e-3, weight_decay=cfg["wd"]) if cfg["wd"]
            else torch.optim.Adam(net.parameters(), 1e-3))
     log, acum = [], {"perda": [], "acc": []}
@@ -153,7 +154,7 @@ def treinar(job):
     t0 = time.time()
     for t in range(1, passos + 1):
         net.train()
-        i = torch.as_tensor(rng.integers(len(idx_tr), size=256))
+        i = torch.as_tensor(rng.integers(len(idx_tr), size=256)).to(dispositivo)
         logits = net(X_tr[i]); a = A_tr[i]
         perda = F.cross_entropy(logits, a, label_smoothing=cfg["ls"])
         opt.zero_grad(); perda.backward(); opt.step()
@@ -170,7 +171,7 @@ def treinar(job):
             if linha["perda_val"] < melhor["perda"]:
                 melhor = dict(perda=linha["perda_val"], passo=t, pesos=copy.deepcopy(net.state_dict()))
             if n_curva and t % curva_cada == 0:
-                linha["retorno"] = C.avaliar(Agente(net, cfg["k"]), n=n_curva, seed=50_000)[0]
+                linha["retorno"] = C.avaliar(Agente(C.rede_na_cpu(net), cfg["k"]), n=n_curva, seed=50_000)[0]
             log.append(linha)
             if cfg["parada"] and t - melhor["passo"] >= paciencia:
                 break
@@ -185,13 +186,13 @@ def treinar(job):
         lv = net(x_val)
         val = dict(perda=F.cross_entropy(lv, a_val).item(), acc=(lv.argmax(1) == a_val).float().mean().item(),
                    acc_esp=(lv.argmax(1) == a_esp).float().mean().item())
-    ret, rets, acoes = C.avaliar(Agente(net, cfg["k"]), n=n_aval)
+    ret, rets, acoes = C.avaliar(Agente(C.rede_na_cpu(net), cfg["k"]), n=n_aval)
     print(f"  {nome:22s} seed {seed}  guardado {guardado:6d} (parou {passo_final:6d})  acc_val={val['acc']:.0%}  "
           f"acc_esp={val['acc_esp']:.0%}  retorno={ret:6.1f}  ({time.time() - t0:.0f}s)", flush=True)
     return dict(nome=nome, dataset=ds, filtro=filtro, fracao=fracao, cfg=cfg, seed=seed, n_eps=int(n_eps),
                 n_trans=int(len(idx_tr)), log=log, passo_guardado=guardado, passo_final=passo_final, val=val,
                 retorno=ret, retornos=rets.tolist(), acoes=acoes.tolist(),
-                pesos={k: v.cpu() for k, v in net.state_dict().items()})
+                pesos={k: v.cpu() for k, v in net.state_dict().items()}, dispositivo=str(dispositivo))
 
 
 # =============================================================================== gráficos
@@ -371,11 +372,13 @@ def main():
     p.add_argument("--episodios", type=int, default=50, help="episódios na avaliação final")
     p.add_argument("--curva", type=int, default=10, help="episódios por ponto da curva de retorno (0 = desliga)")
     p.add_argument("--workers", type=int, default=min(4, os.cpu_count() or 1))
+    p.add_argument("--device", default="cpu", help="onde treinar: cpu (padrão) ou cuda; a avaliação fica sempre na CPU")
     p.add_argument("--pasta", default="figuras_bc_cartpole")
     p.add_argument("--mostrar", action="store_true")
     p.add_argument("--so-graficos", action="store_true")
     a = p.parse_args()
 
+    C.conferir_dispositivo(a.device)
     C.garantir_datasets()
     os.makedirs(a.pasta, exist_ok=True)
     arq = os.path.join(a.pasta, f"modelos_{a.estudo}.pt")
@@ -394,8 +397,8 @@ def main():
                     jobs.append(("dados: " + n, ds, filt, fr, cf["+ regularização"], a.passos, s, a.paciencia,
                                  a.episodios, 0))
         print(f"treinando {len(jobs)} modelos ({a.workers} processos; até {a.passos} passos cada)...")
-        with ProcessPoolExecutor(a.workers) as ex:
-            res = list(ex.map(treinar, jobs))
+        with ProcessPoolExecutor(a.workers, mp_context=C.contexto_pool(a.device)) as ex:
+            res = list(ex.map(treinar, jobs, repeat(a.device)))
         torch.save(res, arq)
     print("gerando gráficos...")
     numeros = gerar_figuras(res, a.pasta, a, a.mostrar)
