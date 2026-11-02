@@ -1,0 +1,34 @@
+dataset expert: 25,000 transições, 50 episódios, retorno médio 500.0
+treinando 5 modelos (15000 passos cada)...
+  alpha=0.0   retorno=   9.5  (162s)
+  alpha=0.1   retorno= 500.0  (174s)
+  alpha=0.5   retorno= 500.0  (174s)
+  alpha=2.0   retorno= 500.0  (174s)
+  alpha=5.0   retorno= 500.0  (100s)
+gerando gráficos...
+{
+  "dataset": "expert",
+  "alpha_cql": 0.1,
+  "vies_DQN": 25667.056640625,
+  "vies_CQL": -26.71308708190918,
+  "estado_Q_DQN": [
+    23034.83984375,
+    20257.099609375
+  ],
+  "estado_Q_CQL": [
+    -21.110000610351562,
+    52.88999938964844
+  ],
+  "gap_DQN": 5636.115234375,
+  "concordancia_DQN": 0.3271999955177307,
+  "gap_CQL": 38.20228576660156,
+  "concordancia_CQL": 0.9980000257492065,
+  "retorno_por_alfa": {
+    "0": 9.5,
+    "0.1": 500.0,
+    "0.5": 500.0,
+    "2": 500.0,
+    "5": 500.0
+  }
+}
+figuras salvas em /home/erihh3/Documents/Erick/Mestrado/01_202601_Mestrado/Semester_2/deep_RL/final_project/LocalOffLine-RL_v2/Output/figuras_cql_cartpole

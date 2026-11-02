@@ -1,0 +1,129 @@
+treinando 12 modelos (3 processos; até 20000 passos cada)...
+  base                   seed 2  guardado  20000 (parou  20000)  acc_val=60%  acc_esp=78%  retorno= 429.6  (145s)
+  base                   seed 1  guardado  20000 (parou  20000)  acc_val=62%  acc_esp=80%  retorno= 436.3  (146s)
+  base                   seed 0  guardado  20000 (parou  20000)  acc_val=63%  acc_esp=81%  retorno= 330.2  (152s)
+  + parada               seed 1  guardado    500 (parou   5500)  acc_val=69%  acc_esp=96%  retorno= 500.0  (44s)
+  + parada               seed 0  guardado    500 (parou   5500)  acc_val=69%  acc_esp=96%  retorno= 500.0  (48s)
+  + parada               seed 2  guardado    500 (parou   5500)  acc_val=65%  acc_esp=91%  retorno= 500.0  (46s)
+  + regularização        seed 1  guardado    500 (parou   5500)  acc_val=68%  acc_esp=95%  retorno= 500.0  (65s)
+  + regularização        seed 2  guardado    500 (parou   5500)  acc_val=65%  acc_esp=91%  retorno= 500.0  (64s)
+  + regularização        seed 0  guardado   1500 (parou   6500)  acc_val=69%  acc_esp=97%  retorno= 500.0  (75s)
+  + memória              seed 0  guardado    500 (parou   5500)  acc_val=68%  acc_esp=94%  retorno= 500.0  (71s)
+  + memória              seed 1  guardado    500 (parou   5500)  acc_val=68%  acc_esp=95%  retorno= 500.0  (70s)
+  + memória              seed 2  guardado    500 (parou   5500)  acc_val=65%  acc_esp=90%  retorno= 500.0  (69s)
+gerando gráficos...
+{
+  "dataset_melhorias": "medio 10%",
+  "episodios_treino": 27,
+  "variantes": {
+    "base": {
+      "retorno": [
+        398.71999999999997,
+        48.51490767451449
+      ],
+      "acc_val": [
+        0.6142710645993551,
+        0.013422255068658798
+      ],
+      "acc_esp": [
+        0.7979796926180521,
+        0.012355174474205543
+      ],
+      "perda_val": [
+        4.385555267333984,
+        3.1167121530281845
+      ],
+      "passo": [
+        20000.0,
+        0.0
+      ],
+      "seeds": [
+        330.22,
+        436.34,
+        429.6
+      ]
+    },
+    "+ parada": {
+      "retorno": [
+        500.0,
+        0.0
+      ],
+      "acc_val": [
+        0.6752441922823588,
+        0.01662745950146967
+      ],
+      "acc_esp": [
+        0.9443540573120117,
+        0.024136938246306652
+      ],
+      "perda_val": [
+        0.6563314000765482,
+        0.03365368069293873
+      ],
+      "passo": [
+        500.0,
+        0.0
+      ],
+      "seeds": [
+        500.0,
+        500.0,
+        500.0
+      ]
+    },
+    "+ regularização": {
+      "retorno": [
+        500.0,
+        0.0
+      ],
+      "acc_val": [
+        0.6763497392336527,
+        0.01809015785718633
+      ],
+      "acc_esp": [
+        0.9425707260767618,
+        0.02516170671906691
+      ],
+      "perda_val": [
+        0.6379679044087728,
+        0.015761633489025685
+      ],
+      "passo": [
+        833.3333333333334,
+        471.4045207910317
+      ],
+      "seeds": [
+        500.0,
+        500.0,
+        500.0
+      ]
+    },
+    "+ memória": {
+      "retorno": [
+        500.0,
+        0.0
+      ],
+      "acc_val": [
+        0.6680663625399271,
+        0.014529901716430106
+      ],
+      "acc_esp": [
+        0.9295427997907003,
+        0.020123796865005365
+      ],
+      "perda_val": [
+        0.6458780169487,
+        0.019496801605230252
+      ],
+      "passo": [
+        500.0,
+        0.0
+      ],
+      "seeds": [
+        500.0,
+        500.0,
+        500.0
+      ]
+    }
+  }
+}
+figuras salvas em /home/erihh3/Documents/Erick/Mestrado/01_202601_Mestrado/Semester_2/deep_RL/final_project/LocalOffLine-RL_v2/Output/figuras_bc_cartpole

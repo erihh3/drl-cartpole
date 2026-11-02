@@ -1,0 +1,11 @@
+dataset expert: 25,000 transições, 50 episódios, retorno médio 500.0
+dataset medio: 33,895 transições, 300 episódios, retorno médio 113.0
+dataset ruim: 32,074 transições, 2000 episódios, retorno médio 16.0
+dataset misto: 57,074 transições, 2050 episódios, retorno médio 27.8
+treinando 14 modelos (15000 passos cada, 3 processos)...
+  expert  BC             retorno= 500.0  (145s)
+  expert  CQL (α=0.5)    retorno= 500.0  (179s)
+  medio   CQL (α=0.5)    retorno= 384.5  (165s)
+  medio   BC             retorno= 500.0  (66s)
+  expert  IQL (τ=0.7)    retorno= 500.0  (449s)
+  medio   IQL (τ=0.7)    retorno= 500.0  (346s)
