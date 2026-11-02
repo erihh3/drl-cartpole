@@ -1,0 +1,194 @@
+marco,seed,metodo,dataset,metrica,valor,n_episodios,fonte
+0_slides,0,BC,expert,retorno,500,30,Implicit Q-Learning_CartPole.pptx slide 17
+0_slides,0,BC,medio,retorno,500,30,Implicit Q-Learning_CartPole.pptx slide 17
+0_slides,0,BC,ruim,retorno,9,30,Implicit Q-Learning_CartPole.pptx slide 17
+0_slides,0,BC,misto,retorno,140,30,Implicit Q-Learning_CartPole.pptx slide 17
+0_slides,0,CQL,expert,retorno,500,30,Implicit Q-Learning_CartPole.pptx slide 17
+0_slides,0,CQL,medio,retorno,372,30,Implicit Q-Learning_CartPole.pptx slide 17
+0_slides,0,CQL,ruim,retorno,126,30,Implicit Q-Learning_CartPole.pptx slide 17
+0_slides,0,CQL,misto,retorno,191,30,Implicit Q-Learning_CartPole.pptx slide 17
+0_slides,0,IQL,expert,retorno,500,30,Implicit Q-Learning_CartPole.pptx slide 17
+0_slides,0,IQL,medio,retorno,500,30,Implicit Q-Learning_CartPole.pptx slide 17
+0_slides,0,IQL,ruim,retorno,187,30,Implicit Q-Learning_CartPole.pptx slide 17
+0_slides,0,IQL,misto,retorno,500,30,Implicit Q-Learning_CartPole.pptx slide 17
+0_slides,0,IQL,ruim,retorno_tau_0.5,212,30,Implicit Q-Learning_CartPole.pptx slide 11
+0_slides,0,IQL,ruim,retorno_tau_0.7,187,30,Implicit Q-Learning_CartPole.pptx slide 11
+0_slides,0,IQL,ruim,retorno_tau_0.9,159,30,Implicit Q-Learning_CartPole.pptx slide 11
+0_slides,0,IQL,ruim,V_tau_0.5,8.6,,Implicit Q-Learning_CartPole.pptx slide 11
+0_slides,0,IQL,ruim,V_tau_0.7,17.7,,Implicit Q-Learning_CartPole.pptx slide 11
+0_slides,0,IQL,ruim,V_tau_0.9,43.9,,Implicit Q-Learning_CartPole.pptx slide 11
+0_slides,0,BC,ruim,igual_especialista,0.01,,Implicit Q-Learning_CartPole.pptx slide 19
+0_slides,0,CQL,ruim,igual_especialista,0.73,,Implicit Q-Learning_CartPole.pptx slide 19
+0_slides,0,IQL,ruim,igual_especialista,0.88,,Implicit Q-Learning_CartPole.pptx slide 19
+0_slides,0,DQN,expert,retorno_alfa_0,9.5,30,PROJECT_GUIDE.md §9
+0_slides,0,DQN,expert,vies,2737,,Conservative_Q-Learning_CartPole.pptx slide 12
+0_slides,0,CQL,expert,vies,-27,,Conservative_Q-Learning_CartPole.pptx slide 12
+0_slides,0,DQN,expert,concordancia,0.5,,PROJECT_GUIDE.md §9
+0_slides,0,CQL,expert,concordancia,0.996,,PROJECT_GUIDE.md §9
+0_slides,0,BC,medio 10%,base.retorno,385,,Behavior_Cloning_CartPole.pptx slide 12
+0_slides,0,BC,medio 10%,base.retorno_dp,35,,Behavior_Cloning_CartPole.pptx slide 12
+1_original,0,BC,medio 10%,base.retorno,356,,PROJECT_GUIDE.md §9
+1_original,0,BC,medio 10%,base.retorno_dp,90,,PROJECT_GUIDE.md §9
+1_original,0,DQN,expert,retorno_alfa_0,9.3,,PROJECT_GUIDE.md §9
+1_original,0,DQN,expert,vies,19045,,PROJECT_GUIDE.md §9
+1_original,0,CQL,expert,vies,-26.7,,PROJECT_GUIDE.md §9
+1_original,0,DQN,expert,concordancia,0.36,,PROJECT_GUIDE.md §9
+1_original,0,CQL,expert,concordancia,0.998,,PROJECT_GUIDE.md §9
+1_original,0,CQL,medio,retorno,430,,PROJECT_GUIDE.md §9
+1_original,0,IQL,ruim,retorno,217,,PROJECT_GUIDE.md §10
+1_original,0,BC,misto,retorno,92,,PROJECT_GUIDE.md §10
+1_original,0,CQL,ruim,igual_especialista,0.66,,PROJECT_GUIDE.md §10
+2_reexecucao,0,,ruim,frac_dataset_igual_especialista,0.3962000012397766,30,6759143:figuras_iql_cartpole/numeros.json
+2_reexecucao,0,CQL,ruim,vies_Q_dados,34.38655471801758,30,6759143:figuras_iql_cartpole/numeros.json
+2_reexecucao,0,IQL,ruim,vies_Q_dados,7.489224433898926,30,6759143:figuras_iql_cartpole/numeros.json
+2_reexecucao,0,,ruim,peso_mediano_acao_certa,6.001384735107422,30,6759143:figuras_iql_cartpole/numeros.json
+2_reexecucao,0,,ruim,peso_mediano_acao_errada,0.04667927324771881,30,6759143:figuras_iql_cartpole/numeros.json
+2_reexecucao,0,BC,ruim,igual_especialista,0.007799999788403511,30,6759143:figuras_iql_cartpole/numeros.json
+2_reexecucao,0,CQL,ruim,igual_especialista,0.6547999978065491,30,6759143:figuras_iql_cartpole/numeros.json
+2_reexecucao,0,IQL,ruim,igual_especialista,0.864799976348877,30,6759143:figuras_iql_cartpole/numeros.json
+2_reexecucao,0,IQL,ruim,V_tau_0.5,8.80958080291748,30,6759143:figuras_iql_cartpole/numeros.json
+2_reexecucao,0,IQL,ruim,V_tau_0.7,17.803224563598633,30,6759143:figuras_iql_cartpole/numeros.json
+2_reexecucao,0,IQL,ruim,V_tau_0.9,43.545536041259766,30,6759143:figuras_iql_cartpole/numeros.json
+2_reexecucao,0,IQL,ruim,retorno_tau_0.5,208.5,30,6759143:figuras_iql_cartpole/numeros.json
+2_reexecucao,0,IQL,ruim,retorno_tau_0.7,213.0,30,6759143:figuras_iql_cartpole/numeros.json
+2_reexecucao,0,IQL,ruim,retorno_tau_0.9,214.06666666666666,30,6759143:figuras_iql_cartpole/numeros.json
+2_reexecucao,0,BC,expert,retorno,500.0,30,6759143:figuras_iql_cartpole/numeros.json
+2_reexecucao,0,BC,medio,retorno,500.0,30,6759143:figuras_iql_cartpole/numeros.json
+2_reexecucao,0,BC,ruim,retorno,9.0,30,6759143:figuras_iql_cartpole/numeros.json
+2_reexecucao,0,BC,misto,retorno,123.6,30,6759143:figuras_iql_cartpole/numeros.json
+2_reexecucao,0,CQL,expert,retorno,500.0,30,6759143:figuras_iql_cartpole/numeros.json
+2_reexecucao,0,CQL,medio,retorno,384.5,30,6759143:figuras_iql_cartpole/numeros.json
+2_reexecucao,0,CQL,ruim,retorno,115.9,30,6759143:figuras_iql_cartpole/numeros.json
+2_reexecucao,0,CQL,misto,retorno,188.56666666666666,30,6759143:figuras_iql_cartpole/numeros.json
+2_reexecucao,0,IQL,expert,retorno,500.0,30,6759143:figuras_iql_cartpole/numeros.json
+2_reexecucao,0,IQL,medio,retorno,500.0,30,6759143:figuras_iql_cartpole/numeros.json
+2_reexecucao,0,IQL,ruim,retorno,213.0,30,6759143:figuras_iql_cartpole/numeros.json
+2_reexecucao,0,IQL,misto,retorno,500.0,30,6759143:figuras_iql_cartpole/numeros.json
+2_reexecucao,0,dados,expert,retorno,500.0,30,6759143:figuras_iql_cartpole/numeros.json
+2_reexecucao,0,dados,medio,retorno,112.98332977294922,30,6759143:figuras_iql_cartpole/numeros.json
+2_reexecucao,0,dados,ruim,retorno,16.03700065612793,30,6759143:figuras_iql_cartpole/numeros.json
+2_reexecucao,0,dados,misto,retorno,27.840974807739258,30,6759143:figuras_iql_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,base.retorno,398.71999999999997,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,base.retorno_dp,48.51490767451449,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,base.acc_val,0.6142710645993551,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,base.acc_val_dp,0.013422255068658798,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,base.acc_esp,0.7979796926180521,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,base.acc_esp_dp,0.012355174474205543,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,base.perda_val,4.385555267333984,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,base.perda_val_dp,3.1167121530281845,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,base.passo,20000.0,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,base.passo_dp,0.0,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,base.retorno_seed_0,330.22,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,base.retorno_seed_1,436.34,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,base.retorno_seed_2,429.6,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ parada.retorno,500.0,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ parada.retorno_dp,0.0,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ parada.acc_val,0.6752441922823588,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ parada.acc_val_dp,0.01662745950146967,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ parada.acc_esp,0.9443540573120117,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ parada.acc_esp_dp,0.024136938246306652,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ parada.perda_val,0.6563314000765482,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ parada.perda_val_dp,0.03365368069293873,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ parada.passo,500.0,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ parada.passo_dp,0.0,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ parada.retorno_seed_0,500.0,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ parada.retorno_seed_1,500.0,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ parada.retorno_seed_2,500.0,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ regularização.retorno,500.0,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ regularização.retorno_dp,0.0,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ regularização.acc_val,0.6763497392336527,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ regularização.acc_val_dp,0.01809015785718633,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ regularização.acc_esp,0.9425707260767618,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ regularização.acc_esp_dp,0.02516170671906691,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ regularização.perda_val,0.6379679044087728,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ regularização.perda_val_dp,0.015761633489025685,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ regularização.passo,833.3333333333334,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ regularização.passo_dp,471.4045207910317,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ regularização.retorno_seed_0,500.0,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ regularização.retorno_seed_1,500.0,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ regularização.retorno_seed_2,500.0,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ memória.retorno,500.0,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ memória.retorno_dp,0.0,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ memória.acc_val,0.6680663625399271,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ memória.acc_val_dp,0.014529901716430106,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ memória.acc_esp,0.9295427997907003,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ memória.acc_esp_dp,0.020123796865005365,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ memória.perda_val,0.6458780169487,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ memória.perda_val_dp,0.019496801605230252,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ memória.passo,500.0,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ memória.passo_dp,0.0,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ memória.retorno_seed_0,500.0,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ memória.retorno_seed_1,500.0,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0-2,BC,medio 10%,+ memória.retorno_seed_2,500.0,50,6759143:figuras_bc_cartpole/numeros.json
+2_reexecucao,0,DQN,expert,vies,25667.056640625,50,6759143:figuras_cql_cartpole/numeros.json
+2_reexecucao,0,CQL,expert,vies,-26.71308708190918,50,6759143:figuras_cql_cartpole/numeros.json
+2_reexecucao,0,DQN,expert,estado_Q.0,23034.83984375,50,6759143:figuras_cql_cartpole/numeros.json
+2_reexecucao,0,DQN,expert,estado_Q.1,20257.099609375,50,6759143:figuras_cql_cartpole/numeros.json
+2_reexecucao,0,CQL,expert,estado_Q.0,-21.110000610351562,50,6759143:figuras_cql_cartpole/numeros.json
+2_reexecucao,0,CQL,expert,estado_Q.1,52.88999938964844,50,6759143:figuras_cql_cartpole/numeros.json
+2_reexecucao,0,DQN,expert,gap,5636.115234375,50,6759143:figuras_cql_cartpole/numeros.json
+2_reexecucao,0,DQN,expert,concordancia,0.3271999955177307,50,6759143:figuras_cql_cartpole/numeros.json
+2_reexecucao,0,CQL,expert,gap,38.20228576660156,50,6759143:figuras_cql_cartpole/numeros.json
+2_reexecucao,0,CQL,expert,concordancia,0.9980000257492065,50,6759143:figuras_cql_cartpole/numeros.json
+2_reexecucao,0,DQN,expert,retorno_alfa_0,9.5,50,6759143:figuras_cql_cartpole/numeros.json
+2_reexecucao,0,CQL,expert,retorno_alfa_0.1,500.0,50,6759143:figuras_cql_cartpole/numeros.json
+2_reexecucao,0,CQL,expert,retorno_alfa_0.5,500.0,50,6759143:figuras_cql_cartpole/numeros.json
+2_reexecucao,0,CQL,expert,retorno_alfa_2,500.0,50,6759143:figuras_cql_cartpole/numeros.json
+2_reexecucao,0,CQL,expert,retorno_alfa_5,500.0,50,6759143:figuras_cql_cartpole/numeros.json
+3_melhorias,0,,ruim,frac_dataset_igual_especialista,0.3962000012397766,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,CQL,ruim,vies_Q_dados,34.38655471801758,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,IQL,ruim,vies_Q_dados,7.489224433898926,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,,ruim,peso_mediano_acao_certa,6.001384735107422,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,,ruim,peso_mediano_acao_errada,0.04667927324771881,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,BC,ruim,igual_especialista,0.00800000037997961,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,CQL,ruim,igual_especialista,0.6547999978065491,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,IQL,ruim,igual_especialista,0.864799976348877,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,IQL,ruim,V_tau_0.5,8.80958080291748,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,IQL,ruim,V_tau_0.7,17.803224563598633,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,IQL,ruim,V_tau_0.9,43.545536041259766,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,IQL,ruim,retorno_tau_0.5,198.02,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,IQL,ruim,retorno_tau_0.7,203.54,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,IQL,ruim,retorno_tau_0.9,207.4,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,BC,expert,retorno,500.0,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,BC,medio,retorno,500.0,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,BC,ruim,retorno,8.88,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,BC,misto,retorno,97.34,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,BC,expert,retorno_perturbado,483.4,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,BC,medio,retorno_perturbado,488.72,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,BC,ruim,retorno_perturbado,12.34,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,BC,misto,retorno_perturbado,32.68,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,CQL,expert,retorno,500.0,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,CQL,medio,retorno,390.68,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,CQL,ruim,retorno,116.02,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,CQL,misto,retorno,186.98,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,CQL,expert,retorno_perturbado,485.42,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,CQL,medio,retorno_perturbado,407.6,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,CQL,ruim,retorno_perturbado,119.44,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,CQL,misto,retorno_perturbado,189.6,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,IQL,expert,retorno,500.0,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,IQL,medio,retorno,500.0,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,IQL,ruim,retorno,203.54,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,IQL,misto,retorno,500.0,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,IQL,expert,retorno_perturbado,484.48,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,IQL,medio,retorno_perturbado,490.2,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,IQL,ruim,retorno_perturbado,177.6,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,IQL,misto,retorno_perturbado,476.04,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,dados,expert,retorno,500.0,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,dados,medio,retorno,112.98332977294922,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,dados,ruim,retorno,16.03700065612793,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,dados,misto,retorno,27.840974807739258,50,experimentos/run_20261102/figuras_iql_cartpole/numeros.json
+3_melhorias,0,DQN,expert,vies,25646.712890625,50,experimentos/run_20261102/figuras_cql_cartpole/numeros.json
+3_melhorias,0,CQL,expert,vies,-47.05508041381836,50,experimentos/run_20261102/figuras_cql_cartpole/numeros.json
+3_melhorias,0,DQN,expert,estado_Q.0,23034.83984375,50,experimentos/run_20261102/figuras_cql_cartpole/numeros.json
+3_melhorias,0,DQN,expert,estado_Q.1,20257.099609375,50,experimentos/run_20261102/figuras_cql_cartpole/numeros.json
+3_melhorias,0,CQL,expert,estado_Q.0,-21.110000610351562,50,experimentos/run_20261102/figuras_cql_cartpole/numeros.json
+3_melhorias,0,CQL,expert,estado_Q.1,52.88999938964844,50,experimentos/run_20261102/figuras_cql_cartpole/numeros.json
+3_melhorias,0,DQN,expert,gap,5636.115234375,50,experimentos/run_20261102/figuras_cql_cartpole/numeros.json
+3_melhorias,0,DQN,expert,concordancia,0.3271999955177307,50,experimentos/run_20261102/figuras_cql_cartpole/numeros.json
+3_melhorias,0,CQL,expert,gap,38.20228576660156,50,experimentos/run_20261102/figuras_cql_cartpole/numeros.json
+3_melhorias,0,CQL,expert,concordancia,0.9980000257492065,50,experimentos/run_20261102/figuras_cql_cartpole/numeros.json
+3_melhorias,0,DQN,expert,retorno_alfa_0,9.5,50,experimentos/run_20261102/figuras_cql_cartpole/numeros.json
+3_melhorias,0,CQL,expert,retorno_alfa_0.1,500.0,50,experimentos/run_20261102/figuras_cql_cartpole/numeros.json
+3_melhorias,0,CQL,expert,retorno_alfa_0.5,500.0,50,experimentos/run_20261102/figuras_cql_cartpole/numeros.json
+3_melhorias,0,CQL,expert,retorno_alfa_2,500.0,50,experimentos/run_20261102/figuras_cql_cartpole/numeros.json
+3_melhorias,0,CQL,expert,retorno_alfa_5,500.0,50,experimentos/run_20261102/figuras_cql_cartpole/numeros.json

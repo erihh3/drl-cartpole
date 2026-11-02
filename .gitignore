@@ -43,3 +43,6 @@ desktop.ini
 
 # Trained weights (figuras_*/modelos*.pt, a few MB each) stay TRACKED on purpose:
 # `--so-graficos` and Código/videos_cartpole.py load them instead of retraining.
+
+# --- Experiment runs: promoted into figuras_* only on purpose ---
+experimentos/

@@ -1,0 +1,89 @@
+== 1. new run vs original: weights and first 30 episodes
+expert IQL (τ=0.7)    weights_same=True  first30_same=True  old= 500.0 new30= 500.0 new50= 500.0
+expert CQL (α=0.5)    weights_same=True  first30_same=True  old= 500.0 new30= 500.0 new50= 500.0
+expert BC             weights_same=None  first30_same=True  old= 500.0 new30= 500.0 new50= 500.0
+medio  IQL (τ=0.7)    weights_same=True  first30_same=True  old= 500.0 new30= 500.0 new50= 500.0
+medio  CQL (α=0.5)    weights_same=True  first30_same=True  old= 384.5 new30= 384.5 new50= 390.7
+medio  BC             weights_same=None  first30_same=True  old= 500.0 new30= 500.0 new50= 500.0
+ruim   IQL (τ=0.7)    weights_same=True  first30_same=True  old= 213.0 new30= 213.0 new50= 203.5
+ruim   IQL (τ=0.5)    weights_same=True  first30_same=True  old= 208.5 new30= 208.5 new50= 198.0
+ruim   IQL (τ=0.9)    weights_same=True  first30_same=True  old= 214.1 new30= 214.1 new50= 207.4
+ruim   CQL (α=0.5)    weights_same=True  first30_same=True  old= 115.9 new30= 115.9 new50= 116.0
+ruim   BC             weights_same=None  first30_same=True  old=   9.0 new30=   9.0 new50=   8.9
+misto  IQL (τ=0.7)    weights_same=True  first30_same=True  old= 500.0 new30= 500.0 new50= 500.0
+misto  CQL (α=0.5)    weights_same=True  first30_same=True  old= 188.6 new30= 188.6 new50= 187.0
+misto  BC             weights_same=None  first30_same=False old= 123.6 new30= 107.2 new50=  97.3
+
+== 2. evaluation uncertainty (50 episodes) and paired perturbation effect
+                       std ret         95% CI    pert         95% CI    paired diff CI  fell_early(<100) std/pert
+expert IQL (τ=0.7)       500.0  [  500,  500]   484.5  [  462,  498]    [ -38.7,  -1.6]    0/ 1
+expert CQL (α=0.5)       500.0  [  500,  500]   485.4  [  462,  499]    [ -37.4,  -1.4]    0/ 1
+expert BC                500.0  [  500,  500]   483.4  [  461,  498]    [ -39.6,  -2.6]    0/ 1
+medio  IQL (τ=0.7)       500.0  [  500,  500]   490.2  [  471,  500]    [ -29.4,   0.0]    0/ 1
+medio  CQL (α=0.5)       390.7  [  374,  409]   407.6  [  382,  431]    [ -19.0,  50.1]    0/ 1
+medio  BC                500.0  [  500,  500]   488.7  [  468,  500]    [ -32.4,   0.0]    0/ 1
+ruim   IQL (τ=0.7)       203.5  [  188,  220]   177.6  [  164,  191]    [ -42.4,  -9.8]    0/ 1
+ruim   IQL (τ=0.5)       198.0  [  183,  214]   185.5  [  168,  204]    [ -33.7,   8.4]    0/ 1
+ruim   IQL (τ=0.9)       207.4  [  193,  224]   191.2  [  179,  203]    [ -31.8,  -2.5]    0/ 1
+ruim   CQL (α=0.5)       116.0  [  115,  117]   119.4  [  114,  123]    [  -1.6,   6.7]    0/ 1
+ruim   BC                  8.9  [    9,    9]    12.3  [   12,   13]    [   3.1,   3.8]   50/50
+misto  IQL (τ=0.7)       500.0  [  500,  500]   476.0  [  449,  496]    [ -49.4,  -4.6]    0/ 1
+misto  CQL (α=0.5)       187.0  [  183,  191]   189.6  [  180,  197]    [  -7.3,  10.7]    0/ 1
+misto  BC                 97.3  [   48,  156]    32.7  [   13,   62]    [-123.4, -14.7]   41/48
+
+== 3. learning curves: return at the 10 checkpoints (10 episodes each)
+expert IQL (τ=0.7)     500  500  500  500  500  500  500  500  500  500 | last5 mean=  500 std=   0 first_500_at=1500
+expert CQL (α=0.5)     500  500  500  500  500  500  500  500  500  500 | last5 mean=  500 std=   0 first_500_at=1500
+expert BC              500  500  500  500  500  500  500  500  500  500 | last5 mean=  500 std=   0 first_500_at=1500
+medio  IQL (τ=0.7)     500  500  500  500  500  500  500  500  500  500 | last5 mean=  500 std=   0 first_500_at=1500
+medio  CQL (α=0.5)     500  438  500  500  482  446  482  450  417  434 | last5 mean=  446 std=  21 first_500_at=1500
+medio  BC              500  500  500  500  500  500  500  500  500  500 | last5 mean=  500 std=   0 first_500_at=1500
+ruim   IQL (τ=0.7)      16  160  176  187  187  184  194  205  187  198 | last5 mean=  194 std=   7 first_500_at=None
+ruim   IQL (τ=0.5)      18  170  157  155  177  179  174  197  198  202 | last5 mean=  190 std=  11 first_500_at=None
+ruim   IQL (τ=0.9)      15  142  205  187  227  172  223  195  217  204 | last5 mean=  202 std=  18 first_500_at=None
+ruim   CQL (α=0.5)     186  219  221  230  171  236  194  130  118  117 | last5 mean=  159 std=  48 first_500_at=None
+ruim   BC                8    8    8    8    8    8    8    8    8    8 | last5 mean=    8 std=   0 first_500_at=None
+misto  IQL (τ=0.7)      78  498  500  500  500  500  500  500  500  500 | last5 mean=  500 std=   0 first_500_at=4500
+misto  CQL (α=0.5)     216  500  500  500  500  500  500  246  144  186 | last5 mean=  315 std= 154 first_500_at=3000
+misto  BC               66  112  156  107   58   59   10   10   10   10 | last5 mean=   20 std=  20 first_500_at=None
+
+== 4. value drift: V / Q(dados) at 25%, 50%, 75%, 100% of training
+expert IQL (τ=0.7)    Q_dados:    17.2    31.3    43.2    53.0  Q_outra:    17.2    31.4    43.2    53.0  V:   16.3   30.6   42.6   52.5
+expert CQL (α=0.5)    Q_dados:    17.5    31.7    43.4    53.0  Q_outra:     6.9    -0.3   -12.7   -28.2 
+medio  IQL (τ=0.7)    Q_dados:    16.4    29.9    41.6    50.2  Q_outra:    16.1    29.1    40.5    48.9  V:   15.9   29.6   41.3   50.2
+medio  CQL (α=0.5)    Q_dados:    17.7    34.1    48.9    62.1  Q_outra:    17.4    33.6    48.2    61.2 
+ruim   IQL (τ=0.7)    Q_dados:    10.7    15.1    16.8    17.0  Q_outra:    11.1    15.7    17.6    17.9  V:   11.1   15.7   17.4   18.2
+ruim   IQL (τ=0.5)    Q_dados:     8.5     9.1     9.1     9.1  Q_outra:     8.8     9.5     9.5     9.5  V:    8.5    9.1    9.0    9.0
+ruim   IQL (τ=0.9)    Q_dados:    13.6    24.8    34.0    41.0  Q_outra:    13.9    25.4    34.9    42.1  V:   14.1   26.0   36.0   44.2
+ruim   CQL (α=0.5)    Q_dados:    14.3    26.1    36.1    44.6  Q_outra:    14.5    26.4    36.5    45.1 
+misto  IQL (τ=0.7)    Q_dados:    13.6    22.2    28.0    31.7  Q_outra:    13.6    21.9    27.3    30.7  V:   13.4   22.1   28.1   32.4
+misto  CQL (α=0.5)    Q_dados:    15.5    29.0    40.8    50.4  Q_outra:    15.4    29.0    40.9    50.5 
+
+== 5. why does BC on misto lose 2/3 under perturbation? agreement with the expert heuristic
+misto transitions: expert 25000 ruim 32074 -> expert share 43.8%; episodes 50 of 2050 = 2.4%
+k=0: median share of expert among 50 NN=  8% | BC agrees  24% CQL agrees  46% IQL agrees  88%
+k=1: median share of expert among 50 NN=  6% | BC agrees  24% CQL agrees  52% IQL agrees 100%
+k=2: median share of expert among 50 NN=  0% | BC agrees   8% CQL agrees  28% IQL agrees  96%
+k=3: median share of expert among 50 NN=  0% | BC agrees  18% CQL agrees  48% IQL agrees  98%
+k=5: median share of expert among 50 NN=  0% | BC agrees  14% CQL agrees  54% IQL agrees  98%
+
+== 6. BC 3-seed spread, from the tracked bc numeros.json
+base               ret= 398.7 ±  48.5  seeds=[330, 436, 430]
++ parada           ret= 500.0 ±   0.0  seeds=[500, 500, 500]
++ regularização    ret= 500.0 ±   0.0  seeds=[500, 500, 500]
++ memória          ret= 500.0 ±   0.0  seeds=[500, 500, 500]
+
+== 7. wind feasibility: expert heuristic only (no trained model). force = ±10 + w, exact via force_mag
+constant w=0             mean= 500.0 min= 500  survived=100%  left_track=  0%
+constant w=0.5           mean= 500.0 min= 500  survived=100%  left_track=  0%
+constant w=1             mean= 500.0 min= 500  survived=100%  left_track=  0%
+constant w=2             mean= 500.0 min= 500  survived=100%  left_track=  0%
+constant w=3             mean= 445.0 min= 392  survived=  2%  left_track= 98%
+constant w=4             mean= 351.4 min= 305  survived=  0%  left_track=100%
+constant w=5             mean= 252.3 min= 225  survived=  0%  left_track=100%
+constant w=7             mean= 188.3 min= 170  survived=  0%  left_track=100%
+gust σ=2 (per step)      mean= 500.0 min= 500  survived=100%  left_track=  0%
+gust σ=5 (per step)      mean= 500.0 min= 500  survived=100%  left_track=  0%
+gust σ=10 (per step)     mean= 456.5 min=  58  survived= 82%  left_track=  0%
+gust σ=15 (per step)     mean= 137.5 min=  11  survived=  0%  left_track=  6%
+gust σ=20 (per step)     mean=  61.9 min=   7  survived=  0%  left_track=  0%

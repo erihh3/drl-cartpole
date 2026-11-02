@@ -24,6 +24,7 @@ Uso:
 """
 import argparse, json, os, time
 from concurrent.futures import ProcessPoolExecutor
+from itertools import repeat
 
 import numpy as np
 import torch, torch.nn.functional as F
@@ -34,22 +35,22 @@ torch.set_num_threads(1)
 COR = {"DQN": "#B04A16", "CQL": "#1F7A6D", "dados": "#8A93A3"}
 
 
-def treinar(args):
+def treinar(args, dispositivo="cpu"):
     """alpha = 0 -> DQN offline (Double DQN); alpha > 0 -> CQL(H) discreto."""
     nome_ds, alpha, passos, seed, n_aval = args
     D = C.carregar(nome_ds)
     rng = np.random.default_rng(seed); torch.manual_seed(seed)
-    T = {k: torch.as_tensor(D[k]) for k in ("s", "a", "r", "s2", "d")}
+    T = {k: torch.as_tensor(D[k]).to(dispositivo) for k in ("s", "a", "r", "s2", "d")}
     mon = np.random.default_rng(123).choice(len(D["a"]), 2000, replace=False)
     s_mon, a_mon = T["s"][mon], T["a"][mon]
 
-    q, q_alvo = C.mlp(), C.mlp(); q_alvo.load_state_dict(q.state_dict())
+    q, q_alvo = C.mlp().to(dispositivo), C.mlp().to(dispositivo); q_alvo.load_state_dict(q.state_dict())
     opt = torch.optim.Adam(q.parameters(), 3e-4)
     log, acum = [], {"td": [], "pen": []}
     log_cada, aval_cada = max(1, passos // 40), max(1, passos // 10)
     t0 = time.time()
     for t in range(1, passos + 1):
-        i = torch.as_tensor(rng.integers(len(D["a"]), size=256))
+        i = torch.as_tensor(rng.integers(len(D["a"]), size=256)).to(dispositivo)
         s, a, r, s2, d = (T[k][i] for k in ("s", "a", "r", "s2", "d"))
         with torch.no_grad():
             a2 = q(s2).argmax(1, keepdim=True)                                       # Double DQN
@@ -73,12 +74,12 @@ def treinar(args):
                              concordancia=(qm.argmax(1) == a_mon).float().mean().item())
             acum = {"td": [], "pen": []}
             if t % aval_cada == 0:
-                linha["retorno"] = C.avaliar(C.Agente(q), n=10, seed=50_000)[0]
+                linha["retorno"] = C.avaliar(C.Agente(C.rede_na_cpu(q)), n=10, seed=50_000)[0]
             log.append(linha)
-    ret, rets, acoes = C.avaliar(C.Agente(q), n=n_aval)
+    ret, rets, acoes = C.avaliar(C.Agente(C.rede_na_cpu(q)), n=n_aval)
     print(f"  alpha={alpha:<5} retorno={ret:6.1f}  ({time.time() - t0:.0f}s)", flush=True)
     return dict(alpha=alpha, log=log, retorno=ret, retornos=rets.tolist(), acoes=acoes.tolist(),
-                pesos={k: v.cpu() for k, v in q.state_dict().items()})
+                pesos={k: v.cpu() for k, v in q.state_dict().items()}, dispositivo=str(dispositivo))
 
 
 def montar(pesos):
@@ -121,7 +122,7 @@ def gerar_figuras(res, D, nome_ds, pasta, mostrar=False):
     lim = [0, max(G.max(), 1)]
     ax[1].plot(lim, lim, "k--", lw=1, label="Q = retorno real")
     ax[1].set_yscale("symlog", linthresh=10)
-    ax[1].set(title="max Q(s,·) previsto × retorno real G (escala log)", xlabel="retorno descontado observado G", ylabel="max Q(s,·)")
+    ax[1].set(title="max Q(s,·) previsto × retorno real G (escala log)", xlabel="retorno descontado G", ylabel="max Q(s,·)")
     ax[1].legend(fontsize=9, markerscale=3)
     fd, fc = dqn["log"][-1], cql["log"][-1]
     salvar(fig, "1_superestimacao.png", f"1. Valores de Q — DQN: dataset {fd['q_dados']:.0f}, outra ação {fd['q_outra']:.0f}"
@@ -215,6 +216,7 @@ def main():
     p.add_argument("--seed", type=int, default=0)
     p.add_argument("--episodios", type=int, default=50, help="episódios na avaliação final")
     p.add_argument("--workers", type=int, default=min(5, os.cpu_count() or 1))
+    p.add_argument("--device", default="cpu", help="onde treinar: cpu (padrão) ou cuda; a avaliação fica sempre na CPU")
     p.add_argument("--pasta", default="figuras_cql_cartpole")
     p.add_argument("--mostrar", action="store_true")
     p.add_argument("--so-graficos", action="store_true")
@@ -222,6 +224,7 @@ def main():
     if 0 not in a.alfas:
         a.alfas = [0.0] + a.alfas
 
+    C.conferir_dispositivo(a.device)
     C.garantir_datasets()
     D = C.carregar(a.dataset); print(C.resumo_dataset(a.dataset, D))
     os.makedirs(a.pasta, exist_ok=True)
@@ -230,9 +233,9 @@ def main():
         res = torch.load(arq, weights_only=False)
     else:
         jobs = [(a.dataset, float(al), a.passos, a.seed, a.episodios) for al in a.alfas]
-        print(f"treinando {len(jobs)} modelos ({a.passos} passos cada)...")
-        with ProcessPoolExecutor(a.workers) as ex:
-            res = {r["alpha"]: r for r in ex.map(treinar, jobs)}
+        print(f"treinando {len(jobs)} modelos ({a.passos} passos cada, {a.device})...")
+        with ProcessPoolExecutor(a.workers, mp_context=C.contexto_pool(a.device)) as ex:
+            res = {r["alpha"]: r for r in ex.map(treinar, jobs, repeat(a.device))}
         torch.save(res, arq)
     print("gerando gráficos...")
     numeros = gerar_figuras(res, D, a.dataset, a.pasta, a.mostrar)

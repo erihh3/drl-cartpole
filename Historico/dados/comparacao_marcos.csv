@@ -1,0 +1,110 @@
+metodo,dataset,metrica,0_slides,1_original,2_reexecucao,3_melhorias
+,ruim,frac_dataset_igual_especialista,,,0.3962000012397766,0.3962000012397766
+,ruim,peso_mediano_acao_certa,,,6.001384735107422,6.001384735107422
+,ruim,peso_mediano_acao_errada,,,0.04667927324771881,0.04667927324771881
+BC,expert,retorno,500,,500.0,500.0
+BC,expert,retorno_perturbado,,,,483.4
+BC,medio,retorno,500,,500.0,500.0
+BC,medio,retorno_perturbado,,,,488.72
+BC,medio 10%,+ memória.acc_esp,,,0.9295427997907003,
+BC,medio 10%,+ memória.acc_esp_dp,,,0.020123796865005365,
+BC,medio 10%,+ memória.acc_val,,,0.6680663625399271,
+BC,medio 10%,+ memória.acc_val_dp,,,0.014529901716430106,
+BC,medio 10%,+ memória.passo,,,500.0,
+BC,medio 10%,+ memória.passo_dp,,,0.0,
+BC,medio 10%,+ memória.perda_val,,,0.6458780169487,
+BC,medio 10%,+ memória.perda_val_dp,,,0.019496801605230252,
+BC,medio 10%,+ memória.retorno,,,500.0,
+BC,medio 10%,+ memória.retorno_dp,,,0.0,
+BC,medio 10%,+ memória.retorno_seed_0,,,500.0,
+BC,medio 10%,+ memória.retorno_seed_1,,,500.0,
+BC,medio 10%,+ memória.retorno_seed_2,,,500.0,
+BC,medio 10%,+ parada.acc_esp,,,0.9443540573120117,
+BC,medio 10%,+ parada.acc_esp_dp,,,0.024136938246306652,
+BC,medio 10%,+ parada.acc_val,,,0.6752441922823588,
+BC,medio 10%,+ parada.acc_val_dp,,,0.01662745950146967,
+BC,medio 10%,+ parada.passo,,,500.0,
+BC,medio 10%,+ parada.passo_dp,,,0.0,
+BC,medio 10%,+ parada.perda_val,,,0.6563314000765482,
+BC,medio 10%,+ parada.perda_val_dp,,,0.03365368069293873,
+BC,medio 10%,+ parada.retorno,,,500.0,
+BC,medio 10%,+ parada.retorno_dp,,,0.0,
+BC,medio 10%,+ parada.retorno_seed_0,,,500.0,
+BC,medio 10%,+ parada.retorno_seed_1,,,500.0,
+BC,medio 10%,+ parada.retorno_seed_2,,,500.0,
+BC,medio 10%,+ regularização.acc_esp,,,0.9425707260767618,
+BC,medio 10%,+ regularização.acc_esp_dp,,,0.02516170671906691,
+BC,medio 10%,+ regularização.acc_val,,,0.6763497392336527,
+BC,medio 10%,+ regularização.acc_val_dp,,,0.01809015785718633,
+BC,medio 10%,+ regularização.passo,,,833.3333333333334,
+BC,medio 10%,+ regularização.passo_dp,,,471.4045207910317,
+BC,medio 10%,+ regularização.perda_val,,,0.6379679044087728,
+BC,medio 10%,+ regularização.perda_val_dp,,,0.015761633489025685,
+BC,medio 10%,+ regularização.retorno,,,500.0,
+BC,medio 10%,+ regularização.retorno_dp,,,0.0,
+BC,medio 10%,+ regularização.retorno_seed_0,,,500.0,
+BC,medio 10%,+ regularização.retorno_seed_1,,,500.0,
+BC,medio 10%,+ regularização.retorno_seed_2,,,500.0,
+BC,medio 10%,base.acc_esp,,,0.7979796926180521,
+BC,medio 10%,base.acc_esp_dp,,,0.012355174474205543,
+BC,medio 10%,base.acc_val,,,0.6142710645993551,
+BC,medio 10%,base.acc_val_dp,,,0.013422255068658798,
+BC,medio 10%,base.passo,,,20000.0,
+BC,medio 10%,base.passo_dp,,,0.0,
+BC,medio 10%,base.perda_val,,,4.385555267333984,
+BC,medio 10%,base.perda_val_dp,,,3.1167121530281845,
+BC,medio 10%,base.retorno,385,356,398.71999999999997,
+BC,medio 10%,base.retorno_dp,35,90,48.51490767451449,
+BC,medio 10%,base.retorno_seed_0,,,330.22,
+BC,medio 10%,base.retorno_seed_1,,,436.34,
+BC,medio 10%,base.retorno_seed_2,,,429.6,
+BC,misto,retorno,140,92,123.6,97.34
+BC,misto,retorno_perturbado,,,,32.68
+BC,ruim,igual_especialista,0.01,,0.007799999788403511,0.00800000037997961
+BC,ruim,retorno,9,,9.0,8.88
+BC,ruim,retorno_perturbado,,,,12.34
+CQL,expert,concordancia,0.996,0.998,0.9980000257492065,0.9980000257492065
+CQL,expert,estado_Q.0,,,-21.110000610351562,-21.110000610351562
+CQL,expert,estado_Q.1,,,52.88999938964844,52.88999938964844
+CQL,expert,gap,,,38.20228576660156,38.20228576660156
+CQL,expert,retorno,500,,500.0,500.0
+CQL,expert,retorno_alfa_0.1,,,500.0,500.0
+CQL,expert,retorno_alfa_0.5,,,500.0,500.0
+CQL,expert,retorno_alfa_2,,,500.0,500.0
+CQL,expert,retorno_alfa_5,,,500.0,500.0
+CQL,expert,retorno_perturbado,,,,485.42
+CQL,expert,vies,-27,-26.7,-26.71308708190918,-47.05508041381836
+CQL,medio,retorno,372,430,384.5,390.68
+CQL,medio,retorno_perturbado,,,,407.6
+CQL,misto,retorno,191,,188.56666666666666,186.98
+CQL,misto,retorno_perturbado,,,,189.6
+CQL,ruim,igual_especialista,0.73,0.66,0.6547999978065491,0.6547999978065491
+CQL,ruim,retorno,126,,115.9,116.02
+CQL,ruim,retorno_perturbado,,,,119.44
+CQL,ruim,vies_Q_dados,,,34.38655471801758,34.38655471801758
+DQN,expert,concordancia,0.5,0.36,0.3271999955177307,0.3271999955177307
+DQN,expert,estado_Q.0,,,23034.83984375,23034.83984375
+DQN,expert,estado_Q.1,,,20257.099609375,20257.099609375
+DQN,expert,gap,,,5636.115234375,5636.115234375
+DQN,expert,retorno_alfa_0,9.5,9.3,9.5,9.5
+DQN,expert,vies,2737,19045,25667.056640625,25646.712890625
+IQL,expert,retorno,500,,500.0,500.0
+IQL,expert,retorno_perturbado,,,,484.48
+IQL,medio,retorno,500,,500.0,500.0
+IQL,medio,retorno_perturbado,,,,490.2
+IQL,misto,retorno,500,,500.0,500.0
+IQL,misto,retorno_perturbado,,,,476.04
+IQL,ruim,V_tau_0.5,8.6,,8.80958080291748,8.80958080291748
+IQL,ruim,V_tau_0.7,17.7,,17.803224563598633,17.803224563598633
+IQL,ruim,V_tau_0.9,43.9,,43.545536041259766,43.545536041259766
+IQL,ruim,igual_especialista,0.88,,0.864799976348877,0.864799976348877
+IQL,ruim,retorno,187,217,213.0,203.54
+IQL,ruim,retorno_perturbado,,,,177.6
+IQL,ruim,retorno_tau_0.5,212,,208.5,198.02
+IQL,ruim,retorno_tau_0.7,187,,213.0,203.54
+IQL,ruim,retorno_tau_0.9,159,,214.06666666666666,207.4
+IQL,ruim,vies_Q_dados,,,7.489224433898926,7.489224433898926
+dados,expert,retorno,,,500.0,500.0
+dados,medio,retorno,,,112.98332977294922,112.98332977294922
+dados,misto,retorno,,,27.840974807739258,27.840974807739258
+dados,ruim,retorno,,,16.03700065612793,16.03700065612793

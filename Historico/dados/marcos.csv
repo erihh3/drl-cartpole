@@ -1,0 +1,9 @@
+marco,data,titulo,o_que_mudou,fonte,situacao
+0_slides,antes de 2026-11-01,Números nos slides,o que as apresentações ainda mostram,Apresentações/*.pptx,concluido
+1_original,antes de 2026-11-01,Primeira rodada guardada,os numeros.json originais não existem mais: restam os valores citados no PROJECT_GUIDE,PROJECT_GUIDE.md §9 e §10,concluido
+2_reexecucao,2026-11-01,Reexecução guardada no commit,"mesmo código, rodada nova: mede o quanto os números variam sozinhos (IQL com 30 episódios)",6759143:figuras_bc_cartpole; 6759143:figuras_cql_cartpole; 6759143:figuras_iql_cartpole,concluido
+3_melhorias,2026-11-02,Correções na medição e no BC,"G com bootstrap no truncamento, BC regularizado, 50 episódios, teste com ações iniciais sorteadas",experimentos/run_20261102,concluido
+4_seeds,2026-11-02,Cinco seeds,CQL e IQL com seeds 0 a 4,"experimentos/iql_s*, experimentos/cql_s*",pendente
+5_longo_60k,2026-11-02,60.000 passos,a queda do CQL persiste? Q converge para cerca de 100?,experimentos/iql_60k,pendente
+6_varredura,2026-11-02,Quanto especialista basta?,todo o ruim + k episódios do especialista,experimentos/varredura_especialista,pendente
+7_vento,2026-11-02,Vento,políticas prontas avaliadas com vento constante e rajadas,experimentos/vento,pendente
