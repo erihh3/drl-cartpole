@@ -1,0 +1,249 @@
+=== 1. seed 0 em duas máquinas: run_20261102 (uma máquina) contra iql_s0 (outra)
+listas de retornos idênticas: 28; diferentes: 0
+modelos com pesos idênticos: 14 de 14; maior diferença em um peso: 0
+
+=== 2. retorno por método e dataset (média ± dp [mín, máx]  s0..s4)
+expert BC   ret   500.0 ±    0.0  [ 500.0,  500.0]   500.0  500.0  500.0  500.0  500.0
+expert CQL  ret   500.0 ±    0.0  [ 500.0,  500.0]   500.0  500.0  500.0  500.0  500.0
+expert IQL  ret   500.0 ±    0.0  [ 500.0,  500.0]   500.0  500.0  500.0  500.0  500.0
+medio  BC   ret   500.0 ±    0.0  [ 500.0,  500.0]   500.0  500.0  500.0  500.0  500.0
+medio  CQL  ret   397.1 ±   62.4  [ 306.3,  478.3]   390.7  306.3  421.8  478.3  388.6
+medio  IQL  ret   500.0 ±    0.0  [ 500.0,  500.0]   500.0  500.0  500.0  500.0  500.0
+ruim   BC   ret     8.9 ±    0.0  [   8.9,    8.9]     8.9    8.9    8.9    8.9    8.9
+ruim   CQL  ret   120.8 ±   22.4  [  97.0,  157.3]   116.0  157.3   97.0  122.7  111.2
+ruim   IQL  ret   221.2 ±   15.1  [ 203.5,  243.6]   203.5  222.2  243.6  211.9  224.9
+misto  BC   ret    93.6 ±   14.8  [  78.0,  117.0]    97.3   87.7   87.8  117.0   78.0
+misto  CQL  ret   260.2 ±  133.4  [ 123.2,  465.7]   187.0  465.7  311.8  213.6  123.2
+misto  IQL  ret   500.0 ±    0.0  [ 500.0,  500.0]   500.0  500.0  500.0  500.0  500.0
+
+expert BC   per   485.7 ±    1.8  [ 483.4,  488.5]   483.4  488.5  485.5  485.5  485.8
+expert CQL  per   484.7 ±    1.3  [ 482.9,  485.9]   485.4  485.4  485.9  482.9  483.6
+expert IQL  per   485.9 ±    1.1  [ 484.5,  487.5]   484.5  487.5  485.4  486.3  486.0
+medio  BC   per   486.3 ±    1.5  [ 485.1,  488.7]   488.7  486.1  485.1  486.7  485.1
+medio  CQL  per   397.8 ±   62.0  [ 296.0,  464.8]   407.6  296.0  417.7  464.8  403.1
+medio  IQL  per   490.2 ±    0.0  [ 490.2,  490.2]   490.2  490.2  490.2  490.2  490.2
+ruim   BC   per    12.3 ±    0.0  [  12.3,   12.3]    12.3   12.3   12.3   12.3   12.3
+ruim   CQL  per   126.4 ±   27.3  [ 100.5,  172.4]   119.4  172.4  100.5  125.2  114.6
+ruim   IQL  per   194.3 ±   14.7  [ 177.6,  214.9]   177.6  192.2  214.9  184.5  202.1
+misto  BC   per    30.5 ±    4.5  [  22.3,   32.7]    32.7   32.1   32.7   32.5   22.3
+misto  CQL  per   259.8 ±  130.6  [ 127.2,  460.3]   189.6  460.3  313.2  208.7  127.2
+misto  IQL  per   477.3 ±    2.4  [ 473.7,  479.9]   476.0  473.7  478.6  479.9  478.1
+
+=== 3. IQL contra CQL, seed a seed (pareado)
+medio   dif  102.9 ±  62.4; IQL maior em 5/5
+ruim    dif  100.4 ±  31.0; IQL maior em 5/5
+misto   dif  239.8 ± 133.4; IQL maior em 5/5
+
+=== 4. tau no ruim
+tau 0.5: ret   208.5 ±   12.0  [ 198.0,  228.0]   198.0  228.0  203.2  201.6  211.8
+tau 0.7: ret   221.2 ±   15.1  [ 203.5,  243.6]   203.5  222.2  243.6  211.9  224.9
+tau 0.9: ret   190.9 ±   17.7  [ 173.9,  211.8]   207.4  173.9  211.8  185.8  175.6
+tau 0.5 - tau 0.7:  -12.7 ±  17.1; positivo em 1/5
+tau 0.7 - tau 0.9:   30.3 ±  21.7; positivo em 4/5
+tau 0.5 - tau 0.9:   17.6 ±  27.8; positivo em 3/5
+60k, seed 0: {0.5: 225.8, 0.7: 246.7, 0.9: 101.0}
+  60k tau 0.5 retorno: 6k:155 12k:197 18k:206 24k:195 30k:201 36k:177 42k:206 48k:184 54k:179 60k:172
+           V:       15k:9 30k:9 45k:9 60k:9
+  60k tau 0.7 retorno: 6k:187 12k:205 18k:244 24k:233 30k:256 36k:231 42k:211 48k:189 54k:255 60k:290
+           V:       15k:18 30k:18 45k:18 60k:18
+  60k tau 0.9 retorno: 6k:187 12k:195 18k:215 24k:185 30k:165 36k:163 42k:149 48k:151 54k:150 60k:107
+           V:       15k:44 30k:65 45k:80 60k:90
+
+=== 5. DQN (alfa = 0) e CQL no expert, por seed
+s0: DQN ret  9.50 Q dados     22003.1 Q outra     24257.1 conc 0.306 | CQL 0,1 ret 500 Q dados   52.9 Q outra    7.0 conc 0.996
+     retornos alfa>0: [500.0, 500.0, 500.0, 500.0]
+s1: DQN ret  9.26 Q dados    443143.7 Q outra    459033.6 conc 0.496 | CQL 0,1 ret 500 Q dados   52.9 Q outra   19.6 conc 0.988
+     retornos alfa>0: [500.0, 500.0, 500.0, 500.0]
+s2: DQN ret  9.26 Q dados    176549.6 Q outra    187213.2 conc 0.496 | CQL 0,1 ret 500 Q dados   52.8 Q outra   20.2 conc 0.995
+     retornos alfa>0: [500.0, 500.0, 500.0, 500.0]
+s3: DQN ret  9.50 Q dados    213414.1 Q outra    218460.7 conc 0.503 | CQL 0,1 ret 500 Q dados   52.9 Q outra   15.3 conc 0.989
+     retornos alfa>0: [500.0, 500.0, 500.0, 500.0]
+s4: DQN ret  9.26 Q dados       294.8 Q outra       299.3 conc 0.496 | CQL 0,1 ret 500 Q dados   52.8 Q outra   25.0 conc 0.988
+     retornos alfa>0: [500.0, 500.0, 500.0, 500.0]
+
+=== 6. curvas de retorno no misto e no medio (10 avaliações por modelo, n=10 episódios)
+misto CQL s0:  216  500  500  500  500  500  500  246  144  186  | pico 500 em 3000, final(50ep) 187
+misto CQL s1:  463  500  500  500  500  500  478  500  368  478  | pico 500 em 3000, final(50ep) 466
+misto CQL s2:  449  500  500  500  500  497  487  374  291  294  | pico 500 em 3000, final(50ep) 312
+misto CQL s3:  422  500  500  500  500  178  203  200  171  200  | pico 500 em 3000, final(50ep) 214
+misto CQL s4:  352  500  500  500  500  479  332  182  128  125  | pico 500 em 3000, final(50ep) 123
+misto IQL s0:   78  498  500  500  500  500  500  500  500  500  | pico 500 em 4500, final(50ep) 500
+misto IQL s1:   79  500  500  500  500  500  500  500  500  500  | pico 500 em 3000, final(50ep) 500
+misto IQL s2:   76  500  500  500  500  500  500  500  500  500  | pico 500 em 3000, final(50ep) 500
+misto IQL s3:   89  500  500  500  500  500  500  500  500  500  | pico 500 em 3000, final(50ep) 500
+misto IQL s4:   89  500  500  500  500  500  500  500  500  500  | pico 500 em 3000, final(50ep) 500
+medio CQL s0:  500  438  500  500  482  446  482  450  417  434  | pico 500 em 1500, final(50ep) 391
+medio CQL s1:  498  500  500  500  495  500  495  413  421  356  | pico 500 em 3000, final(50ep) 306
+medio CQL s2:  449  405  500  500  196  433  499  145  212  472  | pico 500 em 4500, final(50ep) 422
+medio CQL s3:  452  469  500  500  500  500  500  488  304  484  | pico 500 em 4500, final(50ep) 478
+medio CQL s4:  500  500  500  488  500  409  469  394  415  394  | pico 500 em 1500, final(50ep) 389
+medio IQL s0:  500  500  500  500  500  500  500  500  500  500  | pico 500 em 1500, final(50ep) 500
+medio IQL s1:  500  500  500  500  500  500  500  500  500  500  | pico 500 em 1500, final(50ep) 500
+medio IQL s2:  500  500  500  500  500  500  500  500  500  500  | pico 500 em 1500, final(50ep) 500
+medio IQL s3:  500  500  500  500  500  500  500  500  500  500  | pico 500 em 1500, final(50ep) 500
+medio IQL s4:  500  500  500  500  500  500  500  500  500  500  | pico 500 em 1500, final(50ep) 500
+ruim  CQL s0:  186  219  221  230  171  236  194  130  118  117  | pico 236 em 9000, final(50ep) 116
+ruim  CQL s1:  226  264  259  329  344  434  210  139  118  159  | pico 434 em 9000, final(50ep) 157
+ruim  CQL s2:  261  275  224  271  251  339  108  110   98   98  | pico 339 em 9000, final(50ep) 97
+ruim  CQL s3:  250  242  236  189  180  167  125  132  121  124  | pico 250 em 1500, final(50ep) 123
+ruim  CQL s4:  317  267  211  194  172  128  133  123  117  112  | pico 317 em 1500, final(50ep) 111
+ruim  IQL s0:   16  160  176  187  187  184  194  205  187  198  | pico 205 em 12000, final(50ep) 204
+ruim  IQL s1:   16  197  193  204  208  209  202  198  207  254  | pico 254 em 15000, final(50ep) 222
+ruim  IQL s2:   14  112  177  178  198  204  214  226  248  256  | pico 256 em 15000, final(50ep) 244
+ruim  IQL s3:   30  193  187  183  192  175  182  190  190  204  | pico 204 em 15000, final(50ep) 212
+ruim  IQL s4:   18  179  178  192  167  187  211  186  200  254  | pico 254 em 15000, final(50ep) 225
+
+misto 60k seed 0:
+CQL  6k:500 12k:246 18k:144 24k:128 30k:113 36k:111 42k:113 48k:117 54k:123 60k:120
+IQL  6k:500 12k:500 18k:500 24k:500 30k:500 36k:500 42k:500 48k:500 54k:500 60k:500
+BC   6k:107 12k:10 18k:10 24k:59 30k:58 36k:10 42k:58 48k:9 54k:10 60k:8
+ruim 60k seed 0:
+CQL  6k:230 12k:130 18k:115 24k:110 30k:112 36k:110 42k:130 48k:137 54k:114 60k:101
+IQL  6k:187 12k:205 18k:244 24k:233 30k:256 36k:231 42k:211 48k:189 54k:255 60k:290
+BC   6k:8 12k:8 18k:8 24k:8 30k:8 36k:8 42k:8 48k:8 54k:8 60k:8
+
+=== 7. Q e V ao longo dos 60.000 passos (seed 0, amostra de monitoramento do dataset)
+ruim  CQL (α=0.5)  q_dados  15k:44.6 30k:123.9 45k:219.6 60k:216.4
+ruim  CQL (α=0.5)  q_outra  15k:45.1 30k:125.8 45k:222.7 60k:219.3
+ruim  IQL (τ=0.7)  q_dados  15k:17.0 30k:17.2 45k:17.2 60k:17.1
+ruim  IQL (τ=0.7)  q_outra  15k:17.9 30k:18.1 45k:18.1 60k:18.0
+ruim  IQL (τ=0.7)  v        15k:18.2 30k:18.2 45k:18.1 60k:18.1
+misto CQL (α=0.5)  q_dados  15k:50.4 30k:96.3 45k:148.5 60k:164.8
+misto CQL (α=0.5)  q_outra  15k:50.5 30k:96.9 45k:149.7 60k:166.1
+misto IQL (τ=0.7)  q_dados  15k:31.7 30k:39.7 45k:46.2 60k:50.0
+misto IQL (τ=0.7)  q_outra  15k:30.7 30k:37.7 45k:43.8 60k:47.0
+misto IQL (τ=0.7)  v        15k:32.4 30k:41.8 45k:47.4 60k:50.8
+15k, mesma seed:
+ruim  CQL (α=0.5)  q_dados  final 44.6
+ruim  CQL (α=0.5)  q_outra  final 45.1
+ruim  IQL (τ=0.7)  q_dados  final 17.0
+ruim  IQL (τ=0.7)  q_outra  final 17.9
+ruim  IQL (τ=0.7)  v        final 18.2
+misto CQL (α=0.5)  q_dados  final 50.4
+misto CQL (α=0.5)  q_outra  final 50.5
+misto IQL (τ=0.7)  q_dados  final 31.7
+misto IQL (τ=0.7)  q_outra  final 30.7
+misto IQL (τ=0.7)  v        final 32.4
+
+=== 8. varredura, por k e seed
+BC
+  k= 0   0.0% ret    8.9    8.9    8.9  per   12.3   12.3   12.3  media    8.9 origem iql_s0 (ruim)
+  k= 1   1.5% ret    8.9    8.9    8.9  per   12.3   12.4   12.3  media    8.9 origem varredura
+  k= 2   3.0% ret    8.9    9.0    8.9  per   12.3   12.3   12.6  media    8.9 origem varredura
+  k= 5   7.2% ret   18.7   11.6    9.1  per   13.2   13.1   12.3  media   13.1 origem varredura
+  k=10  13.5% ret   58.1   42.4   52.5  per   12.4   12.3   12.4  media   51.0 origem varredura
+  k=25  28.0% ret   68.0   58.1   58.2  per   22.7   31.8   12.4  media   61.4 origem varredura
+  k=50  43.8% ret   97.3   87.7   87.8  per   32.7   32.1   32.7  media   91.0 origem iql_s0 (misto)
+CQL
+  k= 0   0.0% ret  116.0  157.3   97.0  per  119.4  172.4  100.5  media  123.4 origem iql_s0 (ruim)
+  k= 1   1.5% ret  105.1  119.8  107.4  per  108.6  124.0  111.5  media  110.7 origem varredura
+  k= 2   3.0% ret   91.0  119.4  157.1  per   94.9  122.8  151.5  media  122.5 origem varredura
+  k= 5   7.2% ret  163.4  110.2   93.2  per  165.7  113.8   96.8  media  122.3 origem varredura
+  k=10  13.5% ret  140.0  103.3  222.7  per  143.2  106.7  217.9  media  155.3 origem varredura
+  k=25  28.0% ret  313.5  331.0  163.1  per  311.4  259.0  164.8  media  269.2 origem varredura
+  k=50  43.8% ret  187.0  465.7  311.8  per  189.6  460.3  313.2  media  321.5 origem iql_s0 (misto)
+IQL
+  k= 0   0.0% ret  203.5  222.2  243.6  per  177.6  192.2  214.9  media  223.1 origem iql_s0 (ruim)
+  k= 1   1.5% ret  299.5  232.4  241.2  per  295.3  249.8  206.0  media  257.7 origem varredura
+  k= 2   3.0% ret  425.2  269.0  297.5  per  364.7  276.5  292.4  media  330.6 origem varredura
+  k= 5   7.2% ret  500.0  322.2  446.1  per  469.7  301.6  384.7  media  422.8 origem varredura
+  k=10  13.5% ret  500.0  471.0  500.0  per  468.6  410.6  471.6  media  490.3 origem varredura
+  k=25  28.0% ret  500.0  500.0  500.0  per  473.5  471.5  473.5  media  500.0 origem varredura
+  k=50  43.8% ret  500.0  500.0  500.0  per  476.0  473.7  478.6  media  500.0 origem iql_s0 (misto)
+
+=== 9. o DQN vira uma ação fixa? (contagem de ações na avaliação final)
+s0: ret 9.50  contagem de ações [esquerda, direita] = [0.0, 475.0]
+s1: ret 9.26  contagem de ações [esquerda, direita] = [463.0, 0.0]
+s2: ret 9.26  contagem de ações [esquerda, direita] = [463.0, 0.0]
+s3: ret 9.50  contagem de ações [esquerda, direita] = [0.0, 475.0]
+s4: ret 9.26  contagem de ações [esquerda, direita] = [463.0, 0.0]
+
+=== 10. a queda do CQL, verificada por seed (curva de treino, n = 10 episódios por ponto)
+misto passos: [1500, 3000, 4500, 6000, 7500, 9000, 10500, 12000, 13500, 15000]
+  em 500 nas 5 seeds, nos passos: [3000, 4500, 6000, 7500]
+  média por passo: 380 500 500 500 500 431 400 300 220 256
+  último ponto abaixo do primeiro em 4 de 5;  último abaixo do pico em 5 de 5
+ruim passos: [1500, 3000, 4500, 6000, 7500, 9000, 10500, 12000, 13500, 15000]
+  em 500 nas 5 seeds, nos passos: []
+  média por passo: 248 253 230 243 224 261 154 127 114 122
+  último ponto abaixo do primeiro em 5 de 5;  último abaixo do pico em 5 de 5
+BC no misto, média por passo: 64 82 146 87 68 68 39 10 39 39
+
+=== 11. IQL no medio com perturbação: por que 490,2 em toda seed?
+s0: abaixo de 500: [(5, 10.0)]
+s1: abaixo de 500: [(5, 10.0)]
+s2: abaixo de 500: [(5, 10.0)]
+s3: abaixo de 500: [(5, 10.0)]
+s4: abaixo de 500: [(5, 10.0)]
+
+=== 12. o teste real na GPU (2.000 passos, 5 episódios): CPU contra CUDA, mesmas seeds
+dispositivo: {'cpu'} {'cuda'} {'cuda'}
+pesos salvos em: {'cpu'}
+  expert IQL (τ=0.7)    cpu  500.0  cuda8  500.0  cuda4  500.0
+  expert CQL (α=0.5)    cpu  500.0  cuda8  500.0  cuda4  500.0
+  expert BC             cpu  500.0  cuda8  500.0  cuda4  500.0
+  medio  IQL (τ=0.7)    cpu  500.0  cuda8  500.0  cuda4  500.0
+  medio  CQL (α=0.5)    cpu  474.4  cuda8  495.6  cuda4  495.6
+  medio  BC             cpu  500.0  cuda8  500.0  cuda4  500.0
+  ruim   IQL (τ=0.7)    cpu  239.0  cuda8  217.8  cuda4  217.8
+  ruim   IQL (τ=0.5)    cpu  235.2  cuda8  248.6  cuda4  248.6
+  ruim   IQL (τ=0.9)    cpu  231.0  cuda8  234.2  cuda4  234.2
+  ruim   CQL (α=0.5)    cpu  273.0  cuda8  249.4  cuda4  249.4
+  ruim   BC             cpu    8.8  cuda8    8.8  cuda4    8.8
+  misto  IQL (τ=0.7)    cpu  130.4  cuda8  143.6  cuda4  143.6
+  misto  CQL (α=0.5)    cpu  494.8  cuda8  492.8  cuda4  492.8
+  misto  BC             cpu  161.4  cuda8   11.6  cuda4   11.6
+pesos iguais entre cuda 8 e cuda 4: 14 de 14
+diferença máxima de peso entre cpu e cuda: 3.219481945037842
+
+=== 13. Q(s, a) nos estados do especialista dentro do misto (seed 0), contra a fórmula do capítulo 6
+fórmula: 15.000 passos = 53.2; 60.000 passos = 95.1
+15k CQL  misto: Q ação do especialista   57.1; Q outra ação   56.0; concorda com o especialista 0.709
+15k IQL  misto: Q ação do especialista   46.1; Q outra ação   42.3; concorda com o especialista 0.901
+60k CQL  misto: Q ação do especialista  171.7; Q outra ação  169.5; concorda com o especialista 0.570
+60k IQL  misto: Q ação do especialista   80.9; Q outra ação   71.9; concorda com o especialista 0.930
+
+=== 14. média das 5 seeds ao longo do treino: retorno e Q do CQL (e IQL) nos dados
+misto CQL  passo     1500   3000   4500   6000   7500   9000  10500  12000  13500  15000
+           retorno      380.32 500.00 500.00 500.00 500.00 430.84 400.02 300.26 220.42 256.40
+           q_dados        6.90  12.61  18.26  23.70  28.88  33.71  38.25  42.28  46.13  49.93
+           q_outra        6.82  12.48  18.15  23.62  28.84  33.70  38.28  42.34  46.20  50.02
+           concordancia   0.59   0.61   0.60   0.58   0.59   0.57   0.59   0.58   0.58   0.58
+           perda_td       0.12   0.16   0.28   0.41   0.52   0.68   0.74   0.77   0.91   0.94
+           penalidade     0.67   0.79   1.02   1.25   1.48   1.68   1.86   2.03   2.18   2.36
+misto IQL  passo     1500   3000   4500   6000   7500   9000  10500  12000  13500  15000
+           retorno       82.42 499.66 500.00 500.00 500.00 500.00 500.00 500.00 500.00 500.00
+           q_dados        6.64  11.52  15.60  19.02  22.14  24.72  26.63  28.55  30.25  31.46
+           q_outra        6.67  11.54  15.53  18.83  21.81  24.26  26.03  27.81  29.36  30.43
+           concordancia   0.61   0.59   0.61   0.61   0.63   0.65   0.66   0.66   0.67   0.67
+           perda_td       0.09   0.11   0.15   0.19   0.21   0.24   0.27   0.29   0.31   0.30
+ruim  CQL  passo     1500   3000   4500   6000   7500   9000  10500  12000  13500  15000
+           retorno      248.22 253.06 230.38 242.56 223.62 260.80 153.88 126.74 114.50 122.04
+           q_dados        6.36  11.48  16.72  21.54  26.06  30.14  34.03  37.72  41.37  45.31
+           q_outra        6.41  11.64  16.97  21.87  26.46  30.59  34.53  38.25  41.95  45.95
+           concordancia   0.45   0.45   0.45   0.46   0.46   0.45   0.45   0.46   0.47   0.47
+           perda_td       0.13   0.21   0.36   0.48   0.62   0.71   0.79   0.98   1.08   1.29
+           penalidade     0.73   1.02   1.46   1.84   2.21   2.55   2.88   3.15   3.49   3.88
+ruim  IQL  passo     1500   3000   4500   6000   7500   9000  10500  12000  13500  15000
+           retorno       18.70 168.08 182.36 188.68 190.38 191.90 200.70 200.82 206.42 233.28
+           q_dados        6.09   9.71  12.01  13.76  15.03  15.58  16.34  16.77  16.98  17.03
+           q_outra        6.16   9.95  12.42  14.29  15.65  16.28  17.08  17.55  17.80  17.86
+           concordancia   0.51   0.46   0.44   0.44   0.44   0.44   0.44   0.44   0.44   0.44
+           perda_td       0.11   0.12   0.16   0.19   0.21   0.21   0.21   0.24   0.22   0.20
+
+=== 15. viés de Q nos dados do ruim (numeros.json), 15.000 passos nas 5 seeds e 60.000 na seed 0
+vies_Q_dados_CQL             34.387   34.724   35.280   34.457   36.835   média   35.136 dp   1.012  60k  201.372
+vies_Q_dados_IQL              7.489    7.570    7.735    7.452    7.215   média    7.492 dp   0.189  60k    7.637
+igual_especialista_BC         0.008    0.004    0.006    0.007    0.004   média    0.006 dp   0.002  60k    0.019
+igual_especialista_CQL        0.655    0.807    0.697    0.748    0.647   média    0.711 dp   0.067  60k    0.705
+igual_especialista_IQL        0.865    0.881    0.883    0.885    0.880   média    0.879 dp   0.008  60k    0.862
+peso_mediano_acao_certa       6.001    6.467    8.769    6.571    5.384   média    6.638 dp   1.280  60k    6.611
+peso_mediano_acao_errada      0.047    0.054    0.062    0.056    0.042   média    0.052 dp   0.008  60k    0.062
+V tau 0.5:    8.8    8.9    8.8    8.8    8.9   60k    8.8
+V tau 0.7:   17.8   17.8   17.7   17.6   17.6   60k   17.8
+V tau 0.9:   43.5   43.7   43.5   43.6   44.2   60k   88.2
+vies_DQN                25646.713   533829.750   224768.203   258922.469      231.140   média 208679.655 dp 215323.946
+vies_CQL                  -47.055      -47.068      -47.154      -47.122      -47.166   média -47.113 dp 0.050
+concordancia_DQN            0.327        0.503        0.503        0.497        0.503   média 0.467 dp 0.078
+concordancia_CQL            0.998        0.990        0.997        0.989        0.989   média 0.992 dp 0.005
+DQN retorno: [9.5, 9.26, 9.26, 9.5, 9.26] média 9.36 dp 0.13

@@ -1,0 +1,822 @@
+dataset expert: 25,000 transições, 50 episódios, retorno médio 500.0
+dataset medio: 33,895 transições, 300 episódios, retorno médio 113.0
+dataset ruim: 32,074 transições, 2000 episódios, retorno médio 16.0
+dataset misto: 57,074 transições, 2050 episódios, retorno médio 27.8
+treinando 14 modelos (15000 passos cada, 8 processos, cpu)...
+  medio   CQL (α=0.5)    retorno= 390.7  perturbado= 407.6  (47s)
+  expert  CQL (α=0.5)    retorno= 500.0  perturbado= 485.4  (49s)
+  expert  BC             retorno= 500.0  perturbado= 483.4  (64s)
+  medio   BC             retorno= 500.0  perturbado= 488.7  (53s)
+  ruim    CQL (α=0.5)    retorno= 116.0  perturbado= 119.4  (47s)
+  ruim    BC             retorno=   8.9  perturbado=  12.3  (53s)
+  medio   IQL (τ=0.7)    retorno= 500.0  perturbado= 490.2  (140s)
+  ruim    IQL (τ=0.5)    retorno= 198.0  perturbado= 185.5  (143s)
+  ruim    IQL (τ=0.7)    retorno= 203.5  perturbado= 177.6  (143s)
+  misto   CQL (α=0.5)    retorno= 187.0  perturbado= 189.6  (47s)
+  misto   BC             retorno=  97.3  perturbado=  32.7  (50s)
+  expert  IQL (τ=0.7)    retorno= 500.0  perturbado= 484.5  (166s)
+  ruim    IQL (τ=0.9)    retorno= 207.4  perturbado= 191.2  (139s)
+  misto   IQL (τ=0.7)    retorno= 500.0  perturbado= 476.0  (135s)
+gerando gráficos...
+{
+  "dataset_analise": "ruim",
+  "beta": 1.0,
+  "hp_BC": {
+    "dropout": 0.2,
+    "wd": 0.001,
+    "ls": 0.1
+  },
+  "episodios": 50,
+  "passos_aleatorios": 5,
+  "frac_dataset_igual_especialista": 0.3962000012397766,
+  "vies_Q_dados_CQL": 34.38655471801758,
+  "vies_Q_dados_IQL": 7.489224433898926,
+  "peso_mediano_acao_certa": 6.001384735107422,
+  "peso_mediano_acao_errada": 0.04667927324771881,
+  "igual_especialista_BC": 0.00800000037997961,
+  "igual_especialista_CQL": 0.6547999978065491,
+  "igual_especialista_IQL": 0.864799976348877,
+  "V_por_tau": {
+    "0.5": 8.80958080291748,
+    "0.7": 17.803224563598633,
+    "0.9": 43.545536041259766
+  },
+  "retorno_por_tau": {
+    "0.5": 198.02,
+    "0.7": 203.54,
+    "0.9": 207.4
+  },
+  "retorno_BC": {
+    "expert": 500.0,
+    "medio": 500.0,
+    "ruim": 8.88,
+    "misto": 97.34
+  },
+  "retorno_perturbado_BC": {
+    "expert": 483.4,
+    "medio": 488.72,
+    "ruim": 12.34,
+    "misto": 32.68
+  },
+  "retorno_CQL (α=0.5)": {
+    "expert": 500.0,
+    "medio": 390.68,
+    "ruim": 116.02,
+    "misto": 186.98
+  },
+  "retorno_perturbado_CQL (α=0.5)": {
+    "expert": 485.42,
+    "medio": 407.6,
+    "ruim": 119.44,
+    "misto": 189.6
+  },
+  "retorno_IQL (τ=0.7)": {
+    "expert": 500.0,
+    "medio": 500.0,
+    "ruim": 203.54,
+    "misto": 500.0
+  },
+  "retorno_perturbado_IQL (τ=0.7)": {
+    "expert": 484.48,
+    "medio": 490.2,
+    "ruim": 177.6,
+    "misto": 476.04
+  },
+  "retorno_dataset": {
+    "expert": 500.0,
+    "medio": 112.98332977294922,
+    "ruim": 16.03700065612793,
+    "misto": 27.840974807739258
+  }
+}
+figuras salvas em /home/roboime/drl-cartpole/experimentos/iql_s0/figuras_iql_cartpole
+dataset expert: 25,000 transições, 50 episódios, retorno médio 500.0
+treinando 5 modelos (15000 passos cada, cpu)...
+  alpha=0.0   retorno=   9.5  (39s)
+  alpha=5.0   retorno= 500.0  (40s)
+  alpha=0.1   retorno= 500.0  (41s)
+  alpha=2.0   retorno= 500.0  (41s)
+  alpha=0.5   retorno= 500.0  (42s)
+gerando gráficos...
+{
+  "dataset": "expert",
+  "alpha_cql": 0.1,
+  "vies_DQN": 25646.712890625,
+  "vies_CQL": -47.05508041381836,
+  "estado_Q_DQN": [
+    23034.83984375,
+    20257.099609375
+  ],
+  "estado_Q_CQL": [
+    -21.110000610351562,
+    52.88999938964844
+  ],
+  "gap_DQN": 5636.115234375,
+  "concordancia_DQN": 0.3271999955177307,
+  "gap_CQL": 38.20228576660156,
+  "concordancia_CQL": 0.9980000257492065,
+  "retorno_por_alfa": {
+    "0": 9.5,
+    "0.1": 500.0,
+    "0.5": 500.0,
+    "2": 500.0,
+    "5": 500.0
+  }
+}
+figuras salvas em /home/roboime/drl-cartpole/experimentos/cql_s0/figuras_cql_cartpole
+dataset expert: 25,000 transições, 50 episódios, retorno médio 500.0
+dataset medio: 33,895 transições, 300 episódios, retorno médio 113.0
+dataset ruim: 32,074 transições, 2000 episódios, retorno médio 16.0
+dataset misto: 57,074 transições, 2050 episódios, retorno médio 27.8
+treinando 14 modelos (15000 passos cada, 8 processos, cpu)...
+  medio   CQL (α=0.5)    retorno= 306.3  perturbado= 296.0  (49s)
+  expert  CQL (α=0.5)    retorno= 500.0  perturbado= 485.4  (51s)
+  medio   BC             retorno= 500.0  perturbado= 486.1  (55s)
+  expert  BC             retorno= 500.0  perturbado= 488.5  (56s)
+  ruim    CQL (α=0.5)    retorno= 157.3  perturbado= 172.4  (50s)
+  ruim    BC             retorno=   8.9  perturbado=  12.3  (56s)
+  medio   IQL (τ=0.7)    retorno= 500.0  perturbado= 490.2  (157s)
+  ruim    IQL (τ=0.7)    retorno= 222.2  perturbado= 192.2  (163s)
+  ruim    IQL (τ=0.5)    retorno= 228.0  perturbado= 212.4  (164s)
+  misto   CQL (α=0.5)    retorno= 465.7  perturbado= 460.3  (62s)
+  misto   BC             retorno=  87.7  perturbado=  32.1  (63s)
+  expert  IQL (τ=0.7)    retorno= 500.0  perturbado= 487.5  (183s)
+  ruim    IQL (τ=0.9)    retorno= 173.9  perturbado= 180.3  (146s)
+  misto   IQL (τ=0.7)    retorno= 500.0  perturbado= 473.7  (143s)
+gerando gráficos...
+{
+  "dataset_analise": "ruim",
+  "beta": 1.0,
+  "hp_BC": {
+    "dropout": 0.2,
+    "wd": 0.001,
+    "ls": 0.1
+  },
+  "episodios": 50,
+  "passos_aleatorios": 5,
+  "frac_dataset_igual_especialista": 0.3962000012397766,
+  "vies_Q_dados_CQL": 34.72395324707031,
+  "vies_Q_dados_IQL": 7.569990634918213,
+  "peso_mediano_acao_certa": 6.4673285484313965,
+  "peso_mediano_acao_errada": 0.054327670484781265,
+  "igual_especialista_BC": 0.00419999985024333,
+  "igual_especialista_CQL": 0.8073999881744385,
+  "igual_especialista_IQL": 0.8805999755859375,
+  "V_por_tau": {
+    "0.5": 8.863920211791992,
+    "0.7": 17.76757049560547,
+    "0.9": 43.72377395629883
+  },
+  "retorno_por_tau": {
+    "0.5": 228.02,
+    "0.7": 222.24,
+    "0.9": 173.92
+  },
+  "retorno_BC": {
+    "expert": 500.0,
+    "medio": 500.0,
+    "ruim": 8.9,
+    "misto": 87.74
+  },
+  "retorno_perturbado_BC": {
+    "expert": 488.46,
+    "medio": 486.1,
+    "ruim": 12.34,
+    "misto": 32.06
+  },
+  "retorno_CQL (α=0.5)": {
+    "expert": 500.0,
+    "medio": 306.28,
+    "ruim": 157.26,
+    "misto": 465.7
+  },
+  "retorno_perturbado_CQL (α=0.5)": {
+    "expert": 485.44,
+    "medio": 296.04,
+    "ruim": 172.44,
+    "misto": 460.32
+  },
+  "retorno_IQL (τ=0.7)": {
+    "expert": 500.0,
+    "medio": 500.0,
+    "ruim": 222.24,
+    "misto": 500.0
+  },
+  "retorno_perturbado_IQL (τ=0.7)": {
+    "expert": 487.5,
+    "medio": 490.2,
+    "ruim": 192.16,
+    "misto": 473.66
+  },
+  "retorno_dataset": {
+    "expert": 500.0,
+    "medio": 112.98332977294922,
+    "ruim": 16.03700065612793,
+    "misto": 27.840974807739258
+  }
+}
+figuras salvas em /home/roboime/drl-cartpole/experimentos/iql_s1/figuras_iql_cartpole
+dataset expert: 25,000 transições, 50 episódios, retorno médio 500.0
+treinando 5 modelos (15000 passos cada, cpu)...
+  alpha=0.0   retorno=   9.3  (41s)
+  alpha=5.0   retorno= 500.0  (42s)
+  alpha=0.5   retorno= 500.0  (43s)
+  alpha=2.0   retorno= 500.0  (43s)
+  alpha=0.1   retorno= 500.0  (43s)
+gerando gráficos...
+{
+  "dataset": "expert",
+  "alpha_cql": 0.1,
+  "vies_DQN": 533829.75,
+  "vies_CQL": -47.06791687011719,
+  "estado_Q_DQN": [
+    526924.3125,
+    361228.5625
+  ],
+  "estado_Q_CQL": [
+    51.369998931884766,
+    52.880001068115234
+  ],
+  "gap_DQN": 166808.78125,
+  "concordancia_DQN": 0.5027999877929688,
+  "gap_CQL": 25.03323745727539,
+  "concordancia_CQL": 0.9901999831199646,
+  "retorno_por_alfa": {
+    "0": 9.26,
+    "0.1": 500.0,
+    "0.5": 500.0,
+    "2": 500.0,
+    "5": 500.0
+  }
+}
+figuras salvas em /home/roboime/drl-cartpole/experimentos/cql_s1/figuras_cql_cartpole
+dataset expert: 25,000 transições, 50 episódios, retorno médio 500.0
+dataset medio: 33,895 transições, 300 episódios, retorno médio 113.0
+dataset ruim: 32,074 transições, 2000 episódios, retorno médio 16.0
+dataset misto: 57,074 transições, 2050 episódios, retorno médio 27.8
+treinando 14 modelos (15000 passos cada, 8 processos, cpu)...
+  medio   CQL (α=0.5)    retorno= 421.8  perturbado= 417.7  (49s)
+  expert  CQL (α=0.5)    retorno= 500.0  perturbado= 485.9  (52s)
+  medio   BC             retorno= 500.0  perturbado= 485.1  (55s)
+  expert  BC             retorno= 500.0  perturbado= 485.5  (56s)
+  ruim    CQL (α=0.5)    retorno=  97.0  perturbado= 100.5  (50s)
+  ruim    BC             retorno=   8.9  perturbado=  12.3  (54s)
+  medio   IQL (τ=0.7)    retorno= 500.0  perturbado= 490.2  (144s)
+  ruim    IQL (τ=0.7)    retorno= 243.6  perturbado= 214.9  (147s)
+  ruim    IQL (τ=0.5)    retorno= 203.2  perturbado= 190.3  (147s)
+  misto   CQL (α=0.5)    retorno= 311.8  perturbado= 313.2  (49s)
+  misto   BC             retorno=  87.8  perturbado=  32.7  (60s)
+  expert  IQL (τ=0.7)    retorno= 500.0  perturbado= 485.4  (172s)
+  ruim    IQL (τ=0.9)    retorno= 211.8  perturbado= 205.4  (142s)
+  misto   IQL (τ=0.7)    retorno= 500.0  perturbado= 478.6  (138s)
+gerando gráficos...
+{
+  "dataset_analise": "ruim",
+  "beta": 1.0,
+  "hp_BC": {
+    "dropout": 0.2,
+    "wd": 0.001,
+    "ls": 0.1
+  },
+  "episodios": 50,
+  "passos_aleatorios": 5,
+  "frac_dataset_igual_especialista": 0.3962000012397766,
+  "vies_Q_dados_CQL": 35.280147552490234,
+  "vies_Q_dados_IQL": 7.735257625579834,
+  "peso_mediano_acao_certa": 8.768774032592773,
+  "peso_mediano_acao_errada": 0.061831261962652206,
+  "igual_especialista_BC": 0.00559999980032444,
+  "igual_especialista_CQL": 0.6972000002861023,
+  "igual_especialista_IQL": 0.8827999830245972,
+  "V_por_tau": {
+    "0.5": 8.806340217590332,
+    "0.7": 17.714387893676758,
+    "0.9": 43.51180648803711
+  },
+  "retorno_por_tau": {
+    "0.5": 203.16,
+    "0.7": 243.58,
+    "0.9": 211.78
+  },
+  "retorno_BC": {
+    "expert": 500.0,
+    "medio": 500.0,
+    "ruim": 8.86,
+    "misto": 87.8
+  },
+  "retorno_perturbado_BC": {
+    "expert": 485.48,
+    "medio": 485.08,
+    "ruim": 12.34,
+    "misto": 32.72
+  },
+  "retorno_CQL (α=0.5)": {
+    "expert": 500.0,
+    "medio": 421.84,
+    "ruim": 97.04,
+    "misto": 311.78
+  },
+  "retorno_perturbado_CQL (α=0.5)": {
+    "expert": 485.94,
+    "medio": 417.66,
+    "ruim": 100.5,
+    "misto": 313.18
+  },
+  "retorno_IQL (τ=0.7)": {
+    "expert": 500.0,
+    "medio": 500.0,
+    "ruim": 243.58,
+    "misto": 500.0
+  },
+  "retorno_perturbado_IQL (τ=0.7)": {
+    "expert": 485.36,
+    "medio": 490.2,
+    "ruim": 214.9,
+    "misto": 478.56
+  },
+  "retorno_dataset": {
+    "expert": 500.0,
+    "medio": 112.98332977294922,
+    "ruim": 16.03700065612793,
+    "misto": 27.840974807739258
+  }
+}
+figuras salvas em /home/roboime/drl-cartpole/experimentos/iql_s2/figuras_iql_cartpole
+dataset expert: 25,000 transições, 50 episódios, retorno médio 500.0
+treinando 5 modelos (15000 passos cada, cpu)...
+  alpha=0.0   retorno=   9.3  (40s)
+  alpha=2.0   retorno= 500.0  (41s)
+  alpha=5.0   retorno= 500.0  (42s)
+  alpha=0.1   retorno= 500.0  (42s)
+  alpha=0.5   retorno= 500.0  (53s)
+gerando gráficos...
+{
+  "dataset": "expert",
+  "alpha_cql": 0.1,
+  "vies_DQN": 224768.203125,
+  "vies_CQL": -47.153961181640625,
+  "estado_Q_DQN": [
+    223337.09375,
+    136366.296875
+  ],
+  "estado_Q_CQL": [
+    51.33000183105469,
+    52.77000045776367
+  ],
+  "gap_DQN": 87075.6484375,
+  "concordancia_DQN": 0.5027999877929688,
+  "gap_CQL": 27.375843048095703,
+  "concordancia_CQL": 0.9965999722480774,
+  "retorno_por_alfa": {
+    "0": 9.26,
+    "0.1": 500.0,
+    "0.5": 500.0,
+    "2": 500.0,
+    "5": 500.0
+  }
+}
+figuras salvas em /home/roboime/drl-cartpole/experimentos/cql_s2/figuras_cql_cartpole
+dataset expert: 25,000 transições, 50 episódios, retorno médio 500.0
+dataset medio: 33,895 transições, 300 episódios, retorno médio 113.0
+dataset ruim: 32,074 transições, 2000 episódios, retorno médio 16.0
+dataset misto: 57,074 transições, 2050 episódios, retorno médio 27.8
+treinando 14 modelos (15000 passos cada, 8 processos, cpu)...
+  medio   CQL (α=0.5)    retorno= 478.3  perturbado= 464.8  (47s)
+  expert  CQL (α=0.5)    retorno= 500.0  perturbado= 482.9  (50s)
+  medio   BC             retorno= 500.0  perturbado= 486.7  (51s)
+  expert  BC             retorno= 500.0  perturbado= 485.5  (53s)
+  ruim    CQL (α=0.5)    retorno= 122.7  perturbado= 125.2  (50s)
+  ruim    BC             retorno=   8.9  perturbado=  12.3  (54s)
+  medio   IQL (τ=0.7)    retorno= 500.0  perturbado= 490.2  (142s)
+  ruim    IQL (τ=0.7)    retorno= 211.9  perturbado= 184.5  (143s)
+  ruim    IQL (τ=0.5)    retorno= 201.6  perturbado= 189.7  (144s)
+  misto   CQL (α=0.5)    retorno= 213.6  perturbado= 208.7  (47s)
+  misto   BC             retorno= 117.0  perturbado=  32.5  (50s)
+  expert  IQL (τ=0.7)    retorno= 500.0  perturbado= 486.3  (167s)
+  ruim    IQL (τ=0.9)    retorno= 185.8  perturbado= 183.4  (141s)
+  misto   IQL (τ=0.7)    retorno= 500.0  perturbado= 479.9  (136s)
+gerando gráficos...
+{
+  "dataset_analise": "ruim",
+  "beta": 1.0,
+  "hp_BC": {
+    "dropout": 0.2,
+    "wd": 0.001,
+    "ls": 0.1
+  },
+  "episodios": 50,
+  "passos_aleatorios": 5,
+  "frac_dataset_igual_especialista": 0.3962000012397766,
+  "vies_Q_dados_CQL": 34.45705032348633,
+  "vies_Q_dados_IQL": 7.452401638031006,
+  "peso_mediano_acao_certa": 6.570922374725342,
+  "peso_mediano_acao_errada": 0.05594839155673981,
+  "igual_especialista_BC": 0.007000000216066837,
+  "igual_especialista_CQL": 0.7480000257492065,
+  "igual_especialista_IQL": 0.885200023651123,
+  "V_por_tau": {
+    "0.5": 8.845589637756348,
+    "0.7": 17.60804557800293,
+    "0.9": 43.59284210205078
+  },
+  "retorno_por_tau": {
+    "0.5": 201.6,
+    "0.7": 211.86,
+    "0.9": 185.78
+  },
+  "retorno_BC": {
+    "expert": 500.0,
+    "medio": 500.0,
+    "ruim": 8.88,
+    "misto": 116.96
+  },
+  "retorno_perturbado_BC": {
+    "expert": 485.46,
+    "medio": 486.74,
+    "ruim": 12.34,
+    "misto": 32.52
+  },
+  "retorno_CQL (α=0.5)": {
+    "expert": 500.0,
+    "medio": 478.28,
+    "ruim": 122.7,
+    "misto": 213.6
+  },
+  "retorno_perturbado_CQL (α=0.5)": {
+    "expert": 482.92,
+    "medio": 464.76,
+    "ruim": 125.22,
+    "misto": 208.74
+  },
+  "retorno_IQL (τ=0.7)": {
+    "expert": 500.0,
+    "medio": 500.0,
+    "ruim": 211.86,
+    "misto": 500.0
+  },
+  "retorno_perturbado_IQL (τ=0.7)": {
+    "expert": 486.32,
+    "medio": 490.2,
+    "ruim": 184.5,
+    "misto": 479.88
+  },
+  "retorno_dataset": {
+    "expert": 500.0,
+    "medio": 112.98332977294922,
+    "ruim": 16.03700065612793,
+    "misto": 27.840974807739258
+  }
+}
+figuras salvas em /home/roboime/drl-cartpole/experimentos/iql_s3/figuras_iql_cartpole
+dataset expert: 25,000 transições, 50 episódios, retorno médio 500.0
+treinando 5 modelos (15000 passos cada, cpu)...
+  alpha=0.0   retorno=   9.5  (51s)
+  alpha=0.1   retorno= 500.0  (40s)
+  alpha=2.0   retorno= 500.0  (41s)
+  alpha=5.0   retorno= 500.0  (41s)
+  alpha=0.5   retorno= 500.0  (41s)
+gerando gráficos...
+{
+  "dataset": "expert",
+  "alpha_cql": 0.1,
+  "vies_DQN": 258922.46875,
+  "vies_CQL": -47.12245559692383,
+  "estado_Q_DQN": [
+    182886.84375,
+    270153.6875
+  ],
+  "estado_Q_CQL": [
+    52.79999923706055,
+    17.399999618530273
+  ],
+  "gap_DQN": 84037.328125,
+  "concordancia_DQN": 0.49720001220703125,
+  "gap_CQL": 28.480424880981445,
+  "concordancia_CQL": 0.9886000156402588,
+  "retorno_por_alfa": {
+    "0": 9.5,
+    "0.1": 500.0,
+    "0.5": 500.0,
+    "2": 500.0,
+    "5": 500.0
+  }
+}
+figuras salvas em /home/roboime/drl-cartpole/experimentos/cql_s3/figuras_cql_cartpole
+dataset expert: 25,000 transições, 50 episódios, retorno médio 500.0
+dataset medio: 33,895 transições, 300 episódios, retorno médio 113.0
+dataset ruim: 32,074 transições, 2000 episódios, retorno médio 16.0
+dataset misto: 57,074 transições, 2050 episódios, retorno médio 27.8
+treinando 14 modelos (15000 passos cada, 8 processos, cpu)...
+  medio   CQL (α=0.5)    retorno= 388.6  perturbado= 403.1  (47s)
+  expert  CQL (α=0.5)    retorno= 500.0  perturbado= 483.6  (49s)
+  medio   BC             retorno= 500.0  perturbado= 485.1  (53s)
+  expert  BC             retorno= 500.0  perturbado= 485.8  (54s)
+  ruim    CQL (α=0.5)    retorno= 111.2  perturbado= 114.6  (58s)
+  ruim    BC             retorno=   8.9  perturbado=  12.3  (53s)
+  medio   IQL (τ=0.7)    retorno= 500.0  perturbado= 490.2  (140s)
+  ruim    IQL (τ=0.7)    retorno= 224.9  perturbado= 202.1  (145s)
+  ruim    IQL (τ=0.5)    retorno= 211.8  perturbado= 198.6  (145s)
+  misto   CQL (α=0.5)    retorno= 123.2  perturbado= 127.2  (38s)
+  misto   BC             retorno=  78.0  perturbado=  22.3  (49s)
+  expert  IQL (τ=0.7)    retorno= 500.0  perturbado= 486.0  (169s)
+  ruim    IQL (τ=0.9)    retorno= 175.6  perturbado= 173.6  (140s)
+  misto   IQL (τ=0.7)    retorno= 500.0  perturbado= 478.1  (137s)
+gerando gráficos...
+{
+  "dataset_analise": "ruim",
+  "beta": 1.0,
+  "hp_BC": {
+    "dropout": 0.2,
+    "wd": 0.001,
+    "ls": 0.1
+  },
+  "episodios": 50,
+  "passos_aleatorios": 5,
+  "frac_dataset_igual_especialista": 0.3962000012397766,
+  "vies_Q_dados_CQL": 36.834720611572266,
+  "vies_Q_dados_IQL": 7.215273380279541,
+  "peso_mediano_acao_certa": 5.383872032165527,
+  "peso_mediano_acao_errada": 0.04177357256412506,
+  "igual_especialista_BC": 0.003800000064074993,
+  "igual_especialista_CQL": 0.6471999883651733,
+  "igual_especialista_IQL": 0.8795999884605408,
+  "V_por_tau": {
+    "0.5": 8.905346870422363,
+    "0.7": 17.63559913635254,
+    "0.9": 44.17966079711914
+  },
+  "retorno_por_tau": {
+    "0.5": 211.76,
+    "0.7": 224.94,
+    "0.9": 175.58
+  },
+  "retorno_BC": {
+    "expert": 500.0,
+    "medio": 500.0,
+    "ruim": 8.86,
+    "misto": 77.96
+  },
+  "retorno_perturbado_BC": {
+    "expert": 485.8,
+    "medio": 485.08,
+    "ruim": 12.34,
+    "misto": 22.34
+  },
+  "retorno_CQL (α=0.5)": {
+    "expert": 500.0,
+    "medio": 388.6,
+    "ruim": 111.18,
+    "misto": 123.16
+  },
+  "retorno_perturbado_CQL (α=0.5)": {
+    "expert": 483.58,
+    "medio": 403.06,
+    "ruim": 114.58,
+    "misto": 127.18
+  },
+  "retorno_IQL (τ=0.7)": {
+    "expert": 500.0,
+    "medio": 500.0,
+    "ruim": 224.94,
+    "misto": 500.0
+  },
+  "retorno_perturbado_IQL (τ=0.7)": {
+    "expert": 485.98,
+    "medio": 490.2,
+    "ruim": 202.12,
+    "misto": 478.12
+  },
+  "retorno_dataset": {
+    "expert": 500.0,
+    "medio": 112.98332977294922,
+    "ruim": 16.03700065612793,
+    "misto": 27.840974807739258
+  }
+}
+figuras salvas em /home/roboime/drl-cartpole/experimentos/iql_s4/figuras_iql_cartpole
+dataset expert: 25,000 transições, 50 episódios, retorno médio 500.0
+treinando 5 modelos (15000 passos cada, cpu)...
+  alpha=0.0   retorno=   9.3  (41s)
+  alpha=2.0   retorno= 500.0  (42s)
+  alpha=0.5   retorno= 500.0  (42s)
+  alpha=0.1   retorno= 500.0  (42s)
+  alpha=5.0   retorno= 500.0  (43s)
+gerando gráficos...
+{
+  "dataset": "expert",
+  "alpha_cql": 0.1,
+  "vies_DQN": 231.14007568359375,
+  "vies_CQL": -47.16565704345703,
+  "estado_Q_DQN": [
+    335.7300109863281,
+    265.1700134277344
+  ],
+  "estado_Q_CQL": [
+    51.58000183105469,
+    52.790000915527344
+  ],
+  "gap_DQN": 70.16943359375,
+  "concordancia_DQN": 0.5027999877929688,
+  "gap_CQL": 22.407825469970703,
+  "concordancia_CQL": 0.9887999892234802,
+  "retorno_por_alfa": {
+    "0": 9.26,
+    "0.1": 500.0,
+    "0.5": 500.0,
+    "2": 500.0,
+    "5": 500.0
+  }
+}
+figuras salvas em /home/roboime/drl-cartpole/experimentos/cql_s4/figuras_cql_cartpole
+45 modelos no plano, 0 já salvos em experimentos/varredura_especialista, 45 a treinar (15000 passos, 8 processos, cpu)
+  k1      CQL (α=0.5)    retorno= 105.1  perturbado= 108.6  (46s)
+[1/45] k=1 seed=0 CQL: retorno 105.1 (1 min)
+  k2      CQL (α=0.5)    retorno=  91.0  perturbado=  94.9  (46s)
+[2/45] k=2 seed=0 CQL: retorno 91.0 (1 min)
+  k5      CQL (α=0.5)    retorno= 163.4  perturbado= 165.7  (47s)
+[3/45] k=5 seed=0 CQL: retorno 163.4 (1 min)
+  k1      BC             retorno=   8.9  perturbado=  12.3  (51s)
+[4/45] k=1 seed=0 BC: retorno 8.9 (1 min)
+  k2      BC             retorno=   8.9  perturbado=  12.3  (51s)
+  k5      BC             retorno=  18.7  perturbado=  13.2  (51s)
+[5/45] k=2 seed=0 BC: retorno 8.9 (1 min)
+[6/45] k=5 seed=0 BC: retorno 18.7 (1 min)
+  k10     CQL (α=0.5)    retorno= 140.0  perturbado= 143.2  (46s)
+[7/45] k=10 seed=0 CQL: retorno 140.0 (2 min)
+  k10     BC             retorno=  58.1  perturbado=  12.4  (51s)
+[8/45] k=10 seed=0 BC: retorno 58.1 (2 min)
+  k25     CQL (α=0.5)    retorno= 313.5  perturbado= 311.4  (48s)
+[9/45] k=25 seed=0 CQL: retorno 313.5 (2 min)
+  k25     BC             retorno=  68.0  perturbado=  22.7  (51s)
+[10/45] k=25 seed=0 BC: retorno 68.0 (2 min)
+  k1      IQL (τ=0.7)    retorno= 299.5  perturbado= 295.3  (143s)
+[11/45] k=1 seed=0 IQL: retorno 299.5 (2 min)
+  k2      IQL (τ=0.7)    retorno= 425.2  perturbado= 364.7  (144s)
+[12/45] k=2 seed=0 IQL: retorno 425.2 (2 min)
+  k1      CQL (α=0.5)    retorno= 119.8  perturbado= 124.0  (48s)
+[13/45] k=1 seed=1 CQL: retorno 119.8 (2 min)
+  k1      BC             retorno=   8.9  perturbado=  12.4  (63s)
+[14/45] k=1 seed=1 BC: retorno 8.9 (3 min)
+  k5      IQL (τ=0.7)    retorno= 500.0  perturbado= 469.7  (144s)
+[15/45] k=5 seed=0 IQL: retorno 500.0 (3 min)
+  k2      CQL (α=0.5)    retorno= 119.4  perturbado= 122.8  (47s)
+[16/45] k=2 seed=1 CQL: retorno 119.4 (3 min)
+  k2      BC             retorno=   9.0  perturbado=  12.3  (51s)
+[17/45] k=2 seed=1 BC: retorno 9.0 (3 min)
+  k10     IQL (τ=0.7)    retorno= 500.0  perturbado= 468.6  (144s)
+[18/45] k=10 seed=0 IQL: retorno 500.0 (3 min)
+  k5      BC             retorno=  11.6  perturbado=  13.1  (40s)
+[19/45] k=5 seed=1 BC: retorno 11.6 (3 min)
+  k5      CQL (α=0.5)    retorno= 110.2  perturbado= 113.8  (46s)
+[20/45] k=5 seed=1 CQL: retorno 110.2 (4 min)
+  k25     IQL (τ=0.7)    retorno= 500.0  perturbado= 473.5  (143s)
+[21/45] k=25 seed=0 IQL: retorno 500.0 (4 min)
+  k10     CQL (α=0.5)    retorno= 103.3  perturbado= 106.7  (47s)
+[22/45] k=10 seed=1 CQL: retorno 103.3 (4 min)
+  k10     BC             retorno=  42.4  perturbado=  12.3  (62s)
+[23/45] k=10 seed=1 BC: retorno 42.4 (4 min)
+  k1      IQL (τ=0.7)    retorno= 232.4  perturbado= 249.8  (144s)
+[24/45] k=1 seed=1 IQL: retorno 232.4 (4 min)
+  k25     CQL (α=0.5)    retorno= 331.0  perturbado= 259.0  (48s)
+[25/45] k=25 seed=1 CQL: retorno 331.0 (5 min)
+  k25     BC             retorno=  58.1  perturbado=  31.8  (51s)
+[26/45] k=25 seed=1 BC: retorno 58.1 (5 min)
+  k2      IQL (τ=0.7)    retorno= 269.0  perturbado= 276.5  (144s)
+[27/45] k=2 seed=1 IQL: retorno 269.0 (5 min)
+  k1      CQL (α=0.5)    retorno= 107.4  perturbado= 111.5  (47s)
+[28/45] k=1 seed=2 CQL: retorno 107.4 (5 min)
+  k1      BC             retorno=   8.9  perturbado=  12.3  (41s)
+[29/45] k=1 seed=2 BC: retorno 8.9 (5 min)
+  k5      IQL (τ=0.7)    retorno= 322.2  perturbado= 301.6  (144s)
+[30/45] k=5 seed=1 IQL: retorno 322.2 (6 min)
+  k2      BC             retorno=   8.9  perturbado=  12.6  (52s)
+[31/45] k=2 seed=2 BC: retorno 8.9 (6 min)
+  k2      CQL (α=0.5)    retorno= 157.1  perturbado= 151.5  (47s)
+[32/45] k=2 seed=2 CQL: retorno 157.1 (6 min)
+  k10     IQL (τ=0.7)    retorno= 471.0  perturbado= 410.6  (143s)
+[33/45] k=10 seed=1 IQL: retorno 471.0 (6 min)
+  k5      BC             retorno=   9.1  perturbado=  12.3  (51s)
+[34/45] k=5 seed=2 BC: retorno 9.1 (6 min)
+  k5      CQL (α=0.5)    retorno=  93.2  perturbado=  96.8  (46s)
+[35/45] k=5 seed=2 CQL: retorno 93.2 (6 min)
+  k25     IQL (τ=0.7)    retorno= 500.0  perturbado= 471.5  (143s)
+[36/45] k=25 seed=1 IQL: retorno 500.0 (6 min)
+  k10     BC             retorno=  52.5  perturbado=  12.4  (62s)
+[37/45] k=10 seed=2 BC: retorno 52.5 (7 min)
+  k10     CQL (α=0.5)    retorno= 222.7  perturbado= 217.9  (48s)
+[38/45] k=10 seed=2 CQL: retorno 222.7 (7 min)
+  k25     BC             retorno=  58.2  perturbado=  12.4  (50s)
+[39/45] k=25 seed=2 BC: retorno 58.2 (7 min)
+  k1      IQL (τ=0.7)    retorno= 241.2  perturbado= 206.0  (147s)
+[40/45] k=1 seed=2 IQL: retorno 241.2 (7 min)
+  k25     CQL (α=0.5)    retorno= 163.1  perturbado= 164.8  (47s)
+[41/45] k=25 seed=2 CQL: retorno 163.1 (7 min)
+  k2      IQL (τ=0.7)    retorno= 297.5  perturbado= 292.4  (145s)
+[42/45] k=2 seed=2 IQL: retorno 297.5 (7 min)
+  k5      IQL (τ=0.7)    retorno= 446.1  perturbado= 384.7  (138s)
+[43/45] k=5 seed=2 IQL: retorno 446.1 (8 min)
+  k10     IQL (τ=0.7)    retorno= 500.0  perturbado= 471.6  (138s)
+[44/45] k=10 seed=2 IQL: retorno 500.0 (8 min)
+  k25     IQL (τ=0.7)    retorno= 500.0  perturbado= 473.5  (114s)
+[45/45] k=25 seed=2 IQL: retorno 500.0 (9 min)
+{
+  "BC": {
+    "0": 8.88,
+    "1": 8.88,
+    "2": 8.913333333333334,
+    "5": 13.113333333333332,
+    "10": 51.01333333333333,
+    "25": 61.43333333333334,
+    "50": 90.96
+  },
+  "CQL": {
+    "0": 123.44,
+    "1": 110.74000000000001,
+    "2": 122.48,
+    "5": 122.25333333333333,
+    "10": 155.30666666666667,
+    "25": 269.2,
+    "50": 321.4866666666666
+  },
+  "IQL": {
+    "0": 223.12,
+    "1": 257.7,
+    "2": 330.5733333333333,
+    "5": 422.7533333333334,
+    "10": 490.34,
+    "25": 500.0,
+    "50": 500.0
+  }
+}
+resultados em /home/roboime/drl-cartpole/experimentos/varredura_especialista
+dataset ruim: 32,074 transições, 2000 episódios, retorno médio 16.0
+dataset misto: 57,074 transições, 2050 episódios, retorno médio 27.8
+treinando 8 modelos (60000 passos cada, 8 processos, cpu)...
+  ruim    CQL (α=0.5)    retorno=  95.1  perturbado=  90.9  (183s)
+  misto   CQL (α=0.5)    retorno= 118.5  perturbado= 121.8  (183s)
+  misto   BC             retorno=  87.7  perturbado=  31.9  (210s)
+  ruim    BC             retorno=   8.9  perturbado=  12.3  (214s)
+  misto   IQL (τ=0.7)    retorno= 500.0  perturbado= 486.3  (520s)
+  ruim    IQL (τ=0.9)    retorno= 101.0  perturbado= 108.9  (547s)
+  ruim    IQL (τ=0.5)    retorno= 225.8  perturbado= 187.5  (549s)
+  ruim    IQL (τ=0.7)    retorno= 246.7  perturbado= 210.6  (549s)
+gerando gráficos...
+{
+  "dataset_analise": "ruim",
+  "beta": 1.0,
+  "hp_BC": {
+    "dropout": 0.2,
+    "wd": 0.001,
+    "ls": 0.1
+  },
+  "episodios": 50,
+  "passos_aleatorios": 5,
+  "frac_dataset_igual_especialista": 0.3962000012397766,
+  "vies_Q_dados_CQL": 201.371826171875,
+  "vies_Q_dados_IQL": 7.637073993682861,
+  "peso_mediano_acao_certa": 6.6111345291137695,
+  "peso_mediano_acao_errada": 0.06215430051088333,
+  "igual_especialista_BC": 0.018799999728798866,
+  "igual_especialista_CQL": 0.7045999765396118,
+  "igual_especialista_IQL": 0.8622000217437744,
+  "V_por_tau": {
+    "0.5": 8.847901344299316,
+    "0.7": 17.78705596923828,
+    "0.9": 88.20015716552734
+  },
+  "retorno_por_tau": {
+    "0.5": 225.82,
+    "0.7": 246.7,
+    "0.9": 100.96
+  },
+  "retorno_BC": {
+    "ruim": 8.94,
+    "misto": 87.74
+  },
+  "retorno_perturbado_BC": {
+    "ruim": 12.34,
+    "misto": 31.86
+  },
+  "retorno_CQL (α=0.5)": {
+    "ruim": 95.08,
+    "misto": 118.48
+  },
+  "retorno_perturbado_CQL (α=0.5)": {
+    "ruim": 90.88,
+    "misto": 121.84
+  },
+  "retorno_IQL (τ=0.7)": {
+    "ruim": 246.7,
+    "misto": 500.0
+  },
+  "retorno_perturbado_IQL (τ=0.7)": {
+    "ruim": 210.6,
+    "misto": 486.28
+  },
+  "retorno_dataset": {
+    "ruim": 16.03700065612793,
+    "misto": 27.840974807739258
+  }
+}
+figuras salvas em /home/roboime/drl-cartpole/experimentos/iql_60k/figuras_iql_cartpole
+TUDO PRONTO: Mon Nov  2 09:34:20 PM -03 2026

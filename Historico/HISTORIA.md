@@ -1,50 +1,53 @@
 # Offline RL no CartPole: o histórico das melhorias
 
-Registro do que mudamos no projeto, do que cada mudança fez com os números e do que aprendemos com isso. Atualizado em 2026-11-02.
+Registro do que mudamos no projeto, do que cada mudança fez com os números e do que aprendemos com isso. Atualizado em 2026-11-03.
 
-**Situação:** os capítulos 1 a 6 estão concluídos. Os capítulos 7 a 10 dependem de experimentos ainda não rodados e não têm resultados aqui. As mudanças de código estão no branch `melhorias-avaliacao-iql`, ainda sem commit. Todos os números vêm de `Historico/dados/`, com a fonte de cada um.
+**Situação:** os capítulos 1 a 9 estão concluídos. O capítulo 10 (vento) ainda não foi rodado. As mudanças de código estão no branch `melhorias-avaliacao-iql`. Todos os números vêm de `Historico/dados/` ou `Historico/analises/`, com a fonte de cada um.
 
 ## O enredo
 
-Começamos querendo corrigir detalhes da medição. Descobrimos que os próprios números andavam sozinhos entre uma rodada e outra, e que parte do que os slides contavam não se sustenta.
+Começamos querendo corrigir detalhes da medição. Descobrimos que os próprios números andavam sozinhos entre uma rodada e outra, e que parte do que os slides contavam não se sustenta. Então repetimos tudo com cinco seeds, para separar o que é resultado do que é sorte de uma rodada.
 
-**O que resistiu a todas as rodadas (ainda com uma seed só no CQL e no IQL):**
+**O que resistiu às cinco seeds:**
 
-- O DQN offline diverge no expert: retorno 9,5 e valores de Q dezenas a centenas de vezes acima do máximo possível, que é 100.
-- Qualquer α > 0 no CQL conserta isso: retorno 500.
-- O dataset expert leva todos os métodos a 500. No ruim, o BC fica abaixo dos próprios dados.
-- No ruim e no misto, ao fim de 15.000 passos, o IQL tem o maior retorno.
+- O DQN offline falha no expert em todas: retorno de 9,3 a 9,5, usando uma ação só na avaliação. O que muda muito é o tamanho de Q: o valor final vai de cerca de 300 a 460.000, contra um máximo possível de 100.
+- Qualquer α > 0 no CQL conserta isso: 500 em todas as seeds.
+- O dataset expert leva todos os métodos a 500. No ruim, o BC fica abaixo dos próprios dados em todas as seeds.
+- No medio, no ruim e no misto, ao fim de 15.000 passos, o IQL supera o CQL em todas as seeds.
 
 **O que caiu ou precisa mudar:**
 
-- "O retorno cai quando τ cresce": era 212, 187 e 159 nos slides. Hoje é plano: 198, 204 e 207, com intervalos sobrepostos.
-- "O CQL fica abaixo do retorno real, o limite inferior prometido": o valor de Q que sustentava isso reflete o tempo de treino (capítulo 6).
-- "Só o IQL volta a 500 no misto": vale ao fim de 15.000 passos, mas o CQL ficou em 500 de 3.000 a 10.500 passos (capítulo 6).
+- "O retorno cai quando τ cresce": era 212, 187 e 159 nos slides. Com uma seed, escrevemos aqui que era plano, e isso também não se sustenta. Com cinco seeds, é 209, 221 e 191: não há queda contínua, mas τ = 0,9 fica atrás de τ = 0,7 em 4 das 5 seeds e, com 60.000 passos, cai para 101 (capítulo 8).
+- "O CQL fica abaixo do retorno real, o limite inferior prometido": no expert, o valor de Q reflete o tempo de treino (capítulo 6). No ruim, com α = 0,5, o CQL superestima: viés de +34 aos 15.000 passos e +201 aos 60.000 (capítulo 8).
+- "Só o IQL volta a 500 no misto": vale ao fim de 15.000 passos, mas o CQL esteve em 500 nas cinco seeds de 3.000 a 7.500 passos, e depois caiu (capítulo 7).
+- "CQL no misto: 189": uma seed só não representa esse caso. As cinco seeds vão de 123 a 466 (capítulo 7).
 
-## A mesma medida em quatro momentos
+## A mesma medida em cinco momentos
 
-| Medida | Slides | 1ª rodada | Rodada de 01/11 | Melhorias de 02/11 |
-|---|---|---|---|---|
-| IQL no ruim, retorno | 187 | 217 | 213 | 204 |
-| CQL no medio, retorno | 372 | 430 | 384 | 391 |
-| CQL no ruim, retorno | 126 | sem registro | 116 | 116 |
-| CQL no misto, retorno | 191 | sem registro | 189 | 187 |
-| BC no misto, retorno | 140 | 92 | 124 | 97 (regularizado) |
-| BC base no medio 10%, retorno | 385 ± 35 | 356 ± 90 | 399 ± 49 | não reexecutado |
-| DQN no expert, retorno | 9,5 | 9,3 | 9,5 | 9,5 |
-| DQN no expert, viés médio de Q | +2.737 | +19.045 | +25.667 | +25.647 |
-| CQL α = 0,1 no expert, viés médio | −27 | −26,7 | −26,7 | −47,1 |
-| DQN no expert, concordância com os dados | 50% | 36% | 33% | 33% |
-| CQL no ruim, igual ao especialista | 73% | 66% | 65% | 65% |
-| IQL no ruim, retorno com τ = 0,5 / 0,7 / 0,9 | 212 / 187 / 159 | sem registro | 208 / 213 / 214 | 198 / 204 / 207 |
+| Medida | Slides | 1ª rodada | Rodada de 01/11 | Melhorias de 02/11 | Cinco seeds (média ± desvio) |
+|---|---|---|---|---|---|
+| IQL no ruim, retorno | 187 | 217 | 213 | 204 | 221 ± 15 |
+| CQL no medio, retorno | 372 | 430 | 384 | 391 | 397 ± 62 |
+| CQL no ruim, retorno | 126 | sem registro | 116 | 116 | 121 ± 22 |
+| CQL no misto, retorno | 191 | sem registro | 189 | 187 | 260 ± 133 |
+| BC no misto, retorno | 140 | 92 | 124 | 97 (regularizado) | 94 ± 15 |
+| BC base no medio 10%, retorno | 385 ± 35 | 356 ± 90 | 399 ± 49 | não reexecutado | não reexecutado |
+| DQN no expert, retorno | 9,5 | 9,3 | 9,5 | 9,5 | 9,4 ± 0,1 |
+| DQN no expert, viés médio de Q | +2.737 | +19.045 | +25.667 | +25.647 | de +231 a +533.830 |
+| CQL α = 0,1 no expert, viés médio | −27 | −26,7 | −26,7 | −47,1 | −47,11 ± 0,05 |
+| DQN no expert, concordância com os dados | 50% | 36% | 33% | 33% | 33% numa seed, 50% nas outras |
+| CQL no ruim, igual ao especialista | 73% | 66% | 65% | 65% | 71% ± 7 |
+| IQL no ruim, retorno com τ = 0,5 / 0,7 / 0,9 | 212 / 187 / 159 | sem registro | 208 / 213 / 214 | 198 / 204 / 207 | 209 / 221 / 191 |
 
-O retorno máximo é 500. A coluna "Slides" é o que as apresentações ainda mostram. A coluna "1ª rodada" vem do que o `PROJECT_GUIDE.md` registrou, porque aqueles arquivos não existem mais. A coluna "Rodada de 01/11" é o que está guardado no commit `6759143`. O valor 140 do BC não bate com nenhuma figura salva; o guia supõe que veio de `--estudo dados`.
+O retorno máximo é 500. A coluna "Slides" é o que as apresentações ainda mostram. A coluna "1ª rodada" vem do que o `PROJECT_GUIDE.md` registrou, porque aqueles arquivos não existem mais. A coluna "Rodada de 01/11" é o que está guardado no commit `6759143`. A coluna "Cinco seeds" usa as seeds 0 a 4; a coluna anterior é a seed 0 dela. O valor 140 do BC não bate com nenhuma figura salva; o guia supõe que veio de `--estudo dados`.
 
 ## Capítulo 1: os números andavam sozinhos
 
 Antes de mudarmos qualquer coisa, a mesma receita já dava números diferentes entre rodadas. Os scripts fixam as seeds, mas os resultados mudam entre máquinas e versões de bibliotecas. Com o mesmo código, seed e máquina, o resultado se repete bit a bit.
 
 O caso mais forte é o viés do DQN: +2.737, +19.045 e +25.667. A divergência é exponencial, então o tamanho final de Q não se repete, mas a conclusão sim. O CQL no medio andou de 372 para 430 e 384.
+
+**Depois:** o capítulo 7 mostra que, entre as duas máquinas que usamos em 02/11, os resultados foram idênticos. A máquina sozinha não explica estas diferenças.
 
 **O que isso muda:** nenhum número de um único experimento é "o" resultado. É por isso que o capítulo 7 repete tudo com cinco seeds.
 
@@ -103,7 +106,7 @@ O mesmo vale para a varredura de τ. Com 50 episódios, os intervalos são 183 a
 - **As quedas claras são BC no misto, IQL no ruim e IQL no misto.** A do BC é a maior.
 - **O ganho do BC no ruim é um artefato:** os passos sorteados contam no retorno, e os 50 episódios continuam caindo cedo.
 
-No geral, este teste separa pouco os métodos. Os intervalos são de uma seed só.
+No geral, este teste separa pouco os métodos. Os intervalos são de uma seed só; o capítulo 7 repete o teste com cinco.
 
 ## Capítulo 6: o que estávamos lendo errado
 
@@ -132,7 +135,7 @@ Retorno a cada 1.500 passos, com 10 episódios por ponto:
 | IQL no ruim | 16, 160, 176, 187, 187, 184, 194, 205, 187, 198 |
 | BC no misto | 66, 112, 156, 107, 58, 59, 10, 10, 10, 10 |
 
-Sem simulador, nenhum sinal do treino avisa quando parar: é um problema central de Offline RL. A causa da queda ainda não foi estabelecida, e isto é uma seed só. O capítulo 7 vai dizer se ela se repete.
+Sem simulador, nenhum sinal do treino avisa quando parar: é um problema central de Offline RL. A causa da queda ainda não foi estabelecida. Esta tabela é de uma seed só; o capítulo 7 mostra que a queda se repete nas cinco.
 
 ### "Os pesos escolhem as transições do especialista" é só parte da história
 
@@ -143,26 +146,145 @@ Depois de 5 ações sorteadas, quase nada perto do agente nos dados do misto vei
 | 0 | 8% | 24% | 46% | 88% |
 | 5 | 0% | 14% | 54% | 98% |
 
-Além disso, o IQL já concorda em 86% no ruim, que não tem nenhum episódio do especialista. Esta é uma explicação plausível, ainda não comprovada.
+Esta medida é de uma seed só. Além disso, o IQL já concorda de 86% a 89% no ruim, nas cinco seeds, e o ruim não tem nenhum episódio do especialista. Esta é uma explicação plausível, ainda não comprovada.
 
-## Capítulo 7: cinco seeds (pendente)
+## Um desvio: a GPU ajuda?
 
-**A pergunta:** o que continua de pé quando a seed muda? As seeds variam a inicialização e os lotes; os dados e os episódios de avaliação ficam fixos. Os casos em aberto são o ruim, o misto e o CQL no medio, além da queda do CQL.
+Antes da rodada grande, medimos o mesmo trabalho na CPU e na GPU de uma mesma máquina: os 14 modelos do `iql_cartpole.py`, com 2.000 passos e 5 episódios de avaliação.
 
-## Capítulo 8: 60.000 passos (pendente)
+| Dispositivo | Processos | Tempo total |
+|---|---|---|
+| CPU | 8 | 38,5 s |
+| GPU | 8 | 47,5 s |
+| GPU | 4 | 54,7 s |
+| CPU | 4 | 55,3 a 56,7 s (três repetições) |
 
-**A pergunta:** a queda do CQL persiste com mais treino? Q realmente chega perto de 100, como a fórmula prevê?
+Com 4 processos, houve empate. Com 8, a CPU foi 9 s mais rápida. Foi também a primeira execução real do `--device cuda`, e ela chegou ao fim nos dois casos.
 
-## Capítulo 9: quanto especialista basta? (pendente)
+Este teste é curto e inclui a inicialização da GPU, que só acontece uma vez, então a diferença pode diminuir em treinos longos. Mesmo assim, nada aqui indica ganho com a GPU. Por isso, a rodada grande usou a CPU, com 8 processos, e levou cerca de 40 minutos. Na GPU, 4 e 8 processos deram pesos idênticos entre si e diferentes dos da CPU, como esperado.
 
-**A pergunta:** o misto tem 2,4% de episódios do especialista, mas 43,8% das transições. Ele é fácil demais? A varredura treina BC, CQL e IQL em todo o ruim mais k episódios do especialista, com três seeds:
+Por que isso faz sentido? As redes são pequenas (cerca de 67 mil parâmetros, lotes de 256). Num passo sintético do IQL contamos de 396 a 537 operações com tensores, cada uma levando em média de 20 a 26 µs numa thread de CPU, em outra máquina. A explicação mais provável, que não medimos na GPU, é que operações tão pequenas não compensam o custo fixo de disparar cada uma na GPU. Com 8 processos há ainda uma disputa: eles dividem uma GPU, enquanto na CPU cada um tem seu núcleo. A GPU também não liberou o processador: com 8 processos, o tempo de CPU foi de 3 min 20 s sem ela para 4 min 51 s com ela. E o código não foi ajustado para GPU: o IQL chama `.item()` quatro vezes por passo, e cada chamada faz a CPU esperar a GPU. Os dados não são o gargalo: eles ficam na GPU, e a cada passo só viajam os 256 índices do lote. A saída original está em `Historico/analises/teste_velocidade_20261102.txt`, e a contagem, em `Historico/analises/conta_ops_20261102.txt`.
+
+## Capítulo 7: cinco seeds
+
+**A pergunta:** o que continua de pé quando a seed muda? As seeds variam a inicialização e os lotes; os dados e os episódios de avaliação ficam fixos. Cada modelo é avaliado em 50 episódios.
+
+![Retorno de BC, CQL e IQL nos quatro datasets, com um ponto por seed. O IQL fica acima do CQL no medio, no ruim e no misto, e o CQL varia muito no misto.](figuras/1_cinco_seeds.png)
+
+| Retorno (média ± desvio entre seeds) | expert | medio | ruim | misto |
+|---|---|---|---|---|
+| Média do dataset | 500 | 113 | 16 | 27,8 |
+| BC regularizado | 500 ± 0 | 500 ± 0 | 8,9 ± 0,0 | 93,6 ± 14,8 |
+| CQL α = 0,5 | 500 ± 0 | 397,1 ± 62,4 | 120,8 ± 22,4 | 260,2 ± 133,4 |
+| IQL τ = 0,7 | 500 ± 0 | 500 ± 0 | 221,2 ± 15,1 | 500 ± 0 |
+
+**O que se repete em todas as seeds:**
+
+- O IQL supera o CQL no medio, no ruim e no misto.
+- O BC faz 500 no medio e fica abaixo dos dados no ruim.
+- Qualquer α > 0 faz 500 no expert, e o DQN offline (α = 0) falha.
+- Nos episódios de avaliação, o DQN usa uma ação só: sempre à esquerda dá retorno 9,26 (3 seeds), sempre à direita dá 9,50 (2 seeds).
+
+**O que a seed muda:**
+
+- **O tamanho de Q no DQN.** O Q final nos dados vai de 295 a 443.144, e o viés, de +231 a +533.830. "Q da ordem de 10⁴" era o que uma seed deu. O que se sustenta é que o retorno não depende desse tamanho. Já o CQL com α = 0,1 termina com Q entre 52,8 e 52,9 em todas as seeds.
+- **O CQL no misto:** de 123 a 466. O 187 da seed 0 estava na parte baixa da faixa.
+- **O CQL no medio:** de 306 a 478. Os 372, 430 e 384 de antes cabem nessa faixa.
+
+### A queda do CQL se repete
+
+![Retorno ao longo do treino. No misto e no ruim, o CQL sobe e depois cai em todas as seeds, enquanto o IQL se mantém. Com 60.000 passos no misto, o CQL não se recupera.](figuras/2_queda_do_cql.png)
+
+No misto, as cinco seeds estão em 500 em todos os pontos de 3.000 a 7.500 passos, e todas terminam abaixo disso. A média cai de 500 para 256. No ruim, a queda vem depois dos 9.000 passos: a média vai de 261 para 122, e nas cinco seeds o último ponto fica abaixo do primeiro. Na média, o IQL não cai em nenhum dos dois.
+
+| CQL no misto, média das 5 seeds | 7.500 | 9.000 | 10.500 | 12.000 | 13.500 | 15.000 |
+|---|---|---|---|---|---|---|
+| Retorno | 500 | 431 | 400 | 300 | 220 | 256 |
+| Q nos dados | 28,9 | 33,7 | 38,3 | 42,3 | 46,1 | 49,9 |
+| Q na outra ação | 28,8 | 33,7 | 38,3 | 42,3 | 46,2 | 50,0 |
+| Concordância com os dados | 59% | 57% | 59% | 58% | 58% | 58% |
+| Perda de TD | 0,52 | 0,68 | 0,74 | 0,77 | 0,91 | 0,94 |
+
+Nada nesses sinais marca o momento da queda: Q e a perda de TD sobem sem salto desde o começo do treino. Com um simulador, pararíamos aos 7.500 passos com retorno 500. Sem ele, nenhum destes números avisaria. A causa da queda continua não estabelecida, e tudo isto vale para α = 0,5, que não foi ajustado por dataset.
+
+### O teste perturbado com cinco seeds
+
+As três quedas claras do capítulo 5 se repetem nas cinco seeds: BC no misto (93,6 para 30,5), IQL no ruim (221,2 para 194,3) e IQL no misto (500 para 477,3). O CQL no misto não muda na média (260,2 para 259,8). No medio, o IQL dá 490,2 em todas as seeds porque 49 episódios chegam a 500 e um deles, sempre o mesmo, acaba no passo 10.
+
+### Duas máquinas, o mesmo resultado
+
+A seed 0 rodou em duas máquinas diferentes, com o mesmo código: os 14 modelos saíram idênticos, pesos inclusive, e as 28 listas de retornos também. Portanto, a máquina sozinha não explica as diferenças do capítulo 1. Os arquivos antigos não registram versões de bibliotecas, então não sabemos o que explica.
+
+## Capítulo 8: 60.000 passos
+
+**As perguntas:** a queda do CQL persiste com mais treino? Q realmente chega perto de 100, como a fórmula prevê? Esta rodada é de uma seed só (a seed 0), no ruim e no misto.
+
+| Modelo | 15.000 passos | 60.000 passos |
+|---|---|---|
+| IQL τ = 0,7 no misto | 500,0 | 500,0 |
+| IQL τ = 0,7 no ruim | 203,5 | 246,7 |
+| CQL α = 0,5 no misto | 187,0 | 118,5 |
+| CQL α = 0,5 no ruim | 116,0 | 95,1 |
+| BC no misto | 97,3 | 87,7 |
+| BC no ruim | 8,9 | 8,9 |
+
+**A queda persiste.** O CQL não se recupera: de 30.000 a 60.000 passos, ele fica entre 111 e 123 no misto. Mais treino também muda pouco os outros: o ganho do IQL no ruim, de 203,5 para 246,7, é pequeno perto do que a seed já faz com 15.000 passos (de 204 a 244).
+
+**O viés do CQL cresce; o do IQL, não.** No ruim, aos 60.000 passos, o Q do CQL nos dados é 216, acima do máximo possível de 100:
+
+| Viés de Q nos dados do ruim | 15.000 passos | 60.000 passos |
+|---|---|---|
+| CQL α = 0,5 | +34,4 | +201,4 |
+| IQL τ = 0,7 | +7,5 | +7,6 |
+
+O alvo do IQL não usa máximo sobre as ações, e o do CQL usa. Além disso, no ruim as duas ações aparecem nos dados, e seus valores de Q ficam quase iguais. Esta é uma explicação plausível, não testada.
+
+**Q perto de 100?** A rodada não incluiu o expert sozinho, então não testa a fórmula diretamente. O mais próximo são os estados do especialista dentro do misto, medidos com os pesos salvos:
+
+| Q da ação do especialista, no misto | 15.000 passos | 60.000 passos |
+|---|---|---|
+| Fórmula (só vale para o expert sozinho) | 53,2 | 95,1 |
+| CQL α = 0,5 | 57,1 | 171,7 |
+| IQL τ = 0,7 | 46,1 | 80,9 |
+
+O IQL cresce e fica abaixo da fórmula; o CQL passa bem do máximo. Nesses mesmos estados, a concordância com o especialista anda em sentidos opostos: de 71% para 57% no CQL e de 90% para 93% no IQL.
+
+### τ: nem queda contínua, nem plano
+
+![IQL no ruim. Com 15.000 passos e cinco seeds, τ = 0,7 tem a maior média. Até 60.000 passos, na seed 0, o retorno com τ = 0,9 cai para cerca de 100.](figuras/3_tau.png)
+
+| IQL no ruim | τ = 0,5 | τ = 0,7 | τ = 0,9 |
+|---|---|---|---|
+| Retorno nos slides | 212 | 187 | 159 |
+| Retorno, 15.000 passos, cinco seeds | 208,5 ± 12,0 | 221,2 ± 15,1 | 190,9 ± 17,7 |
+| Retorno, 60.000 passos, seed 0 | 225,8 | 246,7 | 101,0 |
+| V, 15.000 passos, média de cinco seeds | 8,8 | 17,7 | 43,7 |
+| V, 60.000 passos, seed 0 | 8,8 | 17,8 | 88,2 |
+
+Com cinco seeds, τ = 0,7 fica acima de τ = 0,9 em 4 seeds e acima de τ = 0,5 em 4, embora as faixas se sobreponham. A queda contínua dos slides não aparece. Os 60.000 passos acrescentam outra coisa: com τ = 0,9, V segue subindo e o retorno cai, enquanto com τ = 0,5 e 0,7 o V já parou. O "otimismo demais" dos slides tem sustentação, mas aparece em τ = 0,9 e com mais treino. A parte longa é de uma seed só.
+
+## Capítulo 9: quanto especialista basta?
+
+**A pergunta:** o misto tem 2,4% de episódios do especialista, mas 43,8% das transições. Ele é fácil demais? A varredura treina BC, CQL e IQL em todo o ruim mais k episódios do especialista, com três seeds.
+
+![Retorno de BC, CQL e IQL conforme aumentam os episódios do especialista somados ao ruim. O IQL chega a 500 com 25 episódios; o CQL e o BC sobem bem mais devagar.](figuras/4_quanto_especialista.png)
 
 | Episódios do especialista | 0 | 1 | 2 | 5 | 10 | 25 | 50 |
 |---|---|---|---|---|---|---|---|
 | % das transições | 0% | 1,5% | 3,0% | 7,2% | 13,5% | 28,0% | 43,8% |
 | % dos episódios | 0% | 0,05% | 0,10% | 0,25% | 0,50% | 1,2% | 2,4% |
+| BC, média | 8,9 | 8,9 | 8,9 | 13,1 | 51,0 | 61,4 | 91,0 |
+| CQL, média | 123 | 111 | 122 | 122 | 155 | 269 | 321 |
+| CQL, pior e melhor seed | 97 a 157 | 105 a 120 | 91 a 157 | 93 a 163 | 103 a 223 | 163 a 331 | 187 a 466 |
+| IQL, média | 223 | 258 | 331 | 423 | 490 | 500 | 500 |
+| IQL, pior e melhor seed | 204 a 244 | 232 a 299 | 269 a 425 | 322 a 500 | 471 a 500 | 500 | 500 |
 
-k = 0 é o ruim e k = 50 é o misto. Conferimos que o código monta exatamente esses dois datasets, array por array.
+k = 0 é o ruim e k = 50 é o misto. Conferimos que o código monta exatamente esses dois datasets, array por array. Eles usam as seeds 0, 1 e 2, por isso as médias aqui diferem um pouco das de cinco seeds do capítulo 7. Nos outros níveis, a seed também sorteia quais episódios entram.
+
+**A resposta: para o IQL, o misto é fácil demais.** Com 25 episódios ele já faz 500 nas três seeds, e com 10 (0,5% dos episódios, 13,5% das transições) faz 490. A diferença entre os métodos fica mais visível por volta de k = 5: IQL 423, CQL 122, BC 13.
+
+- **CQL:** não sai do patamar do ruim até k = 5 e só sobe de verdade em k = 25, com muita variação entre seeds.
+- **BC:** sobe a partir de k = 10 e chega só a cerca de 90 com 50 episódios. Esse ganho é frágil: com as ações iniciais sorteadas do capítulo 5, o BC faz cerca de 12 em k = 10.
 
 ## Capítulo 10: vento (pendente)
 
@@ -189,8 +311,8 @@ Conferimos o script: com vento zero, ele reproduz exatamente os 50 retornos salv
 | `Código/IQL/iql_cartpole.py` | teste perturbado em `numeros.json` e `5_resultado.png` | Não |
 | `Código/CQL/cql_cartpole.py` | rótulo do eixo da figura 1 | Não |
 | Scripts de treino e `Código/*/cartpole_comum.py` | `--device` (padrão `cpu`), para treinar também em `cuda`; a avaliação fica sempre na CPU | Na CPU, não: resultados idênticos bit a bit |
-| `.gitignore` | ignora `experimentos/` | Não |
-| `Código/Extras/` (novo) | varredura, vento e coleta deste histórico | Não: só importa os scripts principais |
+| `.gitignore` | ignora `experimentos/` e `CLAUDE.md` | Não |
+| `Código/Extras/` (novo) | varredura, vento, coleta e figuras deste histórico | Não: só importa os scripts principais |
 
 Não mudaram: `Código/videos_cartpole.py`, a definição de `d`, as seeds fixas e as pastas `figuras_*`. No `Código/BC/bc_cartpole.py`, só entrou o `--device`. Os `.pt` antigos continuam carregando, e os pesos são sempre salvos na CPU. Resultados treinados na GPU não são idênticos aos da CPU: todas as seeds de uma comparação devem usar o mesmo dispositivo.
 
@@ -201,15 +323,16 @@ Tudo fica em `Historico/dados/`. Nada precisa ser retreinado.
 | Arquivo | O que tem | Serve para |
 |---|---|---|
 | `marcos.csv` | cada marco, data, fonte e situação | a linha do tempo |
-| `comparacao_marcos.csv` | cada métrica com uma coluna por marco | a tabela "a mesma medida em quatro momentos" |
+| `comparacao_marcos.csv` | cada métrica com uma coluna por marco | a tabela "a mesma medida em cinco momentos" |
 | `evolucao.csv` | formato longo: marco, seed, método, dataset, métrica, valor, fonte | qualquer gráfico de antes e depois |
 | `curvas.csv` | o log de treino de cada modelo por passo: retorno, Q, V, concordância | a subida e queda do CQL, Q contra a fórmula |
 | `episodios.csv` | o retorno de cada episódio avaliado | distribuições e intervalos próprios |
 | `ic95.csv` | média e IC 95% de cada modelo, padrão e perturbado | barras de erro |
-| `resumo_seeds.csv` | média, desvio, mínimo e máximo entre seeds | a figura multi-seed |
+| `resumo_seeds.csv` | média, desvio, mínimo e máximo entre seeds | a figura das cinco seeds |
+| `varredura.csv`, `varredura_curvas.csv` | cada nível k por seed e método: retorno, perturbado e curva de treino | a figura da varredura |
 | `manifesto.csv` | arquivo, tamanho e md5 de cada fonte | rastrear de onde veio cada número |
 
-`Historico/snapshots/` guarda os `numeros.json`, os PNGs e os logs de cada marco. `Historico/analises/` guarda os scripts e as saídas das análises do capítulo 6.
+`Historico/snapshots/` guarda os `numeros.json`, os PNGs e os logs de cada marco. `Historico/analises/` guarda os scripts e as saídas das análises dos capítulos 6 a 8. `Historico/figuras/` guarda as figuras deste texto, feitas só a partir desses CSVs.
 
 **Nada antigo é apagado:** os resultados do commit `6759143` são lidos direto do git, então promover um run para `figuras_*` não muda este histórico. Se um arquivo de snapshot muda, a versão nova entra ao lado, com o hash no nome. Os pesos em `experimentos/` não vão para o git: faça uma cópia se quiser guardá-los.
 
@@ -217,4 +340,5 @@ Para atualizar depois de novos experimentos, sem treinar nada:
 
 ```
 python Código/Extras/coletar_historico.py
+python Código/Extras/figuras_historico.py
 ```

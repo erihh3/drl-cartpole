@@ -1,0 +1,34 @@
+Teste de velocidade: CPU ou GPU? (2026-11-02, máquina com GPU)
+Trabalho: os 14 modelos do iql_cartpole.py, --passos 2000 --episodios 5.
+Tempos do comando "time" do bash, como foram impressos.
+
+Com --pasta em experimentos/teste_<dispositivo>_<processos>/figuras_iql_cartpole:
+
+=== cpu, 8 workers
+treinando 14 modelos (2000 passos cada, 8 processos, cpu)...
+real    0m38.517s
+user    3m20.448s
+sys     0m5.215s
+
+=== cuda, 8 workers
+treinando 14 modelos (2000 passos cada, 8 processos, cuda)...
+real    0m47.533s
+user    4m51.458s
+sys     0m21.654s
+
+=== cuda, 4 workers
+treinando 14 modelos (2000 passos cada, 4 processos, cuda)...
+real    0m54.731s
+user    2m44.781s
+sys     0m15.678s
+
+Linha de base: a primeira tentativa do teste, em que a quebra de linha ao colar o comando descartou --device,
+--workers e --pasta. Foram três repetições do mesmo trabalho com o padrão (cpu, 4 processos), com retornos idênticos:
+
+treinando 14 modelos (2000 passos cada, 4 processos, cpu)...
+real    0m55.291s    user 2m53.713s    sys 0m3.298s
+real    0m56.725s    user 2m59.565s    sys 0m3.030s
+real    0m55.395s    user 2m56.349s    sys 0m2.822s
+
+Essa tentativa gravou na pasta padrão do clone daquela máquina (figuras_iql_cartpole/). Os resultados deste repositório
+não foram afetados, e foi recomendado restaurar aquela pasta com git restore.

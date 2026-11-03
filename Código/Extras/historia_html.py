@@ -18,6 +18,7 @@ h1 { font-size:40px; font-weight:600; }
 h2 { font-size:27px; font-weight:600; margin-top:30px; padding-top:18px; border-top:1px solid var(--linha); }
 h3 { font-size:20px; font-weight:600; margin-top:16px; }
 p,ul { margin:0; max-width:68ch; }
+figure { margin:6px 0; } figure img { display:block; width:100%; height:auto; background:#fff; border:1px solid var(--linha); border-radius:6px; padding:6px; }
 ul { padding-left:22px; display:flex; flex-direction:column; gap:5px; }
 strong { font-weight:600; }
 code { font:0.88em var(--mono); background:var(--superficie); padding:1px 5px; border-radius:3px; overflow-wrap:anywhere; }
@@ -52,6 +53,8 @@ def converter(md):
             while not linhas[j].startswith("```"):
                 j += 1
             saida.append("<pre><code>" + html.escape("\n".join(linhas[i + 1:j]), quote=False) + "</code></pre>"); i = j + 1
+        elif m := re.fullmatch(r"!\[(.*)\]\((.*)\)", l):
+            saida.append(f'<figure><img src="{html.escape(m[2])}" alt="{html.escape(m[1])}" loading="lazy"></figure>'); i += 1
         elif m := re.match(r"(#{1,3}) (.*)", l):
             saida.append(titulo(len(m[1]), m[2])); i += 1
         elif l.startswith("|"):

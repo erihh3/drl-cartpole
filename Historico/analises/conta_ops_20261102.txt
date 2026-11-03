@@ -1,0 +1,2 @@
+foreach=False: 537 operações por passo, 10.5 ms por passo em 1 thread de CPU, 20 µs por operação
+foreach=True: 396 operações por passo, 10.4 ms por passo em 1 thread de CPU, 26 µs por operação
