@@ -1,0 +1,149 @@
+treinando 27 modelos (8 processos; até 20000 passos cada)...
+  dados: medio           seed 1  guardado   3000 (parou   8000)  acc_val=70%  acc_esp=99%  retorno= 500.0  (26s)
+  dados: ruim            seed 0  guardado   6500 (parou  11500)  acc_val=60%  acc_esp=1%  retorno=   8.9  (39s)
+  dados: ruim            seed 1  guardado   7000 (parou  12000)  acc_val=60%  acc_esp=1%  retorno=   8.9  (40s)
+  dados: expert          seed 0  guardado   8000 (parou  13000)  acc_val=100%  acc_esp=100%  retorno= 500.0  (43s)
+  dados: medio           seed 2  guardado   9500 (parou  14500)  acc_val=70%  acc_esp=99%  retorno= 500.0  (47s)
+  dados: expert          seed 2  guardado  11000 (parou  16000)  acc_val=100%  acc_esp=100%  retorno= 500.0  (54s)
+  dados: ruim            seed 2  guardado   3500 (parou   8500)  acc_val=61%  acc_esp=1%  retorno=   8.9  (29s)
+  dados: medio           seed 0  guardado  13500 (parou  18500)  acc_val=71%  acc_esp=100%  retorno= 500.0  (60s)
+  dados: expert          seed 1  guardado  15500 (parou  20000)  acc_val=100%  acc_esp=100%  retorno= 500.0  (67s)
+  dados: ruim top 10%    seed 0  guardado   2500 (parou   7500)  acc_val=57%  acc_esp=57%  retorno=  83.1  (25s)
+  dados: misto filtrado  seed 0  guardado   8000 (parou  13000)  acc_val=100%  acc_esp=100%  retorno= 500.0  (44s)
+  dados: ruim top 10%    seed 1  guardado   6000 (parou  11000)  acc_val=56%  acc_esp=69%  retorno= 101.4  (48s)
+  dados: ruim top 10%    seed 2  guardado   1000 (parou   6000)  acc_val=57%  acc_esp=71%  retorno=  65.5  (20s)
+  dados: misto           seed 0  guardado  20000 (parou  20000)  acc_val=80%  acc_esp=54%  retorno=  77.9  (67s)
+  dados: misto           seed 1  guardado  20000 (parou  20000)  acc_val=73%  acc_esp=41%  retorno=  77.8  (67s)
+  dados: misto           seed 2  guardado  17500 (parou  20000)  acc_val=73%  acc_esp=42%  retorno=  87.7  (67s)
+  dados: misto filtrado  seed 2  guardado  11000 (parou  16000)  acc_val=100%  acc_esp=100%  retorno= 500.0  (54s)
+  dados: expert 2%       seed 0  guardado   1500 (parou   6500)  acc_val=87%  acc_esp=87%  retorno= 465.1  (21s)
+  dados: misto filtrado  seed 1  guardado  15500 (parou  20000)  acc_val=100%  acc_esp=100%  retorno= 500.0  (69s)
+  dados: expert 2%       seed 1  guardado   1000 (parou   6000)  acc_val=94%  acc_esp=94%  retorno= 500.0  (20s)
+  dados: expert 2%       seed 2  guardado   1500 (parou   6500)  acc_val=85%  acc_esp=85%  retorno= 396.4  (21s)
+  dados: expert 5%       seed 0  guardado   1500 (parou   6500)  acc_val=91%  acc_esp=91%  retorno= 497.7  (21s)
+  dados: expert 5%       seed 2  guardado   3500 (parou   8500)  acc_val=95%  acc_esp=95%  retorno= 500.0  (27s)
+  dados: expert 10%      seed 1  guardado   3500 (parou   8500)  acc_val=96%  acc_esp=96%  retorno= 471.8  (26s)
+  dados: expert 5%       seed 1  guardado   7500 (parou  12500)  acc_val=98%  acc_esp=98%  retorno= 483.9  (39s)
+  dados: expert 10%      seed 0  guardado  10500 (parou  15500)  acc_val=100%  acc_esp=100%  retorno= 500.0  (46s)
+  dados: expert 10%      seed 2  guardado  11000 (parou  16000)  acc_val=98%  acc_esp=98%  retorno= 459.8  (45s)
+gerando gráficos...
+{
+  "dados": {
+    "expert": [
+      500.0,
+      0.0
+    ],
+    "medio": [
+      500.0,
+      0.0
+    ],
+    "ruim": [
+      8.866666666666667,
+      0.00942809041582127
+    ],
+    "misto": [
+      81.16666666666667,
+      4.648163317077207
+    ],
+    "misto filtrado": [
+      500.0,
+      0.0
+    ],
+    "ruim top 10%": [
+      83.33333333333333,
+      14.640421973275071
+    ],
+    "expert 2%": [
+      453.8333333333333,
+      43.01702711976064
+    ],
+    "expert 5%": [
+      493.8533333333333,
+      7.1284656288869135
+    ],
+    "expert 10%": [
+      477.20666666666665,
+      16.852555361790763
+    ]
+  },
+  "retorno_dos_datasets": {
+    "expert": 500.0,
+    "medio": 112.98332977294922,
+    "ruim": 16.03700065612793,
+    "misto": 27.840974807739258,
+    "misto filtrado": 500.0,
+    "ruim top 10%": 29.811925888061523
+  }
+}
+figuras salvas em /home/roboime/drl-cartpole/experimentos/bc_dados/figuras_bc_cartpole
+dataset ruim: 32,074 transições, 2000 episódios, retorno médio 16.0
+dataset expert: 25,000 transições, 50 episódios, retorno médio 500.0
+treinando 8 modelos (60000 passos cada, 8 processos, cpu)...
+  expert  CQL (α=0.5)    retorno= 500.0  perturbado= 485.3  (182s)
+  ruim    CQL (α=0.5)    retorno=  95.1  perturbado=  90.9  (181s)
+  ruim    BC             retorno=   8.9  perturbado=  12.3  (212s)
+  expert  BC             retorno= 500.0  perturbado= 486.1  (214s)
+  ruim    IQL (τ=0.9)    retorno= 101.0  perturbado= 108.9  (546s)
+  ruim    IQL (τ=0.7)    retorno= 246.7  perturbado= 210.6  (548s)
+  ruim    IQL (τ=0.5)    retorno= 225.8  perturbado= 187.5  (549s)
+  expert  IQL (τ=0.7)    retorno= 500.0  perturbado= 485.8  (566s)
+gerando gráficos...
+{
+  "dataset_analise": "ruim",
+  "beta": 1.0,
+  "hp_BC": {
+    "dropout": 0.2,
+    "wd": 0.001,
+    "ls": 0.1
+  },
+  "episodios": 50,
+  "passos_aleatorios": 5,
+  "frac_dataset_igual_especialista": 0.3962000012397766,
+  "vies_Q_dados_CQL": 201.371826171875,
+  "vies_Q_dados_IQL": 7.637073993682861,
+  "peso_mediano_acao_certa": 6.6111345291137695,
+  "peso_mediano_acao_errada": 0.06215430051088333,
+  "igual_especialista_BC": 0.018799999728798866,
+  "igual_especialista_CQL": 0.7045999765396118,
+  "igual_especialista_IQL": 0.8622000217437744,
+  "V_por_tau": {
+    "0.5": 8.847901344299316,
+    "0.7": 17.78705596923828,
+    "0.9": 88.20015716552734
+  },
+  "retorno_por_tau": {
+    "0.5": 225.82,
+    "0.7": 246.7,
+    "0.9": 100.96
+  },
+  "retorno_BC": {
+    "ruim": 8.94,
+    "expert": 500.0
+  },
+  "retorno_perturbado_BC": {
+    "ruim": 12.34,
+    "expert": 486.1
+  },
+  "retorno_CQL (α=0.5)": {
+    "ruim": 95.08,
+    "expert": 500.0
+  },
+  "retorno_perturbado_CQL (α=0.5)": {
+    "ruim": 90.88,
+    "expert": 485.34
+  },
+  "retorno_IQL (τ=0.7)": {
+    "ruim": 246.7,
+    "expert": 500.0
+  },
+  "retorno_perturbado_IQL (τ=0.7)": {
+    "ruim": 210.6,
+    "expert": 485.78
+  },
+  "retorno_dataset": {
+    "ruim": 16.03700065612793,
+    "expert": 500.0
+  }
+}
+figuras salvas em /home/roboime/drl-cartpole/experimentos/iql_60k_expert/figuras_iql_cartpole
+TUDO PRONTO: Tue Nov  3 12:51:42 AM -03 2026

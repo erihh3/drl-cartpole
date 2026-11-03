@@ -18,9 +18,10 @@ Começamos querendo corrigir detalhes da medição. Descobrimos que os próprios
 **O que caiu ou precisa mudar:**
 
 - "O retorno cai quando τ cresce": era 212, 187 e 159 nos slides. Com uma seed, escrevemos aqui que era plano, e isso também não se sustenta. Com cinco seeds, é 209, 221 e 191: não há queda contínua, mas τ = 0,9 fica atrás de τ = 0,7 em 4 das 5 seeds e, com 60.000 passos, cai para 101 (capítulo 8).
-- "O CQL fica abaixo do retorno real, o limite inferior prometido": no expert, o valor de Q reflete o tempo de treino (capítulo 6). No ruim, com α = 0,5, o CQL superestima: viés de +34 aos 15.000 passos e +201 aos 60.000 (capítulo 8).
+- "O CQL fica abaixo do retorno real, o limite inferior prometido": no expert, o valor de Q reflete o tempo de treino. Aos 60.000 passos, CQL e IQL chegam a 95, como a fórmula previa (capítulos 6 e 8). No ruim, com α = 0,5, o CQL superestima: viés de +34 aos 15.000 passos e +201 aos 60.000 (capítulo 8).
 - "Só o IQL volta a 500 no misto": vale ao fim de 15.000 passos, mas o CQL esteve em 500 nas cinco seeds de 3.000 a 7.500 passos, e depois caiu (capítulo 7).
 - "CQL no misto: 189": uma seed só não representa esse caso. As cinco seeds vão de 123 a 466 (capítulo 7).
+- "BC no ruim top 10%: 72": refeito com três seeds, dá 83, de 66 a 101. Já "misto filtrado: 500" se confirma (capítulo 9).
 
 ## A mesma medida em cinco momentos
 
@@ -32,6 +33,8 @@ Começamos querendo corrigir detalhes da medição. Descobrimos que os próprios
 | CQL no misto, retorno | 191 | sem registro | 189 | 187 | 260 ± 133 |
 | BC no misto, retorno | 140 | 92 | 124 | 97 (regularizado) | 94 ± 15 |
 | BC base no medio 10%, retorno | 385 ± 35 | 356 ± 90 | 399 ± 49 | não reexecutado | não reexecutado |
+| BC no misto filtrado, retorno | 500 | sem registro | sem registro | não rodado | 500 ± 0 (3 seeds) |
+| BC no ruim top 10%, retorno | 72 | sem registro | sem registro | não rodado | 83, de 66 a 101 (3 seeds) |
 | DQN no expert, retorno | 9,5 | 9,3 | 9,5 | 9,5 | 9,4 ± 0,1 |
 | DQN no expert, viés médio de Q | +2.737 | +19.045 | +25.667 | +25.647 | de +231 a +533.830 |
 | CQL α = 0,1 no expert, viés médio | −27 | −26,7 | −26,7 | −47,1 | −47,11 ± 0,05 |
@@ -39,7 +42,7 @@ Começamos querendo corrigir detalhes da medição. Descobrimos que os próprios
 | CQL no ruim, igual ao especialista | 73% | 66% | 65% | 65% | 71% ± 7 |
 | IQL no ruim, retorno com τ = 0,5 / 0,7 / 0,9 | 212 / 187 / 159 | sem registro | 208 / 213 / 214 | 198 / 204 / 207 | 209 / 221 / 191 |
 
-O retorno máximo é 500. A coluna "Slides" é o que as apresentações ainda mostram. A coluna "1ª rodada" vem do que o `PROJECT_GUIDE.md` registrou, porque aqueles arquivos não existem mais. A coluna "Rodada de 01/11" é o que está guardado no commit `6759143`. A coluna "Cinco seeds" usa as seeds 0 a 4; a coluna anterior é a seed 0 dela. O valor 140 do BC não bate com nenhuma figura salva; o guia supõe que veio de `--estudo dados`.
+O retorno máximo é 500. A coluna "Slides" é o que as apresentações ainda mostram. A coluna "1ª rodada" vem do que o `PROJECT_GUIDE.md` registrou, porque aqueles arquivos não existem mais. A coluna "Rodada de 01/11" é o que está guardado no commit `6759143`. A coluna "Cinco seeds" usa as seeds 0 a 4; a coluna anterior é a seed 0 dela. O valor 140 do BC não bate com nenhuma figura salva. O guia supõe que veio de `--estudo dados`, mas esse estudo, refeito, dá 81 no misto. As duas linhas do BC filtrado usam o `bc_cartpole.py`, com parada antecipada.
 
 ## Capítulo 1: os números andavam sozinhos
 
@@ -121,7 +124,7 @@ Com recompensa 1, sem término e rede-alvo com Polyak 0,005, a conta fechada dá
 | CQL α = 5 | 17,8 | 31,8 | 43,5 | 53,2 |
 | IQL τ = 0,7 (sem penalidade) | 17,2 | 31,3 | 43,2 | 53,0 |
 
-Pela fórmula, chegar a 95 levaria cerca de 60.000 passos. Portanto o viés de −47 não sustenta a frase "o limite inferior prometido". O que o α muda de verdade é o valor da outra ação, a que não está nos dados: 7,0, −28,2, −63,6 e −72,3 para α = 0,1, 0,5, 2 e 5.
+Pela fórmula, chegar a 95 levaria cerca de 60.000 passos, e o capítulo 8 confirma isso. Portanto o viés de −47 não sustenta a frase "o limite inferior prometido". O que o α muda de verdade é o valor da outra ação, a que não está nos dados: 7,0, −28,2, −63,6 e −72,3 para α = 0,1, 0,5, 2 e 5.
 
 ### O CQL chegou a 500 no misto e perdeu
 
@@ -217,7 +220,7 @@ A seed 0 rodou em duas máquinas diferentes, com o mesmo código: os 14 modelos 
 
 ## Capítulo 8: 60.000 passos
 
-**As perguntas:** a queda do CQL persiste com mais treino? Q realmente chega perto de 100, como a fórmula prevê? Esta rodada é de uma seed só (a seed 0), no ruim e no misto.
+**As perguntas:** a queda do CQL persiste com mais treino? Q realmente chega perto de 100, como a fórmula prevê? Estas rodadas são de uma seed só (a seed 0): primeiro no ruim e no misto, depois no expert, para testar a fórmula.
 
 | Modelo | 15.000 passos | 60.000 passos |
 |---|---|---|
@@ -239,11 +242,24 @@ A seed 0 rodou em duas máquinas diferentes, com o mesmo código: os 14 modelos 
 
 O alvo do IQL não usa máximo sobre as ações, e o do CQL usa. Além disso, no ruim as duas ações aparecem nos dados, e seus valores de Q ficam quase iguais. Esta é uma explicação plausível, não testada.
 
-**Q perto de 100?** A rodada não incluiu o expert sozinho, então não testa a fórmula diretamente. O mais próximo são os estados do especialista dentro do misto, medidos com os pesos salvos:
+**Q perto de 100? No expert, sim, e a fórmula acerta.** Aos 60.000 passos, CQL e IQL estão a menos de 5 do valor verdadeiro, que é 100, e seguem a fórmula do capítulo 6 o tempo todo:
+
+![Q ao longo de 60.000 passos no expert. As curvas de CQL e IQL para a ação dos dados coincidem com a fórmula e chegam perto de 95. A curva do CQL para a outra ação cai até cerca de −186.](figuras/5_q_e_formula.png)
+
+| No expert, seed 0 | 7.500 | 15.000 | 30.000 | 45.000 | 60.000 |
+|---|---|---|---|---|---|
+| Fórmula | 32,0 | 53,2 | 77,9 | 89,6 | 95,1 |
+| CQL α = 0,5, ação dos dados | 31,7 | 53,0 | 78,0 | 89,8 | 95,4 |
+| IQL τ = 0,7, ação dos dados | 31,3 | 53,0 | 78,1 | 89,9 | 95,5 |
+| CQL α = 0,5, outra ação | −0,3 | −28,2 | −93,0 | −146,8 | −186,4 |
+
+Isso confirma o capítulo 6: no expert, o Q da ação dos dados mede o tempo de treino, com ou sem penalidade. O que o CQL muda é a outra ação, que segue caindo. O retorno fica em 500 em todos os pontos, nos dois métodos. Os modelos do ruim, retreinados nesta rodada, saíram idênticos aos da anterior, pesos inclusive.
+
+**Com dados misturados, a história é outra.** Nos estados do especialista dentro do misto, medidos com os pesos salvos:
 
 | Q da ação do especialista, no misto | 15.000 passos | 60.000 passos |
 |---|---|---|
-| Fórmula (só vale para o expert sozinho) | 53,2 | 95,1 |
+| Fórmula (vale para o expert sozinho) | 53,2 | 95,1 |
 | CQL α = 0,5 | 57,1 | 171,7 |
 | IQL τ = 0,7 | 46,1 | 80,9 |
 
@@ -285,6 +301,27 @@ k = 0 é o ruim e k = 50 é o misto. Conferimos que o código monta exatamente e
 
 - **CQL:** não sai do patamar do ruim até k = 5 e só sobe de verdade em k = 25, com muita variação entre seeds.
 - **BC:** sobe a partir de k = 10 e chega só a cerca de 90 com 50 episódios. Esse ganho é frágil: com as ações iniciais sorteadas do capítulo 5, o BC faz cerca de 12 em k = 10.
+
+### E se só houvesse os dados bons?
+
+O `bc_cartpole.py --estudo dados` treina o BC, com parada antecipada e regularização, em partes dos dados. São três seeds, que aqui também mudam os episódios escolhidos:
+
+![À esquerda, o retorno do BC por dataset: 500 no expert, no medio e no misto filtrado, 9 no ruim, 81 no misto e 83 no ruim top 10%. À direita, o retorno por número de episódios do especialista, sempre acima de 450.](figuras/6_dados_bc.png)
+
+| Dados do BC | Episódios de treino | Média do dataset | Retorno do BC | Pior e melhor seed |
+|---|---|---|---|---|
+| ruim | 1.800 | 16,0 | 8,9 | 8,9 |
+| misto | 1.845 | 27,8 | 81,2 | 77,8 a 87,7 |
+| misto filtrado (só episódios que chegam a 500) | 45 | 500 | 500 | 500 |
+| ruim top 10% | 197 | 29,8 | 83,3 | 65,5 a 101,4 |
+| 1 episódio do especialista | 1 | 500 | 453,8 | 396,4 a 500 |
+| 2 episódios do especialista | 2 | 500 | 493,9 | 483,9 a 500 |
+| 4 episódios do especialista | 4 | 500 | 477,2 | 459,8 a 500 |
+| 45 episódios do especialista | 45 | 500 | 500 | 500 |
+
+**Para o BC, o problema não é falta de dados bons: é a mistura.** Um único episódio do especialista, sozinho, dá 454. Esse mesmo tipo de episódio somado a todo o ruim dá 8,9 (k = 1 na tabela anterior). A varredura usa o BC sem parada antecipada, mas isso não explica o salto: no ruim e no misto, as duas variantes ficam próximas (8,9 e 8,9; 91 e 81).
+
+**Filtrar resolve, mas alguém precisa filtrar.** No misto, manter só os episódios que chegam a 500 devolve exatamente o expert, e o BC volta a 500. Esse filtro usa o retorno, que o BC sozinho não lê. O IQL faz uma separação parecida sem filtro nenhum: no misto, ele chega a 500 com todos os dados juntos. Já o top 10% do ruim ajuda menos, porque até os melhores episódios ali são ruidosos: o BC faz 83, acima dos 29,8 dos dados selecionados.
 
 ## Capítulo 10: vento (pendente)
 

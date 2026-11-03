@@ -152,3 +152,38 @@ marco,script,seed,dataset,rotulo,dispositivo,n_episodios,retorno,ic95_inf,ic95_s
 5_longo_60k,iql,0,misto,IQL (τ=0.7),cpu,50,500.0,500.0,500.0,0.0,486.28,464.36,498.84,-13.72,-35.84,-1.16
 5_longo_60k,iql,0,misto,CQL (α=0.5),cpu,50,118.48,117.62,119.38,0.0,121.84,116.42,125.38,3.36,-1.84,6.7
 5_longo_60k,iql,0,misto,BC,cpu,50,87.74,38.8,137.1,0.84,31.86,12.18,61.26,-55.88,-114.78,2.82
+8_bc_dados,bc,0,expert,BC dados: expert,cpu,50,500.0,500.0,500.0,0.0,,,,,,
+8_bc_dados,bc,1,expert,BC dados: expert,cpu,50,500.0,500.0,500.0,0.0,,,,,,
+8_bc_dados,bc,2,expert,BC dados: expert,cpu,50,500.0,500.0,500.0,0.0,,,,,,
+8_bc_dados,bc,0,medio,BC dados: medio,cpu,50,500.0,500.0,500.0,0.0,,,,,,
+8_bc_dados,bc,1,medio,BC dados: medio,cpu,50,500.0,500.0,500.0,0.0,,,,,,
+8_bc_dados,bc,2,medio,BC dados: medio,cpu,50,500.0,500.0,500.0,0.0,,,,,,
+8_bc_dados,bc,0,ruim,BC dados: ruim,cpu,50,8.86,8.74,8.96,1.0,,,,,,
+8_bc_dados,bc,1,ruim,BC dados: ruim,cpu,50,8.86,8.74,8.96,1.0,,,,,,
+8_bc_dados,bc,2,ruim,BC dados: ruim,cpu,50,8.88,8.76,9.0,1.0,,,,,,
+8_bc_dados,bc,0,misto,BC dados: misto,cpu,50,77.92,38.36,127.06,0.86,,,,,,
+8_bc_dados,bc,1,misto,BC dados: misto,cpu,50,77.84,38.32,126.98,0.86,,,,,,
+8_bc_dados,bc,2,misto,BC dados: misto,cpu,50,87.74,38.78,137.1,0.84,,,,,,
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,cpu,50,500.0,500.0,500.0,0.0,,,,,,
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,cpu,50,500.0,500.0,500.0,0.0,,,,,,
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,cpu,50,500.0,500.0,500.0,0.0,,,,,,
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,cpu,50,83.14,72.3,94.76,0.74,,,,,,
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,cpu,50,101.36,86.26,118.44,0.6,,,,,,
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,cpu,50,65.5,60.919500000000006,70.28,0.98,,,,,,
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,cpu,50,465.06,440.88,486.12,0.0,,,,,,
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,cpu,50,500.0,500.0,500.0,0.0,,,,,,
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,cpu,50,396.44,358.6795,431.66,0.0,,,,,,
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,cpu,50,497.7,493.82,500.0,0.0,,,,,,
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,cpu,50,483.86,461.8,499.26,0.0,,,,,,
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,cpu,50,500.0,500.0,500.0,0.0,,,,,,
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,cpu,50,500.0,500.0,500.0,0.0,,,,,,
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,cpu,50,471.84,442.84,493.7,0.0,,,,,,
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,cpu,50,459.78,426.58,486.68,0.0,,,,,,
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),cpu,50,246.7,225.26,268.82,0.0,210.6,183.08,239.4805,-36.1,-65.2205,-7.7
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),cpu,50,225.82,205.4995,248.52,0.0,187.46,164.5995,212.66,-38.36,-69.3805,-6.5194999999999705
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),cpu,50,100.96,95.56,107.68,0.68,108.9,100.62,117.8,7.94,-2.56,18.72
+9_longo_expert,iql,0,ruim,CQL (α=0.5),cpu,50,95.08,86.7,103.5,0.54,90.88,82.38,99.5,-4.2,-11.06,2.1
+9_longo_expert,iql,0,ruim,BC,cpu,50,8.94,8.8,9.08,1.0,12.34,11.94,12.72,3.4,3.0,3.78
+9_longo_expert,iql,0,expert,IQL (τ=0.7),cpu,50,500.0,500.0,500.0,0.0,485.78,463.94,498.44,-14.22,-36.44,-1.18
+9_longo_expert,iql,0,expert,CQL (α=0.5),cpu,50,500.0,500.0,500.0,0.0,485.34,463.24,498.44,-14.66,-37.04,-1.44
+9_longo_expert,iql,0,expert,BC,cpu,50,500.0,500.0,500.0,0.0,486.1,464.09650000000005,498.8,-13.9,-36.24,-1.2

@@ -32,6 +32,8 @@ MARCOS = [
     ("5_longo_60k", "2026-11-02", "60.000 passos", "a queda do CQL persiste? Q converge para cerca de 100?", f"{EXP}/iql_60k"),
     ("6_varredura", "2026-11-02", "Quanto especialista basta?", "todo o ruim + k episódios do especialista", f"{EXP}/varredura_especialista"),
     ("7_vento", "2026-11-02", "Vento", "políticas prontas avaliadas com vento constante e rajadas", f"{EXP}/vento"),
+    ("8_bc_dados", "2026-11-03", "Estudo de dados do BC", "qualidade e quantidade dos dados, com parada antecipada e regularização", f"{EXP}/bc_dados"),
+    ("9_longo_expert", "2026-11-03", "60.000 passos no expert", "Q segue a fórmula até perto de 100?", f"{EXP}/iql_60k_expert"),
 ]
 
 # Sem numeros.json: transcritos das fontes citadas. Mesmos nomes de métrica dos numeros.json, para comparar marcos.
@@ -122,6 +124,10 @@ def linhas_numeros(marco, seed, caminho, n_ep):
             add("IQL", ds0, f"V_tau_{nome.split('.', 1)[1]}", v)
         elif nome.startswith("retorno_por_alfa."):
             al = nome.split(".", 1)[1]; add("DQN" if float(al) == 0 else "CQL", ds0, f"retorno_alfa_{al}", v)
+        elif nome.startswith("dados."):                                     # bc_cartpole --estudo dados
+            _, n, j = nome.split("."); add("BC", n, "estudo_dados.retorno" + ("_dp" if j == "1" else ""), v)
+        elif nome.startswith("retorno_dos_datasets."):
+            add("dados", nome.split(".")[1], "retorno", v)
         elif nome.startswith("variantes."):
             _, var, met, *j = nome.split(".")
             if met == "seeds":
@@ -143,7 +149,7 @@ def modelos(arquivo_bytes):
     if isinstance(r, dict):                                                 # cql_cartpole: {alpha: resultado}
         return [("DQN (α=0)" if a == 0 else f"CQL (α={a:g})", "expert", x, None) for a, x in r.items()]
     if "nome" in r[0]:                                                      # bc_cartpole: variantes por seed
-        return [(f"BC {x['nome']}", f"{x['dataset']} 10%", x, x["seed"]) for x in r]
+        return [(f"BC {x['nome']}", f"{x['dataset']} {x['fracao']:.0%}" if x["fracao"] < 1 else x["dataset"], x, x["seed"]) for x in r]
     return [(x["rotulo"], x["dataset"], x, None) for x in r]
 
 
@@ -210,6 +216,8 @@ def main():
     for run, s in SEEDS_CQL.items():
         novo("4_seeds", s, f"{EXP}/{run}/figuras_cql_cartpole", "modelos_expert.pt")
     novo("5_longo_60k", 0, f"{EXP}/iql_60k/figuras_iql_cartpole", "modelos.pt")
+    novo("8_bc_dados", "0-2", f"{EXP}/bc_dados/figuras_bc_cartpole", "modelos_dados.pt")
+    novo("9_longo_expert", 0, f"{EXP}/iql_60k_expert/figuras_iql_cartpole", "modelos.pt")
     for marco, pasta, arqs in (("6_varredura", f"{EXP}/varredura_especialista", ("varredura.csv", "varredura_curvas.csv", "numeros.json", "1_quanto_especialista.png")),
                                ("7_vento", f"{EXP}/vento", ("vento.csv", "vento_episodios.json", "numeros.json", "1_vento_constante.png", "2_rajadas.png"))):
         for a in arqs:
@@ -220,6 +228,9 @@ def main():
     log = f"{EXP}/log_almoco.txt"
     if os.path.exists(log) and "TUDO PRONTO" in ler(log).decode("utf-8", "replace"):       # só a versão final do log
         guardar("4_seeds", "logs", log)
+    log = f"{EXP}/log_extras.txt"
+    if os.path.exists(log) and "TUDO PRONTO" in ler(log).decode("utf-8", "replace"):
+        guardar("8_bc_dados", "logs", log)
 
     # resumo entre seeds: só runs com o código atual (marcos 3 e 4). Seed 0 nos dois: vale a do marco 4, da mesma máquina das outras
     grupos = {}

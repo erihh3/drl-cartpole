@@ -2,8 +2,18 @@ metodo,dataset,metrica,0_slides,1_original,2_reexecucao,3_melhorias
 ,ruim,frac_dataset_igual_especialista,,,0.3962000012397766,0.3962000012397766
 ,ruim,peso_mediano_acao_certa,,,6.001384735107422,6.001384735107422
 ,ruim,peso_mediano_acao_errada,,,0.04667927324771881,0.04667927324771881
+BC,expert,estudo_dados.retorno,,,,
+BC,expert,estudo_dados.retorno_dp,,,,
 BC,expert,retorno,500,,500.0,500.0
 BC,expert,retorno_perturbado,,,,483.4
+BC,expert 10%,estudo_dados.retorno,,,,
+BC,expert 10%,estudo_dados.retorno_dp,,,,
+BC,expert 2%,estudo_dados.retorno,,,,
+BC,expert 2%,estudo_dados.retorno_dp,,,,
+BC,expert 5%,estudo_dados.retorno,,,,
+BC,expert 5%,estudo_dados.retorno_dp,,,,
+BC,medio,estudo_dados.retorno,,,,
+BC,medio,estudo_dados.retorno_dp,,,,
 BC,medio,retorno,500,,500.0,500.0
 BC,medio,retorno_perturbado,,,,488.72
 BC,medio 10%,+ memória.acc_esp,,,0.9295427997907003,
@@ -58,11 +68,19 @@ BC,medio 10%,base.retorno_dp,35,90,48.51490767451449,
 BC,medio 10%,base.retorno_seed_0,,,330.22,
 BC,medio 10%,base.retorno_seed_1,,,436.34,
 BC,medio 10%,base.retorno_seed_2,,,429.6,
+BC,misto,estudo_dados.retorno,,,,
+BC,misto,estudo_dados.retorno_dp,,,,
 BC,misto,retorno,140,92,123.6,97.34
 BC,misto,retorno_perturbado,,,,32.68
+BC,misto filtrado,estudo_dados.retorno,,,,
+BC,misto filtrado,estudo_dados.retorno_dp,,,,
+BC,ruim,estudo_dados.retorno,,,,
+BC,ruim,estudo_dados.retorno_dp,,,,
 BC,ruim,igual_especialista,0.01,,0.007799999788403511,0.00800000037997961
 BC,ruim,retorno,9,,9.0,8.88
 BC,ruim,retorno_perturbado,,,,12.34
+BC,ruim top 10%,estudo_dados.retorno,,,,
+BC,ruim top 10%,estudo_dados.retorno_dp,,,,
 CQL,expert,concordancia,0.996,0.998,0.9980000257492065,0.9980000257492065
 CQL,expert,estado_Q.0,,,-21.110000610351562,-21.110000610351562
 CQL,expert,estado_Q.1,,,52.88999938964844,52.88999938964844
@@ -107,4 +125,6 @@ IQL,ruim,vies_Q_dados,,,7.489224433898926,7.489224433898926
 dados,expert,retorno,,,500.0,500.0
 dados,medio,retorno,,,112.98332977294922,112.98332977294922
 dados,misto,retorno,,,27.840974807739258,27.840974807739258
+dados,misto filtrado,retorno,,,,
 dados,ruim,retorno,,,16.03700065612793,16.03700065612793
+dados,ruim top 10%,retorno,,,,

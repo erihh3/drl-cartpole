@@ -1,0 +1,35 @@
+=== 1. os modelos do ruim repetem os da rodada iql_60k?
+[('IQL (τ=0.7)', True, True), ('IQL (τ=0.5)', True, True), ('IQL (τ=0.9)', True, True), ('CQL (α=0.5)', True, True), ('BC', True, True)]
+
+=== 2. os primeiros 15.000 passos no expert repetem a rodada de 15.000?
+CQL (α=0.5) passos em comum: 10 iguais em q_dados : 10
+IQL (τ=0.7) passos em comum: 10 iguais em q_dados : 10
+BC passos em comum: 10 iguais em concordancia : 10
+
+=== 3. Q no expert contra a fórmula (seed 0)
+passo          3750     7500    15000    22500    30000    37500    45000    52500    60000
+fórmula        17.9     32.0     53.2     67.9     77.9     84.8     89.6     92.8     95.1
+CQL (α=0.5)  q_dados 7500:31.7 15000:53.0 22500:67.9 30000:78.0 37500:85.0 45000:89.8 52500:93.1 60000:95.4
+CQL (α=0.5)  q_outra 7500:-0.3 15000:-28.2 22500:-62.2 30000:-93.0 37500:-119.9 45000:-146.8 52500:-168.3 60000:-186.4
+CQL (α=0.5)  concord 7500:0.990 15000:0.996 22500:0.998 30000:0.995 37500:0.996 45000:0.998 52500:0.999 60000:0.994
+CQL (α=0.5)  retorno 6000:500 12000:500 18000:500 24000:500 30000:500 36000:500 42000:500 48000:500 54000:500 60000:500
+CQL (α=0.5)  final: q_dados 95.36  fórmula 95.07  diferença +0.29
+IQL (τ=0.7)  q_dados 7500:31.3 15000:53.0 22500:67.9 30000:78.1 37500:85.1 45000:89.9 52500:93.2 60000:95.5
+IQL (τ=0.7)  q_outra 7500:31.4 15000:53.0 22500:67.9 30000:78.1 37500:85.1 45000:89.9 52500:93.3 60000:95.5
+IQL (τ=0.7)  concord 7500:0.987 15000:0.994 22500:0.997 30000:0.993 37500:0.995 45000:0.996 52500:0.997 60000:0.996
+IQL (τ=0.7)  retorno 6000:500 12000:500 18000:500 24000:500 30000:500 36000:500 42000:500 48000:500 54000:500 60000:500
+IQL (τ=0.7)  final: q_dados 95.48  fórmula 95.07  diferença +0.41
+retornos: {'retorno_BC': {'ruim': 8.94, 'expert': 500.0}, 'retorno_perturbado_BC': {'ruim': 12.34, 'expert': 486.1}, 'retorno_CQL (α=0.5)': {'ruim': 95.08, 'expert': 500.0}, 'retorno_perturbado_CQL (α=0.5)': {'ruim': 90.88, 'expert': 485.34}, 'retorno_IQL (τ=0.7)': {'ruim': 246.7, 'expert': 500.0}, 'retorno_perturbado_IQL (τ=0.7)': {'ruim': 210.6, 'expert': 485.78}, 'retorno_dataset': {'ruim': 16.03700065612793, 'expert': 500.0}}
+
+=== 4. estudo de dados do BC, por seed (parada antecipada + regularização)
+dados: expert            eps de treino    45  retornos  500.0  500.0  500.0  média  500.0  mín  500.0  máx  500.0  passo guardado [8000, 15500, 11000]  concord esp [0.996, 0.998, 0.996]
+dados: medio             eps de treino   270  retornos  500.0  500.0  500.0  média  500.0  mín  500.0  máx  500.0  passo guardado [13500, 3000, 9500]  concord esp [0.996, 0.994, 0.994]
+dados: ruim              eps de treino  1800  retornos    8.9    8.9    8.9  média    8.9  mín    8.9  máx    8.9  passo guardado [6500, 7000, 3500]  concord esp [0.008, 0.01, 0.007]
+dados: misto             eps de treino  1845  retornos   77.9   77.8   87.7  média   81.2  mín   77.8  máx   87.7  passo guardado [20000, 20000, 17500]  concord esp [0.544, 0.409, 0.417]
+dados: misto filtrado    eps de treino    45  retornos  500.0  500.0  500.0  média  500.0  mín  500.0  máx  500.0  passo guardado [8000, 15500, 11000]  concord esp [0.996, 0.998, 0.996]
+dados: ruim top 10%      eps de treino   197  retornos   83.1  101.4   65.5  média   83.3  mín   65.5  máx  101.4  passo guardado [2500, 6000, 1000]  concord esp [0.57, 0.691, 0.713]
+dados: expert 2%         eps de treino     1  retornos  465.1  500.0  396.4  média  453.8  mín  396.4  máx  500.0  passo guardado [1500, 1000, 1500]  concord esp [0.867, 0.94, 0.845]
+dados: expert 5%         eps de treino     2  retornos  497.7  483.9  500.0  média  493.9  mín  483.9  máx  500.0  passo guardado [1500, 7500, 3500]  concord esp [0.906, 0.982, 0.947]
+dados: expert 10%        eps de treino     4  retornos  500.0  471.8  459.8  média  477.2  mín  459.8  máx  500.0  passo guardado [10500, 3500, 11000]  concord esp [0.996, 0.958, 0.978]
+
+chaves: ['nome', 'dataset', 'filtro', 'fracao', 'cfg', 'seed', 'n_eps', 'n_trans', 'log', 'passo_guardado', 'passo_final', 'val', 'retorno', 'retornos', 'acoes', 'pesos', 'dispositivo']

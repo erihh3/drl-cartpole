@@ -505,3 +505,55 @@ marco,seed,metodo,dataset,metrica,valor,n_episodios,fonte
 5_longo_60k,0,IQL,misto,retorno_perturbado,486.28,50,experimentos/iql_60k/figuras_iql_cartpole/numeros.json
 5_longo_60k,0,dados,ruim,retorno,16.03700065612793,50,experimentos/iql_60k/figuras_iql_cartpole/numeros.json
 5_longo_60k,0,dados,misto,retorno,27.840974807739258,50,experimentos/iql_60k/figuras_iql_cartpole/numeros.json
+8_bc_dados,0-2,BC,expert,estudo_dados.retorno,500.0,50,experimentos/bc_dados/figuras_bc_cartpole/numeros.json
+8_bc_dados,0-2,BC,expert,estudo_dados.retorno_dp,0.0,50,experimentos/bc_dados/figuras_bc_cartpole/numeros.json
+8_bc_dados,0-2,BC,medio,estudo_dados.retorno,500.0,50,experimentos/bc_dados/figuras_bc_cartpole/numeros.json
+8_bc_dados,0-2,BC,medio,estudo_dados.retorno_dp,0.0,50,experimentos/bc_dados/figuras_bc_cartpole/numeros.json
+8_bc_dados,0-2,BC,ruim,estudo_dados.retorno,8.866666666666667,50,experimentos/bc_dados/figuras_bc_cartpole/numeros.json
+8_bc_dados,0-2,BC,ruim,estudo_dados.retorno_dp,0.00942809041582127,50,experimentos/bc_dados/figuras_bc_cartpole/numeros.json
+8_bc_dados,0-2,BC,misto,estudo_dados.retorno,81.16666666666667,50,experimentos/bc_dados/figuras_bc_cartpole/numeros.json
+8_bc_dados,0-2,BC,misto,estudo_dados.retorno_dp,4.648163317077207,50,experimentos/bc_dados/figuras_bc_cartpole/numeros.json
+8_bc_dados,0-2,BC,misto filtrado,estudo_dados.retorno,500.0,50,experimentos/bc_dados/figuras_bc_cartpole/numeros.json
+8_bc_dados,0-2,BC,misto filtrado,estudo_dados.retorno_dp,0.0,50,experimentos/bc_dados/figuras_bc_cartpole/numeros.json
+8_bc_dados,0-2,BC,ruim top 10%,estudo_dados.retorno,83.33333333333333,50,experimentos/bc_dados/figuras_bc_cartpole/numeros.json
+8_bc_dados,0-2,BC,ruim top 10%,estudo_dados.retorno_dp,14.640421973275071,50,experimentos/bc_dados/figuras_bc_cartpole/numeros.json
+8_bc_dados,0-2,BC,expert 2%,estudo_dados.retorno,453.8333333333333,50,experimentos/bc_dados/figuras_bc_cartpole/numeros.json
+8_bc_dados,0-2,BC,expert 2%,estudo_dados.retorno_dp,43.01702711976064,50,experimentos/bc_dados/figuras_bc_cartpole/numeros.json
+8_bc_dados,0-2,BC,expert 5%,estudo_dados.retorno,493.8533333333333,50,experimentos/bc_dados/figuras_bc_cartpole/numeros.json
+8_bc_dados,0-2,BC,expert 5%,estudo_dados.retorno_dp,7.1284656288869135,50,experimentos/bc_dados/figuras_bc_cartpole/numeros.json
+8_bc_dados,0-2,BC,expert 10%,estudo_dados.retorno,477.20666666666665,50,experimentos/bc_dados/figuras_bc_cartpole/numeros.json
+8_bc_dados,0-2,BC,expert 10%,estudo_dados.retorno_dp,16.852555361790763,50,experimentos/bc_dados/figuras_bc_cartpole/numeros.json
+8_bc_dados,0-2,dados,expert,retorno,500.0,50,experimentos/bc_dados/figuras_bc_cartpole/numeros.json
+8_bc_dados,0-2,dados,medio,retorno,112.98332977294922,50,experimentos/bc_dados/figuras_bc_cartpole/numeros.json
+8_bc_dados,0-2,dados,ruim,retorno,16.03700065612793,50,experimentos/bc_dados/figuras_bc_cartpole/numeros.json
+8_bc_dados,0-2,dados,misto,retorno,27.840974807739258,50,experimentos/bc_dados/figuras_bc_cartpole/numeros.json
+8_bc_dados,0-2,dados,misto filtrado,retorno,500.0,50,experimentos/bc_dados/figuras_bc_cartpole/numeros.json
+8_bc_dados,0-2,dados,ruim top 10%,retorno,29.811925888061523,50,experimentos/bc_dados/figuras_bc_cartpole/numeros.json
+9_longo_expert,0,,ruim,frac_dataset_igual_especialista,0.3962000012397766,50,experimentos/iql_60k_expert/figuras_iql_cartpole/numeros.json
+9_longo_expert,0,CQL,ruim,vies_Q_dados,201.371826171875,50,experimentos/iql_60k_expert/figuras_iql_cartpole/numeros.json
+9_longo_expert,0,IQL,ruim,vies_Q_dados,7.637073993682861,50,experimentos/iql_60k_expert/figuras_iql_cartpole/numeros.json
+9_longo_expert,0,,ruim,peso_mediano_acao_certa,6.6111345291137695,50,experimentos/iql_60k_expert/figuras_iql_cartpole/numeros.json
+9_longo_expert,0,,ruim,peso_mediano_acao_errada,0.06215430051088333,50,experimentos/iql_60k_expert/figuras_iql_cartpole/numeros.json
+9_longo_expert,0,BC,ruim,igual_especialista,0.018799999728798866,50,experimentos/iql_60k_expert/figuras_iql_cartpole/numeros.json
+9_longo_expert,0,CQL,ruim,igual_especialista,0.7045999765396118,50,experimentos/iql_60k_expert/figuras_iql_cartpole/numeros.json
+9_longo_expert,0,IQL,ruim,igual_especialista,0.8622000217437744,50,experimentos/iql_60k_expert/figuras_iql_cartpole/numeros.json
+9_longo_expert,0,IQL,ruim,V_tau_0.5,8.847901344299316,50,experimentos/iql_60k_expert/figuras_iql_cartpole/numeros.json
+9_longo_expert,0,IQL,ruim,V_tau_0.7,17.78705596923828,50,experimentos/iql_60k_expert/figuras_iql_cartpole/numeros.json
+9_longo_expert,0,IQL,ruim,V_tau_0.9,88.20015716552734,50,experimentos/iql_60k_expert/figuras_iql_cartpole/numeros.json
+9_longo_expert,0,IQL,ruim,retorno_tau_0.5,225.82,50,experimentos/iql_60k_expert/figuras_iql_cartpole/numeros.json
+9_longo_expert,0,IQL,ruim,retorno_tau_0.7,246.7,50,experimentos/iql_60k_expert/figuras_iql_cartpole/numeros.json
+9_longo_expert,0,IQL,ruim,retorno_tau_0.9,100.96,50,experimentos/iql_60k_expert/figuras_iql_cartpole/numeros.json
+9_longo_expert,0,BC,ruim,retorno,8.94,50,experimentos/iql_60k_expert/figuras_iql_cartpole/numeros.json
+9_longo_expert,0,BC,expert,retorno,500.0,50,experimentos/iql_60k_expert/figuras_iql_cartpole/numeros.json
+9_longo_expert,0,BC,ruim,retorno_perturbado,12.34,50,experimentos/iql_60k_expert/figuras_iql_cartpole/numeros.json
+9_longo_expert,0,BC,expert,retorno_perturbado,486.1,50,experimentos/iql_60k_expert/figuras_iql_cartpole/numeros.json
+9_longo_expert,0,CQL,ruim,retorno,95.08,50,experimentos/iql_60k_expert/figuras_iql_cartpole/numeros.json
+9_longo_expert,0,CQL,expert,retorno,500.0,50,experimentos/iql_60k_expert/figuras_iql_cartpole/numeros.json
+9_longo_expert,0,CQL,ruim,retorno_perturbado,90.88,50,experimentos/iql_60k_expert/figuras_iql_cartpole/numeros.json
+9_longo_expert,0,CQL,expert,retorno_perturbado,485.34,50,experimentos/iql_60k_expert/figuras_iql_cartpole/numeros.json
+9_longo_expert,0,IQL,ruim,retorno,246.7,50,experimentos/iql_60k_expert/figuras_iql_cartpole/numeros.json
+9_longo_expert,0,IQL,expert,retorno,500.0,50,experimentos/iql_60k_expert/figuras_iql_cartpole/numeros.json
+9_longo_expert,0,IQL,ruim,retorno_perturbado,210.6,50,experimentos/iql_60k_expert/figuras_iql_cartpole/numeros.json
+9_longo_expert,0,IQL,expert,retorno_perturbado,485.78,50,experimentos/iql_60k_expert/figuras_iql_cartpole/numeros.json
+9_longo_expert,0,dados,ruim,retorno,16.03700065612793,50,experimentos/iql_60k_expert/figuras_iql_cartpole/numeros.json
+9_longo_expert,0,dados,expert,retorno,500.0,50,experimentos/iql_60k_expert/figuras_iql_cartpole/numeros.json

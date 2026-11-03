@@ -98,14 +98,37 @@ def fig_tau(resumo, curvas, plt):
     fig.tight_layout(rect=(0, 0, 0.995, 0.875)); fig.savefig(os.path.join(SAIDA, "3_tau.png"), dpi=150); plt.close(fig)
 
 
+def fig_formula(curvas, plt):
+    def serie(rotulo, coluna):
+        ls = [l for l in curvas if l["marco"] == "9_longo_expert" and l["dataset"] == "expert" and l["rotulo"] == rotulo and l[coluna]]
+        return [int(l["passo"]) for l in ls], [float(l[coluna]) for l in ls]
+    fig, ax = plt.subplots(figsize=(9.6, 5.0)); t = np.linspace(0, 60000, 200)
+    ax.axhline(100, color=TINTA2, lw=1, ls=(0, (2, 3)), zorder=1)
+    ax.annotate("máximo possível: 100", (0, 100), xytext=(4, 5), textcoords="offset points", fontsize=9, color=TINTA2)
+    for m, marca in (("CQL", MARCA["CQL"]), ("IQL", MARCA["IQL"])):
+        x, y = serie(CHAVE[m], "q_dados")
+        ax.plot(x, y, "-" + marca, color=COR[m], lw=2, ms=7, mec="white", mew=1, markevery=(3 if m == "CQL" else 5, 5), zorder=3, label=f"{ROTULO[m]}: ação dos dados")
+    ax.plot(t, 1 + 99 * (1 - np.exp(-t / 20000)), color=TINTA, lw=1.4, ls=(0, (4, 3)), zorder=4, label="fórmula, sem penalidade")
+    x, y = serie(CHAVE["CQL"], "q_outra")
+    ax.plot(x, y, color=COR["CQL"], lw=2, ls=(0, (1, 1.5)), zorder=3, label=f"{ROTULO['CQL']}: a outra ação")
+    ax.axhline(0, color="#C9CED6", lw=1, zorder=1)
+    ax.set_xticks([0, 15000, 30000, 45000, 60000], ["0", "15.000", "30.000", "45.000", "60.000"]); ax.set(xlabel="passos de treino", ylabel="Q", xlim=(0, 61000)); eixo_limpo(ax)
+    H, L = ax.get_legend_handles_labels()
+    fig.suptitle("No expert, Q da ação dos dados segue a fórmula; o CQL só derruba a outra ação", x=0.01, y=0.985, ha="left", fontweight="bold", fontsize=12)
+    fig.text(0.01, 0.905, "Seed 0, 60.000 passos. Nada foi ajustado à curva: ela só usa recompensa 1, γ = 0,99 e Polyak 0,005.", fontsize=9, color=TINTA2)
+    fig.legend(H, L, loc="upper left", ncol=2, frameon=False, fontsize=9, bbox_to_anchor=(0.005, 0.885))
+    fig.tight_layout(rect=(0, 0, 0.995, 0.80)); fig.savefig(os.path.join(SAIDA, "5_q_e_formula.png"), dpi=150); plt.close(fig)
+
+
 def main():
     os.makedirs(SAIDA, exist_ok=True); plt = C.estilo_graficos(False)
     resumo, curvas = ler("resumo_seeds.csv"), ler("curvas.csv")
     medias = {l["dataset"]: float(l["valor"]) for l in ler("evolucao.csv") if l["marco"] == "4_seeds" and l["metodo"] == "dados" and l["metrica"] == "retorno" and l["seed"] == "0"}
-    fig_seeds(resumo, medias, plt); fig_queda(curvas, plt); fig_tau(resumo, curvas, plt)
-    origem = "experimentos/varredura_especialista/1_quanto_especialista.png"
-    if os.path.exists(origem):
-        shutil.copyfile(origem, os.path.join(SAIDA, "4_quanto_especialista.png"))
+    fig_seeds(resumo, medias, plt); fig_queda(curvas, plt); fig_tau(resumo, curvas, plt); fig_formula(curvas, plt)
+    for origem, nome in (("experimentos/varredura_especialista/1_quanto_especialista.png", "4_quanto_especialista.png"),
+                         ("experimentos/bc_dados/figuras_bc_cartpole/6_dados.png", "6_dados_bc.png")):
+        if os.path.exists(origem):
+            shutil.copyfile(origem, os.path.join(SAIDA, nome))
     print("figuras em", SAIDA, sorted(os.listdir(SAIDA)))
 
 

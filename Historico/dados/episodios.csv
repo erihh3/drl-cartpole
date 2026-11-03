@@ -11969,3 +11969,2153 @@ marco,script,seed,dataset,rotulo,avaliacao,episodio,retorno
 5_longo_60k,iql,0,misto,BC,perturbada,47,12.0
 5_longo_60k,iql,0,misto,BC,perturbada,48,14.0
 5_longo_60k,iql,0,misto,BC,perturbada,49,12.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,0,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,1,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,2,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,3,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,4,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,5,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,6,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,7,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,8,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,9,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,10,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,11,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,12,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,13,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,14,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,15,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,16,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,17,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,18,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,19,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,20,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,21,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,22,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,23,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,24,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,25,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,26,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,27,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,28,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,29,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,30,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,31,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,32,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,33,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,34,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,35,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,36,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,37,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,38,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,39,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,40,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,41,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,42,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,43,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,44,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,45,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,46,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,47,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,48,500.0
+8_bc_dados,bc,0,expert,BC dados: expert,padrao,49,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,0,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,1,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,2,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,3,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,4,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,5,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,6,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,7,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,8,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,9,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,10,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,11,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,12,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,13,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,14,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,15,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,16,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,17,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,18,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,19,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,20,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,21,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,22,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,23,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,24,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,25,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,26,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,27,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,28,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,29,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,30,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,31,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,32,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,33,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,34,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,35,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,36,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,37,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,38,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,39,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,40,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,41,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,42,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,43,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,44,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,45,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,46,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,47,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,48,500.0
+8_bc_dados,bc,1,expert,BC dados: expert,padrao,49,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,0,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,1,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,2,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,3,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,4,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,5,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,6,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,7,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,8,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,9,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,10,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,11,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,12,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,13,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,14,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,15,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,16,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,17,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,18,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,19,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,20,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,21,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,22,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,23,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,24,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,25,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,26,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,27,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,28,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,29,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,30,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,31,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,32,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,33,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,34,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,35,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,36,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,37,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,38,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,39,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,40,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,41,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,42,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,43,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,44,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,45,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,46,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,47,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,48,500.0
+8_bc_dados,bc,2,expert,BC dados: expert,padrao,49,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,0,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,1,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,2,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,3,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,4,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,5,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,6,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,7,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,8,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,9,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,10,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,11,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,12,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,13,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,14,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,15,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,16,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,17,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,18,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,19,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,20,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,21,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,22,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,23,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,24,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,25,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,26,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,27,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,28,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,29,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,30,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,31,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,32,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,33,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,34,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,35,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,36,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,37,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,38,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,39,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,40,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,41,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,42,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,43,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,44,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,45,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,46,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,47,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,48,500.0
+8_bc_dados,bc,0,medio,BC dados: medio,padrao,49,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,0,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,1,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,2,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,3,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,4,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,5,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,6,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,7,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,8,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,9,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,10,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,11,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,12,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,13,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,14,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,15,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,16,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,17,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,18,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,19,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,20,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,21,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,22,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,23,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,24,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,25,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,26,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,27,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,28,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,29,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,30,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,31,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,32,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,33,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,34,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,35,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,36,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,37,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,38,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,39,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,40,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,41,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,42,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,43,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,44,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,45,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,46,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,47,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,48,500.0
+8_bc_dados,bc,1,medio,BC dados: medio,padrao,49,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,0,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,1,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,2,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,3,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,4,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,5,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,6,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,7,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,8,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,9,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,10,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,11,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,12,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,13,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,14,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,15,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,16,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,17,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,18,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,19,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,20,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,21,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,22,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,23,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,24,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,25,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,26,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,27,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,28,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,29,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,30,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,31,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,32,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,33,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,34,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,35,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,36,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,37,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,38,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,39,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,40,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,41,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,42,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,43,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,44,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,45,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,46,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,47,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,48,500.0
+8_bc_dados,bc,2,medio,BC dados: medio,padrao,49,500.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,0,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,1,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,2,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,3,8.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,4,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,5,8.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,6,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,7,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,8,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,9,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,10,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,11,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,12,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,13,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,14,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,15,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,16,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,17,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,18,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,19,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,20,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,21,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,22,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,23,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,24,10.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,25,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,26,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,27,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,28,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,29,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,30,8.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,31,8.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,32,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,33,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,34,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,35,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,36,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,37,8.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,38,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,39,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,40,8.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,41,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,42,8.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,43,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,44,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,45,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,46,8.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,47,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,48,9.0
+8_bc_dados,bc,0,ruim,BC dados: ruim,padrao,49,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,0,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,1,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,2,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,3,8.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,4,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,5,8.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,6,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,7,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,8,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,9,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,10,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,11,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,12,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,13,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,14,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,15,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,16,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,17,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,18,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,19,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,20,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,21,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,22,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,23,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,24,10.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,25,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,26,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,27,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,28,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,29,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,30,8.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,31,8.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,32,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,33,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,34,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,35,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,36,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,37,8.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,38,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,39,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,40,8.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,41,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,42,8.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,43,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,44,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,45,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,46,8.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,47,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,48,9.0
+8_bc_dados,bc,1,ruim,BC dados: ruim,padrao,49,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,0,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,1,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,2,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,3,8.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,4,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,5,8.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,6,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,7,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,8,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,9,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,10,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,11,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,12,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,13,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,14,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,15,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,16,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,17,10.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,18,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,19,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,20,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,21,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,22,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,23,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,24,10.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,25,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,26,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,27,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,28,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,29,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,30,8.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,31,8.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,32,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,33,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,34,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,35,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,36,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,37,8.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,38,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,39,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,40,8.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,41,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,42,8.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,43,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,44,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,45,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,46,8.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,47,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,48,9.0
+8_bc_dados,bc,2,ruim,BC dados: ruim,padrao,49,9.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,0,500.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,1,9.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,2,9.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,3,8.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,4,500.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,5,8.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,6,11.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,7,500.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,8,9.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,9,500.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,10,9.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,11,9.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,12,9.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,13,9.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,14,9.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,15,9.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,16,9.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,17,500.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,18,11.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,19,9.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,20,9.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,21,9.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,22,9.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,23,9.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,24,10.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,25,9.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,26,9.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,27,9.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,28,9.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,29,9.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,30,8.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,31,8.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,32,15.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,33,15.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,34,9.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,35,500.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,36,9.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,37,8.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,38,9.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,39,9.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,40,8.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,41,9.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,42,8.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,43,9.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,44,9.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,45,9.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,46,8.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,47,9.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,48,500.0
+8_bc_dados,bc,0,misto,BC dados: misto,padrao,49,9.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,0,500.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,1,9.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,2,9.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,3,8.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,4,500.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,5,8.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,6,10.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,7,500.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,8,9.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,9,500.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,10,9.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,11,9.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,12,9.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,13,9.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,14,10.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,15,9.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,16,9.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,17,500.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,18,11.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,19,9.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,20,9.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,21,9.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,22,9.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,23,9.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,24,12.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,25,9.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,26,9.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,27,9.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,28,9.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,29,9.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,30,8.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,31,8.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,32,15.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,33,9.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,34,9.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,35,500.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,36,9.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,37,8.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,38,9.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,39,9.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,40,8.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,41,9.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,42,8.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,43,9.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,44,9.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,45,9.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,46,8.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,47,9.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,48,500.0
+8_bc_dados,bc,1,misto,BC dados: misto,padrao,49,9.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,0,500.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,1,9.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,2,9.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,3,8.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,4,500.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,5,8.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,6,9.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,7,500.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,8,9.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,9,500.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,10,9.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,11,9.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,12,9.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,13,9.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,14,10.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,15,9.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,16,9.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,17,500.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,18,500.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,19,9.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,20,9.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,21,9.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,22,9.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,23,9.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,24,9.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,25,9.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,26,9.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,27,9.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,28,9.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,29,9.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,30,8.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,31,8.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,32,15.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,33,9.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,34,9.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,35,500.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,36,9.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,37,8.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,38,9.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,39,19.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,40,8.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,41,9.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,42,8.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,43,9.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,44,9.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,45,9.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,46,8.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,47,9.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,48,500.0
+8_bc_dados,bc,2,misto,BC dados: misto,padrao,49,9.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,0,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,1,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,2,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,3,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,4,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,5,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,6,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,7,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,8,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,9,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,10,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,11,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,12,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,13,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,14,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,15,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,16,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,17,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,18,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,19,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,20,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,21,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,22,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,23,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,24,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,25,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,26,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,27,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,28,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,29,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,30,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,31,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,32,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,33,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,34,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,35,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,36,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,37,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,38,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,39,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,40,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,41,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,42,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,43,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,44,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,45,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,46,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,47,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,48,500.0
+8_bc_dados,bc,0,misto,BC dados: misto filtrado,padrao,49,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,0,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,1,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,2,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,3,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,4,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,5,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,6,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,7,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,8,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,9,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,10,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,11,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,12,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,13,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,14,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,15,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,16,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,17,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,18,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,19,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,20,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,21,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,22,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,23,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,24,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,25,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,26,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,27,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,28,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,29,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,30,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,31,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,32,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,33,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,34,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,35,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,36,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,37,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,38,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,39,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,40,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,41,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,42,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,43,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,44,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,45,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,46,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,47,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,48,500.0
+8_bc_dados,bc,1,misto,BC dados: misto filtrado,padrao,49,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,0,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,1,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,2,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,3,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,4,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,5,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,6,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,7,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,8,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,9,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,10,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,11,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,12,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,13,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,14,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,15,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,16,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,17,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,18,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,19,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,20,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,21,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,22,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,23,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,24,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,25,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,26,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,27,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,28,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,29,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,30,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,31,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,32,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,33,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,34,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,35,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,36,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,37,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,38,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,39,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,40,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,41,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,42,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,43,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,44,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,45,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,46,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,47,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,48,500.0
+8_bc_dados,bc,2,misto,BC dados: misto filtrado,padrao,49,500.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,0,65.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,1,71.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,2,71.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,3,30.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,4,99.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,5,111.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,6,61.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,7,151.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,8,107.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,9,85.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,10,77.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,11,61.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,12,61.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,13,91.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,14,63.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,15,43.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,16,41.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,17,91.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,18,63.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,19,61.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,20,51.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,21,75.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,22,135.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,23,129.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,24,53.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,25,27.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,26,213.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,27,85.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,28,37.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,29,49.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,30,107.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,31,79.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,32,179.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,33,69.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,34,99.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,35,47.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,36,53.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,37,147.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,38,155.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,39,35.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,40,53.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,41,79.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,42,137.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,43,71.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,44,63.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,45,27.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,46,147.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,47,65.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,48,83.0
+8_bc_dados,bc,0,ruim,BC dados: ruim top 10%,padrao,49,105.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,0,80.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,1,84.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,2,66.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,3,178.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,4,146.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,5,118.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,6,68.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,7,114.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,8,121.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,9,126.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,10,72.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,11,59.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,12,58.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,13,100.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,14,61.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,15,53.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,16,46.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,17,97.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,18,72.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,19,69.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,20,62.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,21,73.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,22,137.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,23,157.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,24,54.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,25,140.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,26,292.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,27,77.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,28,57.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,29,60.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,30,101.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,31,79.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,32,210.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,33,66.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,34,128.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,35,49.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,36,47.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,37,155.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,38,152.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,39,36.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,40,56.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,41,67.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,42,319.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,43,90.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,44,65.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,45,176.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,46,127.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,47,46.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,48,71.0
+8_bc_dados,bc,1,ruim,BC dados: ruim top 10%,padrao,49,131.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,0,65.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,1,56.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,2,64.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,3,97.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,4,74.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,5,76.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,6,50.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,7,70.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,8,73.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,9,64.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,10,60.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,11,49.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,12,80.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,13,72.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,14,52.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,15,49.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,16,42.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,17,74.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,18,52.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,19,50.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,20,44.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,21,66.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,22,84.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,23,81.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,24,50.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,25,82.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,26,110.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,27,74.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,28,40.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,29,42.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,30,70.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,31,65.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,32,82.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,33,57.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,34,73.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,35,50.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,36,44.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,37,98.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,38,88.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,39,47.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,40,44.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,41,60.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,42,92.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,43,52.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,44,48.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,45,86.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,46,85.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,47,50.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,48,60.0
+8_bc_dados,bc,2,ruim,BC dados: ruim top 10%,padrao,49,82.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,0,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,1,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,2,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,3,222.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,4,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,5,246.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,6,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,7,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,8,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,9,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,10,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,11,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,12,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,13,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,14,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,15,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,16,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,17,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,18,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,19,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,20,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,21,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,22,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,23,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,24,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,25,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,26,314.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,27,346.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,28,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,29,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,30,266.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,31,254.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,32,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,33,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,34,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,35,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,36,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,37,286.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,38,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,39,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,40,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,41,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,42,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,43,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,44,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,45,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,46,319.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,47,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,48,500.0
+8_bc_dados,bc,0,expert 2%,BC dados: expert 2%,padrao,49,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,0,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,1,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,2,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,3,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,4,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,5,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,6,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,7,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,8,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,9,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,10,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,11,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,12,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,13,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,14,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,15,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,16,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,17,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,18,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,19,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,20,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,21,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,22,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,23,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,24,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,25,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,26,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,27,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,28,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,29,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,30,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,31,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,32,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,33,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,34,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,35,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,36,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,37,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,38,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,39,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,40,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,41,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,42,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,43,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,44,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,45,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,46,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,47,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,48,500.0
+8_bc_dados,bc,1,expert 2%,BC dados: expert 2%,padrao,49,500.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,0,500.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,1,438.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,2,500.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,3,130.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,4,500.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,5,128.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,6,390.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,7,500.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,8,500.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,9,492.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,10,500.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,11,330.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,12,500.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,13,474.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,14,325.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,15,500.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,16,500.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,17,500.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,18,500.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,19,500.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,20,309.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,21,500.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,22,330.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,23,290.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,24,500.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,25,224.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,26,170.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,27,204.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,28,500.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,29,307.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,30,152.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,31,151.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,32,500.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,33,382.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,34,500.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,35,500.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,36,500.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,37,162.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,38,279.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,39,500.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,40,500.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,41,500.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,42,388.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,43,500.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,44,495.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,45,238.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,46,159.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,47,500.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,48,500.0
+8_bc_dados,bc,2,expert 2%,BC dados: expert 2%,padrao,49,375.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,0,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,1,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,2,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,3,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,4,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,5,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,6,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,7,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,8,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,9,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,10,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,11,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,12,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,13,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,14,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,15,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,16,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,17,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,18,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,19,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,20,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,21,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,22,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,23,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,24,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,25,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,26,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,27,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,28,464.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,29,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,30,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,31,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,32,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,33,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,34,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,35,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,36,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,37,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,38,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,39,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,40,421.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,41,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,42,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,43,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,44,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,45,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,46,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,47,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,48,500.0
+8_bc_dados,bc,0,expert 5%,BC dados: expert 5%,padrao,49,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,0,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,1,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,2,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,3,150.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,4,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,5,130.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,6,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,7,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,8,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,9,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,10,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,11,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,12,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,13,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,14,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,15,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,16,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,17,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,18,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,19,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,20,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,21,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,22,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,23,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,24,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,25,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,26,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,27,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,28,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,29,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,30,466.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,31,450.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,32,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,33,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,34,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,35,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,36,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,37,497.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,38,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,39,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,40,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,41,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,42,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,43,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,44,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,45,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,46,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,47,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,48,500.0
+8_bc_dados,bc,1,expert 5%,BC dados: expert 5%,padrao,49,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,0,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,1,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,2,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,3,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,4,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,5,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,6,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,7,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,8,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,9,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,10,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,11,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,12,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,13,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,14,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,15,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,16,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,17,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,18,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,19,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,20,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,21,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,22,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,23,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,24,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,25,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,26,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,27,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,28,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,29,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,30,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,31,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,32,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,33,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,34,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,35,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,36,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,37,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,38,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,39,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,40,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,41,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,42,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,43,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,44,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,45,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,46,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,47,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,48,500.0
+8_bc_dados,bc,2,expert 5%,BC dados: expert 5%,padrao,49,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,0,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,1,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,2,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,3,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,4,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,5,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,6,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,7,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,8,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,9,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,10,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,11,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,12,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,13,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,14,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,15,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,16,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,17,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,18,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,19,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,20,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,21,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,22,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,23,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,24,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,25,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,26,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,27,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,28,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,29,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,30,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,31,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,32,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,33,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,34,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,35,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,36,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,37,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,38,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,39,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,40,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,41,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,42,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,43,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,44,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,45,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,46,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,47,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,48,500.0
+8_bc_dados,bc,0,expert 10%,BC dados: expert 10%,padrao,49,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,0,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,1,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,2,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,3,132.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,4,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,5,135.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,6,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,7,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,8,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,9,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,10,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,11,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,12,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,13,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,14,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,15,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,16,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,17,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,18,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,19,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,20,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,21,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,22,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,23,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,24,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,25,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,26,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,27,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,28,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,29,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,30,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,31,140.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,32,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,33,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,34,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,35,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,36,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,37,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,38,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,39,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,40,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,41,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,42,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,43,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,44,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,45,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,46,185.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,47,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,48,500.0
+8_bc_dados,bc,1,expert 10%,BC dados: expert 10%,padrao,49,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,0,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,1,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,2,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,3,156.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,4,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,5,135.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,6,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,7,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,8,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,9,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,10,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,11,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,12,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,13,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,14,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,15,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,16,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,17,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,18,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,19,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,20,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,21,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,22,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,23,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,24,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,25,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,26,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,27,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,28,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,29,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,30,163.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,31,161.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,32,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,33,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,34,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,35,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,36,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,37,171.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,38,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,39,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,40,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,41,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,42,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,43,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,44,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,45,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,46,203.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,47,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,48,500.0
+8_bc_dados,bc,2,expert 10%,BC dados: expert 10%,padrao,49,500.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,0,266.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,1,227.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,2,319.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,3,111.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,4,277.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,5,131.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,6,245.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,7,329.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,8,227.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,9,220.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,10,240.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,11,239.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,12,375.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,13,227.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,14,219.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,15,332.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,16,343.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,17,283.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,18,309.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,19,500.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,20,238.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,21,280.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,22,190.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,23,182.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,24,309.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,25,183.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,26,143.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,27,178.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,28,179.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,29,235.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,30,132.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,31,137.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,32,302.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,33,232.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,34,227.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,35,314.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,36,310.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,37,134.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,38,176.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,39,276.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,40,202.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,41,278.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,42,201.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,43,303.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,44,339.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,45,159.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,46,151.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,47,326.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,48,395.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),padrao,49,205.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,0,262.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,1,251.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,2,232.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,3,100.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,4,133.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,5,10.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,6,226.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,7,383.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,8,122.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,9,379.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,10,147.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,11,183.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,12,138.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,13,126.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,14,213.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,15,312.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,16,319.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,17,199.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,18,322.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,19,132.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,20,213.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,21,97.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,22,281.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,23,186.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,24,146.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,25,187.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,26,278.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,27,64.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,28,253.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,29,231.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,30,95.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,31,79.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,32,164.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,33,232.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,34,279.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,35,102.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,36,160.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,37,129.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,38,187.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,39,358.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,40,202.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,41,129.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,42,281.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,43,500.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,44,339.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,45,101.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,46,160.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,47,402.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,48,393.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.7),perturbada,49,113.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,0,205.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,1,260.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,2,185.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,3,135.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,4,214.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,5,182.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,6,245.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,7,186.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,8,224.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,9,282.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,10,460.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,11,324.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,12,181.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,13,224.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,14,331.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,15,175.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,16,159.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,17,202.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,18,185.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,19,232.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,20,342.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,21,352.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,22,184.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,23,162.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,24,258.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,25,139.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,26,227.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,27,290.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,28,148.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,29,369.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,30,195.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,31,184.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,32,500.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,33,282.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,34,225.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,35,181.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,36,182.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,37,230.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,38,159.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,39,136.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,40,152.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,41,167.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,42,174.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,43,246.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,44,251.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,45,156.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,46,272.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,47,168.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,48,171.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),padrao,49,198.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,0,259.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,1,260.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,2,167.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,3,114.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,4,198.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,5,10.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,6,228.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,7,187.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,8,163.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,9,239.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,10,268.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,11,150.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,12,123.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,13,170.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,14,219.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,15,122.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,16,152.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,17,121.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,18,175.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,19,116.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,20,205.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,21,85.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,22,178.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,23,174.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,24,182.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,25,500.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,26,345.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,27,62.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,28,269.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,29,365.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,30,85.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,31,68.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,32,109.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,33,236.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,34,257.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,35,95.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,36,208.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,37,207.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,38,378.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,39,159.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,40,186.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,41,103.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,42,170.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,43,151.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,44,251.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,45,120.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,46,275.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,47,199.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,48,162.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.5),perturbada,49,148.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,0,98.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,1,100.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,2,100.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,3,88.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,4,95.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,5,90.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,6,97.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,7,100.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,8,92.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,9,92.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,10,96.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,11,96.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,12,102.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,13,91.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,14,97.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,15,101.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,16,103.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,17,95.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,18,98.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,19,102.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,20,100.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,21,96.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,22,92.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,23,86.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,24,97.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,25,86.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,26,90.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,27,96.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,28,104.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,29,100.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,30,92.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,31,94.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,32,96.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,33,91.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,34,89.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,35,97.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,36,97.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,37,92.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,38,87.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,39,107.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,40,187.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,41,102.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,42,92.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,43,98.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,44,102.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,45,88.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,46,94.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,47,192.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,48,181.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),padrao,49,90.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,0,98.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,1,101.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,2,112.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,3,88.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,4,96.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,5,10.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,6,95.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,7,104.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,8,89.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,9,108.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,10,97.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,11,116.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,12,181.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,13,96.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,14,95.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,15,112.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,16,111.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,17,130.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,18,110.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,19,130.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,20,100.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,21,90.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,22,108.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,23,98.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,24,104.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,25,184.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,26,100.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,27,72.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,28,104.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,29,102.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,30,90.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,31,81.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,32,213.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,33,98.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,34,104.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,35,96.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,36,106.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,37,92.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,38,100.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,39,107.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,40,103.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,41,130.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,42,105.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,43,113.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,44,105.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,45,173.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,46,182.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,47,110.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,48,106.0
+9_longo_expert,iql,0,ruim,IQL (τ=0.9),perturbada,49,90.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,0,126.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,1,128.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,2,119.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,3,69.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,4,121.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,5,67.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,6,63.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,7,121.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,8,69.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,9,138.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,10,73.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,11,89.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,12,131.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,13,73.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,14,63.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,15,123.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,16,73.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,17,124.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,18,107.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,19,123.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,20,65.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,21,69.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,22,136.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,23,59.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,24,67.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,25,58.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,26,127.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,27,132.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,28,67.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,29,65.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,30,65.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,31,63.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,32,122.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,33,63.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,34,136.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,35,69.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,36,65.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,37,148.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,38,62.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,39,74.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,40,67.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,41,121.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,42,140.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,43,67.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,44,132.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,45,71.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,46,124.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,47,115.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,48,122.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),padrao,49,83.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,0,77.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,1,132.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,2,124.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,3,62.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,4,95.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,5,10.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,6,67.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,7,124.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,8,67.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,9,131.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,10,67.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,11,125.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,12,68.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,13,67.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,14,67.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,15,122.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,16,79.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,17,122.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,18,128.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,19,119.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,20,69.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,21,65.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,22,128.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,23,65.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,24,69.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,25,68.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,26,130.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,27,59.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,28,71.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,29,69.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,30,63.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,31,61.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,32,122.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,33,69.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,34,133.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,35,65.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,36,67.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,37,71.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,38,67.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,39,74.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,40,87.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,41,119.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,42,128.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,43,125.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,44,132.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,45,60.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,46,137.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,47,129.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,48,124.0
+9_longo_expert,iql,0,ruim,CQL (α=0.5),perturbada,49,65.0
+9_longo_expert,iql,0,ruim,BC,padrao,0,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,1,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,2,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,3,8.0
+9_longo_expert,iql,0,ruim,BC,padrao,4,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,5,8.0
+9_longo_expert,iql,0,ruim,BC,padrao,6,10.0
+9_longo_expert,iql,0,ruim,BC,padrao,7,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,8,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,9,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,10,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,11,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,12,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,13,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,14,10.0
+9_longo_expert,iql,0,ruim,BC,padrao,15,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,16,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,17,10.0
+9_longo_expert,iql,0,ruim,BC,padrao,18,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,19,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,20,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,21,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,22,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,23,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,24,10.0
+9_longo_expert,iql,0,ruim,BC,padrao,25,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,26,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,27,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,28,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,29,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,30,8.0
+9_longo_expert,iql,0,ruim,BC,padrao,31,8.0
+9_longo_expert,iql,0,ruim,BC,padrao,32,10.0
+9_longo_expert,iql,0,ruim,BC,padrao,33,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,34,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,35,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,36,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,37,8.0
+9_longo_expert,iql,0,ruim,BC,padrao,38,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,39,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,40,8.0
+9_longo_expert,iql,0,ruim,BC,padrao,41,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,42,8.0
+9_longo_expert,iql,0,ruim,BC,padrao,43,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,44,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,45,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,46,8.0
+9_longo_expert,iql,0,ruim,BC,padrao,47,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,48,9.0
+9_longo_expert,iql,0,ruim,BC,padrao,49,9.0
+9_longo_expert,iql,0,ruim,BC,perturbada,0,13.0
+9_longo_expert,iql,0,ruim,BC,perturbada,1,13.0
+9_longo_expert,iql,0,ruim,BC,perturbada,2,14.0
+9_longo_expert,iql,0,ruim,BC,perturbada,3,12.0
+9_longo_expert,iql,0,ruim,BC,perturbada,4,11.0
+9_longo_expert,iql,0,ruim,BC,perturbada,5,8.0
+9_longo_expert,iql,0,ruim,BC,perturbada,6,13.0
+9_longo_expert,iql,0,ruim,BC,perturbada,7,13.0
+9_longo_expert,iql,0,ruim,BC,perturbada,8,12.0
+9_longo_expert,iql,0,ruim,BC,perturbada,9,13.0
+9_longo_expert,iql,0,ruim,BC,perturbada,10,12.0
+9_longo_expert,iql,0,ruim,BC,perturbada,11,12.0
+9_longo_expert,iql,0,ruim,BC,perturbada,12,11.0
+9_longo_expert,iql,0,ruim,BC,perturbada,13,14.0
+9_longo_expert,iql,0,ruim,BC,perturbada,14,14.0
+9_longo_expert,iql,0,ruim,BC,perturbada,15,15.0
+9_longo_expert,iql,0,ruim,BC,perturbada,16,14.0
+9_longo_expert,iql,0,ruim,BC,perturbada,17,11.0
+9_longo_expert,iql,0,ruim,BC,perturbada,18,13.0
+9_longo_expert,iql,0,ruim,BC,perturbada,19,12.0
+9_longo_expert,iql,0,ruim,BC,perturbada,20,13.0
+9_longo_expert,iql,0,ruim,BC,perturbada,21,10.0
+9_longo_expert,iql,0,ruim,BC,perturbada,22,12.0
+9_longo_expert,iql,0,ruim,BC,perturbada,23,12.0
+9_longo_expert,iql,0,ruim,BC,perturbada,24,13.0
+9_longo_expert,iql,0,ruim,BC,perturbada,25,12.0
+9_longo_expert,iql,0,ruim,BC,perturbada,26,14.0
+9_longo_expert,iql,0,ruim,BC,perturbada,27,9.0
+9_longo_expert,iql,0,ruim,BC,perturbada,28,13.0
+9_longo_expert,iql,0,ruim,BC,perturbada,29,14.0
+9_longo_expert,iql,0,ruim,BC,perturbada,30,11.0
+9_longo_expert,iql,0,ruim,BC,perturbada,31,9.0
+9_longo_expert,iql,0,ruim,BC,perturbada,32,11.0
+9_longo_expert,iql,0,ruim,BC,perturbada,33,14.0
+9_longo_expert,iql,0,ruim,BC,perturbada,34,13.0
+9_longo_expert,iql,0,ruim,BC,perturbada,35,10.0
+9_longo_expert,iql,0,ruim,BC,perturbada,36,12.0
+9_longo_expert,iql,0,ruim,BC,perturbada,37,12.0
+9_longo_expert,iql,0,ruim,BC,perturbada,38,13.0
+9_longo_expert,iql,0,ruim,BC,perturbada,39,13.0
+9_longo_expert,iql,0,ruim,BC,perturbada,40,14.0
+9_longo_expert,iql,0,ruim,BC,perturbada,41,12.0
+9_longo_expert,iql,0,ruim,BC,perturbada,42,12.0
+9_longo_expert,iql,0,ruim,BC,perturbada,43,12.0
+9_longo_expert,iql,0,ruim,BC,perturbada,44,14.0
+9_longo_expert,iql,0,ruim,BC,perturbada,45,12.0
+9_longo_expert,iql,0,ruim,BC,perturbada,46,13.0
+9_longo_expert,iql,0,ruim,BC,perturbada,47,12.0
+9_longo_expert,iql,0,ruim,BC,perturbada,48,14.0
+9_longo_expert,iql,0,ruim,BC,perturbada,49,12.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,0,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,1,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,2,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,3,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,4,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,5,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,6,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,7,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,8,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,9,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,10,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,11,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,12,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,13,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,14,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,15,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,16,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,17,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,18,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,19,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,20,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,21,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,22,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,23,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,24,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,25,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,26,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,27,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,28,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,29,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,30,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,31,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,32,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,33,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,34,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,35,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,36,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,37,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,38,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,39,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,40,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,41,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,42,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,43,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,44,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,45,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,46,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,47,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,48,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),padrao,49,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,0,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,1,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,2,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,3,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,4,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,5,10.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,6,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,7,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,8,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,9,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,10,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,11,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,12,472.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,13,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,14,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,15,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,16,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,17,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,18,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,19,422.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,20,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,21,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,22,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,23,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,24,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,25,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,26,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,27,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,28,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,29,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,30,441.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,31,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,32,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,33,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,34,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,35,444.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,36,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,37,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,38,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,39,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,40,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,41,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,42,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,43,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,44,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,45,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,46,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,47,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,48,500.0
+9_longo_expert,iql,0,expert,IQL (τ=0.7),perturbada,49,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,0,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,1,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,2,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,3,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,4,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,5,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,6,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,7,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,8,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,9,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,10,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,11,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,12,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,13,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,14,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,15,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,16,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,17,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,18,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,19,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,20,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,21,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,22,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,23,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,24,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,25,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,26,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,27,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,28,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,29,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,30,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,31,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,32,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,33,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,34,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,35,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,36,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,37,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,38,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,39,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,40,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,41,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,42,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,43,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,44,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,45,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,46,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,47,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,48,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),padrao,49,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,0,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,1,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,2,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,3,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,4,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,5,10.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,6,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,7,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,8,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,9,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,10,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,11,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,12,468.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,13,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,14,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,15,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,16,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,17,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,18,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,19,422.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,20,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,21,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,22,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,23,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,24,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,25,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,26,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,27,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,28,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,29,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,30,439.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,31,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,32,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,33,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,34,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,35,428.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,36,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,37,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,38,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,39,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,40,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,41,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,42,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,43,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,44,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,45,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,46,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,47,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,48,500.0
+9_longo_expert,iql,0,expert,CQL (α=0.5),perturbada,49,500.0
+9_longo_expert,iql,0,expert,BC,padrao,0,500.0
+9_longo_expert,iql,0,expert,BC,padrao,1,500.0
+9_longo_expert,iql,0,expert,BC,padrao,2,500.0
+9_longo_expert,iql,0,expert,BC,padrao,3,500.0
+9_longo_expert,iql,0,expert,BC,padrao,4,500.0
+9_longo_expert,iql,0,expert,BC,padrao,5,500.0
+9_longo_expert,iql,0,expert,BC,padrao,6,500.0
+9_longo_expert,iql,0,expert,BC,padrao,7,500.0
+9_longo_expert,iql,0,expert,BC,padrao,8,500.0
+9_longo_expert,iql,0,expert,BC,padrao,9,500.0
+9_longo_expert,iql,0,expert,BC,padrao,10,500.0
+9_longo_expert,iql,0,expert,BC,padrao,11,500.0
+9_longo_expert,iql,0,expert,BC,padrao,12,500.0
+9_longo_expert,iql,0,expert,BC,padrao,13,500.0
+9_longo_expert,iql,0,expert,BC,padrao,14,500.0
+9_longo_expert,iql,0,expert,BC,padrao,15,500.0
+9_longo_expert,iql,0,expert,BC,padrao,16,500.0
+9_longo_expert,iql,0,expert,BC,padrao,17,500.0
+9_longo_expert,iql,0,expert,BC,padrao,18,500.0
+9_longo_expert,iql,0,expert,BC,padrao,19,500.0
+9_longo_expert,iql,0,expert,BC,padrao,20,500.0
+9_longo_expert,iql,0,expert,BC,padrao,21,500.0
+9_longo_expert,iql,0,expert,BC,padrao,22,500.0
+9_longo_expert,iql,0,expert,BC,padrao,23,500.0
+9_longo_expert,iql,0,expert,BC,padrao,24,500.0
+9_longo_expert,iql,0,expert,BC,padrao,25,500.0
+9_longo_expert,iql,0,expert,BC,padrao,26,500.0
+9_longo_expert,iql,0,expert,BC,padrao,27,500.0
+9_longo_expert,iql,0,expert,BC,padrao,28,500.0
+9_longo_expert,iql,0,expert,BC,padrao,29,500.0
+9_longo_expert,iql,0,expert,BC,padrao,30,500.0
+9_longo_expert,iql,0,expert,BC,padrao,31,500.0
+9_longo_expert,iql,0,expert,BC,padrao,32,500.0
+9_longo_expert,iql,0,expert,BC,padrao,33,500.0
+9_longo_expert,iql,0,expert,BC,padrao,34,500.0
+9_longo_expert,iql,0,expert,BC,padrao,35,500.0
+9_longo_expert,iql,0,expert,BC,padrao,36,500.0
+9_longo_expert,iql,0,expert,BC,padrao,37,500.0
+9_longo_expert,iql,0,expert,BC,padrao,38,500.0
+9_longo_expert,iql,0,expert,BC,padrao,39,500.0
+9_longo_expert,iql,0,expert,BC,padrao,40,500.0
+9_longo_expert,iql,0,expert,BC,padrao,41,500.0
+9_longo_expert,iql,0,expert,BC,padrao,42,500.0
+9_longo_expert,iql,0,expert,BC,padrao,43,500.0
+9_longo_expert,iql,0,expert,BC,padrao,44,500.0
+9_longo_expert,iql,0,expert,BC,padrao,45,500.0
+9_longo_expert,iql,0,expert,BC,padrao,46,500.0
+9_longo_expert,iql,0,expert,BC,padrao,47,500.0
+9_longo_expert,iql,0,expert,BC,padrao,48,500.0
+9_longo_expert,iql,0,expert,BC,padrao,49,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,0,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,1,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,2,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,3,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,4,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,5,10.0
+9_longo_expert,iql,0,expert,BC,perturbada,6,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,7,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,8,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,9,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,10,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,11,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,12,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,13,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,14,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,15,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,16,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,17,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,18,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,19,423.0
+9_longo_expert,iql,0,expert,BC,perturbada,20,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,21,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,22,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,23,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,24,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,25,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,26,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,27,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,28,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,29,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,30,440.0
+9_longo_expert,iql,0,expert,BC,perturbada,31,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,32,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,33,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,34,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,35,432.0
+9_longo_expert,iql,0,expert,BC,perturbada,36,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,37,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,38,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,39,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,40,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,41,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,42,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,43,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,44,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,45,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,46,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,47,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,48,500.0
+9_longo_expert,iql,0,expert,BC,perturbada,49,500.0
