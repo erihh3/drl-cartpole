@@ -1,0 +1,53 @@
+{
+  "dataset_analise": "ruim",
+  "beta": 3.0,
+  "hp_BC": {
+    "dropout": 0.2,
+    "wd": 0.001,
+    "ls": 0.1
+  },
+  "episodios": 50,
+  "passos_aleatorios": 5,
+  "frac_dataset_igual_especialista": 0.3962000012397766,
+  "vies_Q_dados_CQL": 34.49959945678711,
+  "vies_Q_dados_IQL": 7.463721752166748,
+  "peso_mediano_acao_certa": 100.0,
+  "peso_mediano_acao_errada": 9.880931611405686e-05,
+  "igual_especialista_BC": 0.008200000040233135,
+  "igual_especialista_CQL": 0.6564000248908997,
+  "igual_especialista_IQL": 0.9101999998092651,
+  "V_por_tau": {
+    "0.7": 17.78658103942871
+  },
+  "retorno_por_tau": {
+    "0.7": 212.3
+  },
+  "retorno_BC": {
+    "ruim": 8.88,
+    "misto": 97.44
+  },
+  "retorno_perturbado_BC": {
+    "ruim": 12.34,
+    "misto": 32.64
+  },
+  "retorno_CQL (α=0.5)": {
+    "ruim": 119.44,
+    "misto": 154.7
+  },
+  "retorno_perturbado_CQL (α=0.5)": {
+    "ruim": 122.9,
+    "misto": 158.68
+  },
+  "retorno_IQL (τ=0.7)": {
+    "ruim": 212.3,
+    "misto": 500.0
+  },
+  "retorno_perturbado_IQL (τ=0.7)": {
+    "ruim": 181.84,
+    "misto": 473.46
+  },
+  "retorno_dataset": {
+    "ruim": 16.03700065612793,
+    "misto": 27.840974807739258
+  }
+}

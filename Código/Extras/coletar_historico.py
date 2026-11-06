@@ -34,6 +34,8 @@ MARCOS = [
     ("7_vento", "2026-11-02", "Vento", "políticas prontas avaliadas com vento constante e rajadas", f"{EXP}/vento"),
     ("8_bc_dados", "2026-11-03", "Estudo de dados do BC", "qualidade e quantidade dos dados, com parada antecipada e regularização", f"{EXP}/bc_dados"),
     ("9_longo_expert", "2026-11-03", "60.000 passos no expert", "Q segue a fórmula até perto de 100?", f"{EXP}/iql_60k_expert"),
+    ("10_sensibilidade", "2026-11-03", "Sensibilidade, em GPU", "parar antes, α do CQL, β e τ do IQL, com cinco seeds", f"{EXP}/sensibilidade_gpu"),
+    ("11_alfa_alto_longo", "2026-11-04", "α alto e 60.000 passos, em GPU", "α acima de 5 e treino longo: o α forte cura a queda ou só a atrasa?", f"{EXP}/sensibilidade_gpu2"),
 ]
 
 # Sem numeros.json: transcritos das fontes citadas. Mesmos nomes de métrica dos numeros.json, para comparar marcos.
@@ -175,6 +177,32 @@ def do_pt(marco, seed, caminho, eps, curvas, ics):
         ics.append(d)
 
 
+def sensibilidade():
+    """Marcos 10 e 11, em GPU: ficam em CSVs próprios, sem misturar com os resultados em CPU. Os PNGs não vão para o snapshot."""
+    linhas, curvas, marcos = [], [], set()
+    pastas = [("10_sensibilidade", p) for p in sorted(glob.glob(f"{EXP}/sensibilidade_gpu/*/figuras_*_cartpole"))]
+    pastas += [("11_alfa_alto_longo", p) for p in sorted(glob.glob(f"{EXP}/sensibilidade_gpu2/*/figuras_*_cartpole"))]
+    for marco, pasta in pastas:
+        run = os.path.basename(os.path.dirname(pasta)); bloco, seed = re.fullmatch(r"(.+)_s(\d)", run).groups(); marcos.add(marco)
+        guardar(marco, run, os.path.join(pasta, "numeros.json"))
+        beta = json.loads(ler(os.path.join(pasta, "numeros.json"))).get("beta", "")
+        r = torch.load(io.BytesIO(fonte(marco, glob.glob(os.path.join(pasta, "modelos*.pt"))[0])), weights_only=True, map_location="cpu")
+        if isinstance(r, dict):                                             # cql_cartpole: o .pt não guarda o dataset; vem do nome da pasta
+            itens = [("DQN (α=0)" if a == 0 else f"CQL (α={a:g})", bloco.split("_")[-1], "CQL", a, x) for a, x in r.items()]
+        else:
+            itens = [(x["rotulo"], x["dataset"], x["algo"], x["hp"].get("alpha", x["hp"].get("tau", "")), x) for x in r]
+        for rot, ds, algo, ajuste, x in itens:
+            a, f = np.array(x["retornos"]), x["log"][-1]; p = x.get("retorno_perturbado", "")
+            linhas.append(dict(marco=marco, bloco=bloco, seed=seed, dataset=ds, rotulo=rot, metodo=algo, ajuste=ajuste, beta=beta if algo == "IQL" else "", passos=f["passo"], dispositivo=x.get("dispositivo", "cpu"),
+                               n_episodios=len(a), retorno=float(a.mean()), mediana=float(np.median(a)), minimo=float(a.min()), maximo=float(a.max()), retorno_perturbado=p,
+                               q_dados=f.get("q_dados", ""), q_outra=f.get("q_outra", ""), gap=f.get("gap", ""), perda_td=f.get("perda_td", ""), concordancia_dados=f.get("concordancia", "")))
+            for l in x["log"]:
+                if "retorno" in l:
+                    curvas.append(dict(marco=marco, bloco=bloco, seed=seed, dataset=ds, rotulo=rot, passo=l["passo"], retorno=l["retorno"], q_dados=l.get("q_dados", ""), q_outra=l.get("q_outra", ""), perda_td=l.get("perda_td", "")))
+    salvar("sensibilidade.csv", linhas); salvar("sensibilidade_curvas.csv", curvas)
+    return marcos
+
+
 def salvar(nome, linhas):
     if not linhas:
         return
@@ -225,6 +253,7 @@ def main():
                 existe[marco] = True; guardar(marco, os.path.basename(pasta), os.path.join(pasta, a))
                 if a.endswith(".csv"):
                     os.makedirs(DADOS, exist_ok=True); shutil.copyfile(os.path.join(pasta, a), os.path.join(DADOS, a))
+    existe.update(dict.fromkeys(sensibilidade(), True))
     log = f"{EXP}/log_almoco.txt"
     if os.path.exists(log) and "TUDO PRONTO" in ler(log).decode("utf-8", "replace"):       # só a versão final do log
         guardar("4_seeds", "logs", log)

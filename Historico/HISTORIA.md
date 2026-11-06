@@ -1,25 +1,28 @@
 # Offline RL no CartPole: o histórico das melhorias
 
-Registro do que mudamos no projeto, do que cada mudança fez com os números e do que aprendemos com isso. Atualizado em 2026-11-03.
+Registro do que mudamos no projeto, do que cada mudança fez com os números e do que aprendemos com isso. Atualizado em 2026-11-04.
 
-**Situação:** os capítulos 1 a 9 estão concluídos. O capítulo 10 (vento) ainda não foi rodado. As mudanças de código estão no branch `melhorias-avaliacao-iql`. Todos os números vêm de `Historico/dados/` ou `Historico/analises/`, com a fonte de cada um.
+**Situação:** os capítulos 1 a 11 estão concluídos. O capítulo 12 (vento) ainda não foi rodado. As mudanças de código estão no branch `melhorias-avaliacao-iql`. Todos os números vêm de `Historico/dados/` ou `Historico/analises/`, com a fonte de cada um.
 
 ## O enredo
 
-Começamos querendo corrigir detalhes da medição. Descobrimos que os próprios números andavam sozinhos entre uma rodada e outra, e que parte do que os slides contavam não se sustenta. Então repetimos tudo com cinco seeds, para separar o que é resultado do que é sorte de uma rodada.
+Começamos querendo corrigir detalhes da medição. Descobrimos que os próprios números andavam sozinhos entre uma rodada e outra, e que parte do que os slides contavam não se sustenta. Então repetimos tudo com cinco seeds, para separar o que é resultado do que é sorte de uma rodada. Por fim, variamos os ajustes de cada método e o tempo de treino, e a comparação entre CQL e IQL mudou duas vezes (capítulos 10 e 11). O que ficou: o IQL mantém o que aprende; o CQL pode alcançá-lo, mas precisa do α certo e da hora certa de parar, e offline não dá para conferir nenhum dos dois.
 
 **O que resistiu às cinco seeds:**
 
 - O DQN offline falha no expert em todas: retorno de 9,3 a 9,5, usando uma ação só na avaliação. O que muda muito é o tamanho de Q: o valor final vai de cerca de 300 a 460.000, contra um máximo possível de 100.
 - Qualquer α > 0 no CQL conserta isso: 500 em todas as seeds.
 - O dataset expert leva todos os métodos a 500. No ruim, o BC fica abaixo dos próprios dados em todas as seeds.
-- No medio, no ruim e no misto, ao fim de 15.000 passos, o IQL supera o CQL em todas as seeds.
+- No medio, no ruim e no misto, ao fim de 15.000 passos, o IQL supera o CQL com α = 0,5 em todas as seeds.
+- No misto, o IQL faz 500 em todas as seeds, com todos os τ e β testados e até 60.000 passos.
+- O CQL cai com treino longo em todo α testado. Um α mais forte só atrasa a queda (capítulo 11).
 
 **O que caiu ou precisa mudar:**
 
 - "O retorno cai quando τ cresce": era 212, 187 e 159 nos slides. Com uma seed, escrevemos aqui que era plano, e isso também não se sustenta. Com cinco seeds, é 209, 221 e 191: não há queda contínua, mas τ = 0,9 fica atrás de τ = 0,7 em 4 das 5 seeds e, com 60.000 passos, cai para 101 (capítulo 8).
 - "O CQL fica abaixo do retorno real, o limite inferior prometido": no expert, o valor de Q reflete o tempo de treino. Aos 60.000 passos, CQL e IQL chegam a 95, como a fórmula previa (capítulos 6 e 8). No ruim, com α = 0,5, o CQL superestima: viés de +34 aos 15.000 passos e +201 aos 60.000 (capítulo 8).
-- "Só o IQL volta a 500 no misto": vale ao fim de 15.000 passos, mas o CQL esteve em 500 nas cinco seeds de 3.000 a 7.500 passos, e depois caiu (capítulo 7).
+- "O IQL é melhor que o CQL", sem condição: aos 15.000 passos, com α = 5, o CQL empata no medio e no misto e chega perto no ruim, 192 contra 220 (capítulo 10). Aos 60.000, o IQL volta a ficar bem à frente: 500 contra 266 no misto e 244 contra 90 no ruim (capítulo 11).
+- "Só o IQL volta a 500 no misto": com α = 0,5, o CQL esteve em 500 nas cinco seeds de 3.000 a 7.500 passos, e depois caiu (capítulo 7). Com α = 5, fica em 500 até 30.000 passos, e depois cai também (capítulo 11).
 - "CQL no misto: 189": uma seed só não representa esse caso. As cinco seeds vão de 123 a 466 (capítulo 7).
 - "BC no ruim top 10%: 72": refeito com três seeds, dá 83, de 66 a 101. Já "misto filtrado: 500" se confirma (capítulo 9).
 
@@ -323,7 +326,172 @@ O `bc_cartpole.py --estudo dados` treina o BC, com parada antecipada e regulariz
 
 **Filtrar resolve, mas alguém precisa filtrar.** No misto, manter só os episódios que chegam a 500 devolve exatamente o expert, e o BC volta a 500. Esse filtro usa o retorno, que o BC sozinho não lê. O IQL faz uma separação parecida sem filtro nenhum: no misto, ele chega a 500 com todos os dados juntos. Já o top 10% do ruim ajuda menos, porque até os melhores episódios ali são ruidosos: o BC faz 83, acima dos 29,8 dos dados selecionados.
 
-## Capítulo 10: vento (pendente)
+## Capítulo 10: a sensibilidade
+
+**As perguntas:** os picos do CQL são reais, ou só ruído de 10 episódios? O α = 0,5 explica a derrota e a queda do CQL? E o IQL depende dos próprios ajustes? São 55 rodadas e 310 modelos, com cinco seeds, todos em GPU (`experimentos/sensibilidade_gpu/`). Os dados estão em `Historico/dados/sensibilidade.csv` e `sensibilidade_curvas.csv`.
+
+**A resposta muda a comparação.** Com α = 0,5, o IQL ganha com folga. Com α = 5, o CQL empata com o IQL no medio e no misto, com 500 em todas as seeds, e chega perto no ruim. Antes, a diferença parecia ser de método. Boa parte dela era o valor de α.
+
+**Depois:** o capítulo 11 mostra que esse empate vale aos 15.000 passos. Aos 60.000, o CQL cai em todo α testado.
+
+### A GPU não muda o quadro
+
+Os pesos em GPU são diferentes dos pesos em CPU, mas o padrão é o mesmo. A maior diferença entre as médias é de 12 pontos, bem menor que a variação entre seeds do CQL no misto:
+
+| Mesmos ajustes, 15.000 passos | CPU | GPU |
+|---|---|---|
+| BC no ruim | 8,9 ± 0,0 | 8,9 ± 0,0 |
+| BC no misto | 94 ± 15 | 88 ± 14 |
+| CQL α = 0,5 no ruim | 121 ± 22 | 121 ± 25 |
+| CQL α = 0,5 no misto | 260 ± 133 | 248 ± 141 |
+| IQL τ = 0,7 no ruim | 221 ± 15 | 220 ± 12 |
+| IQL τ = 0,7 no misto | 500 ± 0 | 500 ± 0 |
+
+Como checagem, o CQL com α = 0,5 saiu idêntico nos dois scripts em todas as seeds do ruim e do misto.
+
+### Os picos são reais
+
+Treinar só até N passos recria exatamente o modelo daquele passo. Conferimos isso nos logs da seed 0: de 15.000 e de 60.000 passos, Q, V, concordância e retorno coincidem em todos os pontos em comum (só o `peso_awr`, média da janela de log, difere). Na GPU também: 240 retornos e 160 valores de Q coincidem, sem nenhuma diferença. Assim, cada parada pode ser medida com 50 episódios, em episódios diferentes dos usados durante o treino:
+
+![Retorno com 50 episódios, parando em cinco pontos do treino. No ruim, o CQL fica acima do IQL até 9.000 passos e depois cai. No misto, o CQL cai a partir de 6.000 passos, e o IQL fica em 500.](figuras/7_parada.png)
+
+| Dataset e método | 3.000 | 6.000 | 9.000 | 12.000 | 15.000 |
+|---|---|---|---|---|---|
+| ruim, CQL α = 0,5 | 237 ± 16 | 241 ± 54 | 255 ± 136 | 136 ± 24 | 121 ± 25 |
+| ruim, IQL τ = 0,7 | 155 ± 28 | 180 ± 24 | 195 ± 13 | 211 ± 9 | 220 ± 12 |
+| misto, CQL α = 0,5 | 500 ± 0 | 500 ± 1 | 429 ± 127 | 313 ± 131 | 248 ± 141 |
+| misto, IQL τ = 0,7 | 498 ± 2 | 500 ± 0 | 500 ± 0 | 500 ± 0 | 500 ± 0 |
+| misto, BC | 208 ± 106 | 153 ± 16 | 92 ± 18 | 78 ± 12 | 88 ± 14 |
+
+No ruim, o melhor ponto do CQL supera o melhor ponto do IQL em todas as seeds: de 239 a 464 contra 207 a 235. O ponto de 9.000 passos varia muito (de 126 a 464). Escolher o melhor de cinco pontos ainda favorece um pouco quem varia mais, mas a queda do CQL fica confirmada.
+
+### O α muda a história
+
+![Em cima, retorno final por α: o CQL sobe com α e alcança o IQL no medio e no misto. Embaixo, retorno durante o treino: com α = 5, o CQL não cai.](figuras/8_sensibilidade_alfa.png)
+
+| Retorno final por α | 0 | 0,1 | 0,5 | 2 | 5 | IQL τ = 0,7 |
+|---|---|---|---|---|---|---|
+| medio | 412 ± 62 | 439 ± 68 | 392 ± 105 | 498 ± 5 | 500 ± 0 | 500 ± 0 (CPU) |
+| misto | 174 ± 87 | 196 ± 87 | 248 ± 141 | 490 ± 17 | 500 ± 0 | 500 ± 0 |
+| ruim | 117 ± 21 | 113 ± 17 | 121 ± 25 | 136 ± 11 | 192 ± 20 | 220 ± 12 |
+
+- **Até α = 0,5, a penalidade pouco muda o resultado no ruim:** 117, 113 e 121.
+- **A partir de α = 2, o retorno sobe:** no misto vai a 490 e 500, e no medio a 498 e 500. No ruim sobe até 192, com faixa de 173 a 218 contra 207 a 235 do IQL.
+- **A queda some, ao menos até 15.000 passos.** Com α = 5, a média fica em 500 em todo o treino no medio e a partir de 4.500 passos no misto. No ruim, fica estável por volta de 195. Com α = 2, há uma oscilação no misto (442 aos 13.500 passos).
+- **O melhor α do ruim está na borda do que testamos.** Ainda não sabemos o que acontece acima de α = 5.
+
+### O IQL depende bem menos dos ajustes
+
+| IQL (média ± desvio) | τ = 0,5 | τ = 0,7 | τ = 0,9 | β = 0,3 | β = 1 | β = 3 |
+|---|---|---|---|---|---|---|
+| ruim | 209 ± 12 (CPU) | 221 ± 15 (CPU) | 191 ± 18 (CPU) | 153 ± 23 | 220 ± 12 | 227 ± 15 |
+| misto | 500 ± 0 | 500 ± 0 | 500 ± 0 | 500 ± 0 | 500 ± 0 | 500 ± 0 |
+
+No misto, o IQL fez 500 em todas as seeds e em todos os ajustes. No ruim, β = 0,3 derruba o retorno para 153, e β = 3 e β = 1 ficam próximos. O τ no ruim vem da rodada em CPU do capítulo 7.
+
+Por isso, a frase mais segura agora é outra: **o CQL pode chegar onde o IQL chega, mas o resultado depende muito de α, e o do IQL depende bem menos dos ajustes.**
+
+### O DQN só explode no expert
+
+O α = 0 no medio, no ruim e no misto é o DQN offline sem penalidade. Ali, ele termina com Q entre 49 e 70, abaixo do máximo de 100, e com retornos de 412, 117 e 174, todos acima da média dos dados (113, 16 e 27,8). No expert, o mesmo método termina com Q de 295 a 443.144 e retorno 9. A explicação plausível é a cobertura: com ações trocadas ao acaso, as duas ações aparecem em estados parecidos, e os próprios dados corrigem as estimativas. O ruído que atrapalha o BC protege o Q-learning. O DQN também cai durante o treino (de 272 para 117 no ruim), então a penalidade não causa a queda.
+
+**Depois:** o título desta seção só vale até 15.000 passos. Com mais treino, o DQN também explode no ruim e no misto: o ruído atrasa o problema, não o evita (capítulo 11).
+
+### O que α muda por dentro
+
+| Com α = 0 / 0,1 / 0,5 / 2 / 5 | ruim | misto | medio |
+|---|---|---|---|
+| Igual ao especialista (%) | 67 / 67 / 71 / 79 / 80 | 61 / 66 / 75 / 90 / 89 | 58 / 59 / 63 / 88 / 97 |
+| Viés médio de Q nos dados | +42 / +40 / +35 / +24 / +5 | +10 / +4 / +1 / −4 / −16 | +18 / +16 / +12 / +8 / +7 |
+| Q final na ação dos dados | 52 / 50 / 45 / 34 / 14 | 59 / 52 / 50 / 45 / 33 | 67 / 65 / 61 / 57 / 57 |
+
+Calculado com os pesos salvos, nos mesmos 5.000 estados de cada dataset.
+
+**Uma hipótese nossa caiu.** Como a penalidade do CQL é uma entropia cruzada com as ações dos dados, e no ruim a maioria delas está errada, supusemos que um α maior puxaria o CQL para a falha do BC. Até α = 5 aconteceu o contrário: a concordância com o especialista sobe de 67% para 80%, e a concordância com os dados fica entre 43% e 45%.
+
+**Depois:** a hipótese volta a valer acima de α = 5. Com α = 50 no ruim, o CQL faz o mesmo retorno do BC (capítulo 11).
+
+**Dá para escolher α sem jogar?** Testamos o candidato óbvio, que usa só os dados: o α com o menor viés de Q. Ele acerta no ruim (α = 5, +5) e no medio (α = 5, +7), mas erra no misto: o menor viés é o de α = 0,5 (+1), que faz 248. Saber que α = 5 é bom exigiu jogar, e isso o Offline RL não pode fazer.
+
+**Depois:** testando α até 50, o critério também erra no ruim (capítulo 11).
+
+### O que continua em aberto
+
+- **O α alto cura a queda ou só a atrasa?** Com α = 5 no misto, o Q chega a 33 aos 15.000 passos, o nível em que o CQL com α = 0,5 começou a cair (34 aos 9.000). Já com α = 2 ele passa desse nível sem queda duradoura. Só um treino mais longo responde.
+- **E acima de α = 5?** No ruim, o retorno ainda está subindo na borda da varredura.
+- **Por que α alto ajuda?** A causa não foi isolada. O viés médio não explica tudo: no misto, α = 0,5 quase não tem viés e cai mesmo assim.
+- **O teste do capítulo 9 usou α = 0,5.** Com α maior, a curva do CQL em "quanto especialista basta" pode mudar.
+
+**Depois:** o capítulo 11 responde às duas primeiras: α alto só atrasa a queda, e acima de α = 5 o resultado piora.
+
+## Capítulo 11: α alto e 60.000 passos
+
+**As perguntas:** o capítulo 10 deixou duas em aberto. O α forte cura a queda do CQL ou só a atrasa? E o que acontece acima de α = 5? São 30 rodadas e 130 modelos, com cinco seeds, todos em GPU (`experimentos/sensibilidade_gpu2/`).
+
+**As respostas:** só atrasa. E acima de α = 5 piora: com a penalidade forte demais, o CQL vira BC. A frase que resiste a tudo isso é esta: **o IQL mantém o que aprende. O CQL pode alcançá-lo, mas precisa do α certo e da hora certa de parar, e offline não dá para conferir nenhum dos dois.**
+
+Como checagem, o treino de 60.000 passos reproduz o de 15.000 nos pontos em comum: 140 retornos e 600 valores de Q iguais, sem nenhuma diferença.
+
+### O α forte só atrasa a queda
+
+![Retorno até 60.000 passos. No misto, o CQL cai cada vez mais tarde conforme α cresce, enquanto o IQL fica em 500. No ruim, todos os α terminam perto de 100, e o IQL se mantém acima de 200.](figuras/10_longo_alfa.png)
+
+| Retorno com 50 episódios | ruim, 15.000 | ruim, 60.000 | misto, 15.000 | misto, 60.000 |
+|---|---|---|---|---|
+| CQL α = 0 | 117 ± 21 | 103 ± 20 | 174 ± 87 | 109 ± 4 |
+| CQL α = 0,5 | 121 ± 25 | 98 ± 17 | 248 ± 141 | 112 ± 9 |
+| CQL α = 2 | 136 ± 11 | 106 ± 5 | 490 ± 17 | 129 ± 33 |
+| CQL α = 5 | 192 ± 20 | 90 ± 15 | 500 ± 0 | 266 ± 164 |
+| IQL τ = 0,7 | 220 ± 12 | 244 ± 124 | 500 ± 0 | 500 ± 0 |
+| BC | 8,9 ± 0,0 | 8,9 ± 0,0 | 88 ± 14 | 64 ± 11 |
+
+- **No misto, α maior só muda quando a queda começa.** A média fica em 500 até cerca de 7.500 passos com α = 0,5, 12.000 com α = 2 e 30.000 com α = 5. Com α = 5, o fim ainda varia muito: de 108 a 495.
+- **No ruim, todos os α terminam perto de 100:** 103, 98, 106 e 90.
+- **O IQL não cai.** No misto, faz 500 em todas as seeds e em todos os pontos. No ruim, a média é 244, mas com uma seed puxando (459): três das cinco terminam abaixo do que tinham aos 15.000 passos, e a mediana vai de 214 para 183. Mesmo assim, a pior seed do IQL (159) fica acima da melhor seed do CQL em qualquer α (133).
+
+### O Q continua crescendo
+
+| Q na ação dos dados, média | ruim, 18.000 | ruim, 30.000 | ruim, 42.000 | ruim, 60.000 | misto, 18.000 | misto, 30.000 | misto, 42.000 | misto, 60.000 |
+|---|---|---|---|---|---|---|---|---|
+| CQL α = 0 | 65 | 143 | 231 | 363 | 68 | 133 | 268 | 705 |
+| CQL α = 0,5 | 55 | 113 | 179 | 276 | 57 | 100 | 184 | 405 |
+| CQL α = 2 | 39 | 65 | 109 | 231 | 51 | 69 | 93 | 180 |
+| CQL α = 5 | 15 | 16 | 19 | 24 | 38 | 53 | 65 | 99 |
+| IQL τ = 0,7 | 17 | 17 | 17 | 17 | 34 | 40 | 46 | 51 |
+
+- **O DQN também explode no ruim e no misto, só que mais tarde.** Aos 30.000 passos já passou do máximo de 100 (143 e 133), e aos 60.000 chega a 363 e 705. O retorno cai para cerca de 100, e não para 9 como no expert.
+- **O IQL fica parado:** Q de 17 no ruim, com viés de +7,7 a +7,8 nas cinco seeds. O CQL com α = 0,5 tem viés de +169 a +391 no mesmo ponto.
+- **O tamanho de Q não explica tudo.** Com α = 5 no ruim, Q termina em apenas 24, com viés de +15, e o retorno cai para 90 mesmo assim.
+- **O que aponta para o máximo no alvo:** o IQL não usa máximo e não cai. Com τ = 0,9, que aproxima V de um máximo, o IQL cai para 101 aos 60.000 passos (capítulo 8, uma seed). É uma explicação coerente, mas a causa não foi isolada.
+
+### Acima de α = 5, o CQL vira BC
+
+![Retorno final por α, de 0 a 50. No ruim, o CQL sobe até α = 5 e cai até o nível do BC em α = 50. No misto, fica em 500 de α = 5 a 10 e depois cai. No medio, fica em 500.](figuras/9_alfa_ate_50.png)
+
+| 15.000 passos | α = 5 | α = 10 | α = 20 | α = 50 | BC |
+|---|---|---|---|---|---|
+| ruim, retorno | 192,3 ± 19,7 | 175,2 ± 35,1 | 17,0 ± 7,6 | 8,9 ± 0,0 | 8,9 ± 0,0 |
+| misto, retorno | 500 ± 0 | 500 ± 0 | 463 ± 34 | 279 ± 27 | 88 ± 14 |
+| medio, retorno | 500 ± 0 | 500 ± 0 | 500 ± 0 | 500 ± 0 | 500 ± 0 (CPU) |
+| ruim, igual ao especialista | 80% | 60% | 19% | 0,9% | |
+| misto, igual ao especialista | 89% | 80% | 66% | 54% | |
+| medio, igual ao especialista | 97% | 98% | 98% | 99% | |
+
+**A hipótese do capítulo 10 estava certa, só que em outra faixa.** A penalidade do CQL é uma entropia cruzada com as ações dos dados. Quando ela domina, o Q vira um classificador das ações dos dados. No ruim, com α = 50, o CQL faz 8,9, concorda com o especialista em 0,9% dos estados e com os dados em 60%, a maioria errada. O BC faz 8,9 e concorda com o especialista em 0,6%.
+
+Portanto, α é um botão que vai do Q-learning, em α = 0, ao BC, com α muito alto. Aos 15.000 passos, a janela boa muda com o dataset: no ruim, por volta de α = 5; no misto, de 2 a 20; no medio, de 2 em diante. Nenhum α testado alcança o IQL no ruim: o melhor é 192 contra 220.
+
+### Escolher α sem jogar: pior do que parecia
+
+Com α até 50, o critério do menor viés de Q erra em dois de três datasets. No ruim, escolhe α = 20 (viés de +0,5), que faz 17. No misto, escolhe α = 0,5 (+1), que faz 248. Só acerta no medio, com α = 50 (−0,4), que faz 500, onde o próprio BC já resolve.
+
+### O que continua em aberto
+
+- **A causa da queda** não foi isolada.
+- **O medio não foi treinado até 60.000 passos.** Lá, com α de 5 a 50, o CQL está em 500 aos 15.000 passos, mas não sabemos se isso dura.
+- **O τ = 0,9 aos 60.000 passos** segue com uma seed só.
+
+## Capítulo 12: vento (pendente)
 
 **A pergunta:** e se o mundo mudar depois da coleta? As políticas prontas são avaliadas com vento, sem retreino. Nenhum destes métodos trata mudança de dinâmica, então todos podem cair juntos: é um tema para limites e trabalhos futuros.
 
@@ -359,6 +527,7 @@ Tudo fica em `Historico/dados/`. Nada precisa ser retreinado.
 
 | Arquivo | O que tem | Serve para |
 |---|---|---|
+| `sensibilidade.csv`, `sensibilidade_curvas.csv` | as 85 rodadas em GPU: paradas, α, β, τ e 60.000 passos, por seed | as figuras dos capítulos 10 e 11 |
 | `marcos.csv` | cada marco, data, fonte e situação | a linha do tempo |
 | `comparacao_marcos.csv` | cada métrica com uma coluna por marco | a tabela "a mesma medida em cinco momentos" |
 | `evolucao.csv` | formato longo: marco, seed, método, dataset, métrica, valor, fonte | qualquer gráfico de antes e depois |

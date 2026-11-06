@@ -120,11 +120,105 @@ def fig_formula(curvas, plt):
     fig.tight_layout(rect=(0, 0, 0.995, 0.80)); fig.savefig(os.path.join(SAIDA, "5_q_e_formula.png"), dpi=150); plt.close(fig)
 
 
+def fig_parada(sens, plt):
+    """Treinar só até N passos recria o modelo daquele passo: dá para medir cada parada com 50 episódios."""
+    N = (3000, 6000, 9000, 12000, 15000)
+    fig, axs = plt.subplots(1, 2, figsize=(10.8, 4.3), sharey=True)
+    for ax, ds in zip(axs, ("ruim", "misto")):
+        for m in ("CQL", "IQL"):
+            por = [[float(l["retorno"]) for l in sens if l["bloco"] == f"parada_n{n}" and l["dataset"] == ds and l["rotulo"] == CHAVE[m]] for n in N]
+            for n, v in zip(N, por):
+                ax.scatter([n] * len(v), v, s=18, color=COR[m], alpha=0.35, lw=0, zorder=2)
+            ax.plot(N, [np.mean(v) for v in por], "-" + MARCA[m], color=COR[m], lw=2, ms=6, mec="white", mew=1, zorder=3, label=ROTULO[m])
+        ax.set_title(f"{ds}, 5 seeds", loc="left", fontsize=11); ax.set_xticks(N, ["3.000", "6.000", "9.000", "12.000", "15.000"]); ax.set_xlabel("passos de treino")
+    axs[0].set(ylabel="retorno (máx. 500)", ylim=(0, 530))
+    H, L = axs[0].get_legend_handles_labels()
+    cabecalho(fig, "Os picos do CQL são reais", "Cada ponto é um modelo treinado até ali e avaliado em 50 episódios. Linha: média das seeds; pontos: cada seed. Em GPU.", H, L)
+    fig.tight_layout(rect=(0, 0, 0.995, 0.875)); fig.savefig(os.path.join(SAIDA, "7_parada.png"), dpi=150); plt.close(fig)
+
+
+def fig_alfa(sens, sens_c, resumo, curvas, plt):
+    """Em cima, o retorno final por α; embaixo, o treino com o α original e o maior α testado."""
+    ALFAS = ("0", "0.1", "0.5", "2", "5"); TONS = {"0.5": "#8CC7BD", "5": COR["CQL"]}            # α é ordinal: um só matiz
+    fig, axs = plt.subplots(2, 3, figsize=(12.6, 7.2), sharey=True)
+    for j, ds in enumerate(("medio", "misto", "ruim")):
+        ax = axs[0, j]; por = []
+        for i, a in enumerate(ALFAS):
+            rot = "DQN (α=0)" if a == "0" else f"CQL (α={a})"
+            v = [float(l["retorno"]) for l in sens if l["bloco"] == f"alfa_{ds}" and l["rotulo"] == rot]; por.append(v)
+            ax.scatter([i] * len(v), v, s=18, color=COR["CQL"], alpha=0.35, lw=0, zorder=2)
+        ax.plot(range(5), [np.mean(v) for v in por], "-o", color=COR["CQL"], lw=2, ms=6, mec="white", mew=1, zorder=3, label="CQL, por α")
+        iql = np.mean(valores(resumo, "medio", CHAVE["IQL"])) if ds == "medio" else np.mean([float(l["retorno"]) for l in sens if l["bloco"] == "parada_n15000" and l["dataset"] == ds and l["rotulo"] == CHAVE["IQL"]])
+        ax.axhline(iql, color=COR["IQL"], lw=2, zorder=1, label=f"IQL (τ = 0,7, β = 1)")
+        ax.set_title(f"{ds}: retorno final", loc="left", fontsize=11); ax.set_xticks(range(5), ["0", "0,1", "0,5", "2", "5"]); ax.set_xlabel("α")
+        ax = axs[1, j]
+        for a in ("0.5", "5"):
+            ls = [l for l in sens_c if l["bloco"] == f"alfa_{ds}" and l["rotulo"] == f"CQL (α={a})"]; x = sorted({int(l["passo"]) for l in ls})
+            ax.plot(x, [np.mean([float(l["retorno"]) for l in ls if int(l["passo"]) == p]) for p in x], "-o", color=TONS[a], lw=2, ms=5, mec="white", mew=1, zorder=3, label=f"CQL (α = {a.replace('.', ',')})")
+        if ds == "medio":
+            x, ys = None, []
+            for s in range(5):
+                x, y = curva(curvas, "4_seeds", "medio", CHAVE["IQL"], s); ys.append(y)
+            my = np.mean(ys, 0)
+        else:
+            ls = [l for l in sens_c if l["bloco"] == "parada_n15000" and l["dataset"] == ds and l["rotulo"] == CHAVE["IQL"]]; x = sorted({int(l["passo"]) for l in ls})
+            my = [np.mean([float(l["retorno"]) for l in ls if int(l["passo"]) == p]) for p in x]
+        ax.plot(x, my, "-D", color=COR["IQL"], lw=2, ms=5, mec="white", mew=1, zorder=2, label="IQL (τ = 0,7)")
+        ax.set_title(f"{ds}: durante o treino", loc="left", fontsize=11); ax.set_xticks([0, 5000, 10000, 15000], ["0", "5.000", "10.000", "15.000"]); ax.set_xlabel("passos de treino")
+    for i in range(2):
+        axs[i, 0].set(ylabel="retorno (máx. 500)", ylim=(0, 530)); axs[i, 2].legend(fontsize=9, loc="lower right" if i == 0 else "upper right")
+    cabecalho(fig, "Com α maior, o CQL alcança o IQL no medio e no misto, chega perto no ruim e para de cair", "Cinco seeds, em GPU; no medio, a referência do IQL vem da rodada em CPU. Durante o treino, 10 episódios por ponto.", y=0.99, y_sub=0.945)
+    fig.tight_layout(rect=(0, 0, 0.995, 0.935)); fig.savefig(os.path.join(SAIDA, "8_sensibilidade_alfa.png"), dpi=150); plt.close(fig)
+
+
+def fig_alfa_50(sens, resumo, plt):
+    """α de 0 a 50: de um lado o Q-learning sem penalidade, do outro o CQL que vira BC."""
+    ALFAS = ("0", "0.1", "0.5", "2", "5", "10", "20", "50")
+    fig, axs = plt.subplots(1, 3, figsize=(12.6, 4.2), sharey=True)
+    for ax, ds in zip(axs, ("medio", "misto", "ruim")):
+        por = []
+        for i, a in enumerate(ALFAS):
+            rot = "DQN (α=0)" if a == "0" else f"CQL (α={a})"; bl = f"alfa_alto_{ds}" if float(a) > 5 else f"alfa_{ds}"
+            v = [float(l["retorno"]) for l in sens if l["bloco"] == bl and l["rotulo"] == rot]; por.append(v)
+            ax.scatter([i] * len(v), v, s=18, color=COR["CQL"], alpha=0.35, lw=0, zorder=2)
+        ax.plot(range(8), [np.mean(v) for v in por], "-o", color=COR["CQL"], lw=2, ms=6, mec="white", mew=1, zorder=3, label="CQL, por α")
+        for m, cor in (("IQL", COR["IQL"]), ("BC", COR["BC"])):
+            ref = np.mean(valores(resumo, "medio", CHAVE[m])) if ds == "medio" else np.mean([float(l["retorno"]) for l in sens if l["bloco"] == "parada_n15000" and l["dataset"] == ds and l["rotulo"] == CHAVE[m]])
+            ax.axhline(ref, color=cor, lw=2, zorder=1, label=ROTULO[m])
+        ax.set_title(f"{ds}, 15.000 passos", loc="left", fontsize=11); ax.set_xticks(range(8), [a.replace(".", ",") for a in ALFAS]); ax.set_xlabel("α (fora de escala)")
+    axs[0].set(ylabel="retorno (máx. 500)", ylim=(0, 530))
+    H, L = axs[0].get_legend_handles_labels()
+    cabecalho(fig, "O α vai do Q-learning ao BC", "Cinco seeds, em GPU; no medio, as referências vêm da rodada em CPU. Com α = 50 no ruim, o CQL faz o mesmo retorno do BC.", H, L)
+    fig.tight_layout(rect=(0, 0, 0.995, 0.865)); fig.savefig(os.path.join(SAIDA, "9_alfa_ate_50.png"), dpi=150); plt.close(fig)
+
+
+def fig_longo(sens_c, plt):
+    """O α forte atrasa a queda, não a evita."""
+    TONS = {"0.5": "#A9D6CE", "2": "#5FAA9C", "5": COR["CQL"]}            # α é ordinal: um só matiz
+    fig, axs = plt.subplots(1, 2, figsize=(10.8, 4.3), sharey=True)
+    for ax, ds in zip(axs, ("misto", "ruim")):
+        for a in TONS:
+            ls = [l for l in sens_c if l["bloco"] == f"longo_{ds}" and l["rotulo"] == f"CQL (α={a})"]; x = sorted({int(l["passo"]) for l in ls})
+            ax.plot(x, [np.mean([float(l["retorno"]) for l in ls if int(l["passo"]) == p]) for p in x], "-o", color=TONS[a], lw=2, ms=5, mec="white", mew=1, zorder=3, label=f"CQL (α = {a.replace('.', ',')})")
+        ls = [l for l in sens_c if l["bloco"] == "iql_longo" and l["dataset"] == ds and l["rotulo"] == CHAVE["IQL"]]; x = sorted({int(l["passo"]) for l in ls})
+        ax.plot(x, [np.mean([float(l["retorno"]) for l in ls if int(l["passo"]) == p]) for p in x], "-D", color=COR["IQL"], lw=2, ms=5, mec="white", mew=1, zorder=4, label=ROTULO["IQL"])
+        ax.axvline(15000, color=TINTA2, lw=1, zorder=1); ax.annotate("15.000 passos", (15000, 30), xytext=(5, 0), textcoords="offset points", fontsize=9, color=TINTA2, va="center")
+        ax.set_title(f"{ds}, 5 seeds", loc="left", fontsize=11); ax.set_xticks([0, 20000, 40000, 60000], ["0", "20.000", "40.000", "60.000"]); ax.set_xlabel("passos de treino")
+    axs[0].set(ylabel="retorno (máx. 500)", ylim=(0, 530))
+    H, L = axs[0].get_legend_handles_labels()
+    cabecalho(fig, "Um α mais forte só atrasa a queda do CQL", "Média de cinco seeds, em GPU, com 10 episódios por ponto.", H, L)
+    fig.tight_layout(rect=(0, 0, 0.995, 0.865)); fig.savefig(os.path.join(SAIDA, "10_longo_alfa.png"), dpi=150); plt.close(fig)
+
+
 def main():
     os.makedirs(SAIDA, exist_ok=True); plt = C.estilo_graficos(False)
     resumo, curvas = ler("resumo_seeds.csv"), ler("curvas.csv")
     medias = {l["dataset"]: float(l["valor"]) for l in ler("evolucao.csv") if l["marco"] == "4_seeds" and l["metodo"] == "dados" and l["metrica"] == "retorno" and l["seed"] == "0"}
     fig_seeds(resumo, medias, plt); fig_queda(curvas, plt); fig_tau(resumo, curvas, plt); fig_formula(curvas, plt)
+    if os.path.exists(os.path.join(DADOS, "sensibilidade.csv")):
+        sens = ler("sensibilidade.csv"); fig_parada(sens, plt); sens_c = ler("sensibilidade_curvas.csv"); fig_alfa(sens, sens_c, resumo, curvas, plt)
+        if any(l["bloco"] == "iql_longo" for l in sens):
+            fig_alfa_50(sens, resumo, plt); fig_longo(sens_c, plt)
     for origem, nome in (("experimentos/varredura_especialista/1_quanto_especialista.png", "4_quanto_especialista.png"),
                          ("experimentos/bc_dados/figuras_bc_cartpole/6_dados.png", "6_dados_bc.png")):
         if os.path.exists(origem):

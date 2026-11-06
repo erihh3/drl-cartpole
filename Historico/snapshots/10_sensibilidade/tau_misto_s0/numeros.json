@@ -1,0 +1,50 @@
+{
+  "dataset_analise": "misto",
+  "beta": 1.0,
+  "hp_BC": {
+    "dropout": 0.2,
+    "wd": 0.001,
+    "ls": 0.1
+  },
+  "episodios": 50,
+  "passos_aleatorios": 5,
+  "frac_dataset_igual_especialista": 0.6710000038146973,
+  "vies_Q_dados_CQL": 1.2659991979599,
+  "vies_Q_dados_IQL": -17.429630279541016,
+  "peso_mediano_acao_certa": 1.6431456804275513,
+  "peso_mediano_acao_errada": 0.0078349020332098,
+  "igual_especialista_BC": 0.46639999747276306,
+  "igual_especialista_CQL": 0.7077999711036682,
+  "igual_especialista_IQL": 0.9067999720573425,
+  "V_por_tau": {
+    "0.5": 21.021799087524414,
+    "0.7": 32.1027717590332,
+    "0.9": 51.16028594970703
+  },
+  "retorno_por_tau": {
+    "0.5": 500.0,
+    "0.7": 500.0,
+    "0.9": 500.0
+  },
+  "retorno_BC": {
+    "misto": 97.44
+  },
+  "retorno_perturbado_BC": {
+    "misto": 32.64
+  },
+  "retorno_CQL (α=0.5)": {
+    "misto": 154.7
+  },
+  "retorno_perturbado_CQL (α=0.5)": {
+    "misto": 158.68
+  },
+  "retorno_IQL (τ=0.7)": {
+    "misto": 500.0
+  },
+  "retorno_perturbado_IQL (τ=0.7)": {
+    "misto": 475.16
+  },
+  "retorno_dataset": {
+    "misto": 27.840974807739258
+  }
+}

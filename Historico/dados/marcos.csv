@@ -9,3 +9,5 @@ marco,data,titulo,o_que_mudou,fonte,situacao
 7_vento,2026-11-02,Vento,políticas prontas avaliadas com vento constante e rajadas,experimentos/vento,pendente
 8_bc_dados,2026-11-03,Estudo de dados do BC,"qualidade e quantidade dos dados, com parada antecipada e regularização",experimentos/bc_dados,concluido
 9_longo_expert,2026-11-03,60.000 passos no expert,Q segue a fórmula até perto de 100?,experimentos/iql_60k_expert,concluido
+10_sensibilidade,2026-11-03,"Sensibilidade, em GPU","parar antes, α do CQL, β e τ do IQL, com cinco seeds",experimentos/sensibilidade_gpu,concluido
+11_alfa_alto_longo,2026-11-04,"α alto e 60.000 passos, em GPU",α acima de 5 e treino longo: o α forte cura a queda ou só a atrasa?,experimentos/sensibilidade_gpu2,concluido

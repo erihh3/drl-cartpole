@@ -47,3 +47,6 @@ desktop.ini
 # --- Experiment runs: promoted into figuras_* only on purpose ---
 experimentos/
 CLAUDE.md
+
+# --- Local study page (results explained), not part of the project ---
+entendendo_resultados.html
